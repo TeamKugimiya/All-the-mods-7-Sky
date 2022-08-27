@@ -1,0 +1,533 @@
+{
+	id: "5D045EF1AB73DF70"
+	group: "2B51AC12041E3F89"
+	order_index: 0
+	filename: "generating_and_transferring_power"
+	title: "{chapter.12.title}"
+	icon: {
+		id: "mekanism:creative_energy_cube"
+		Count: 1b
+		tag: {
+			mekData: {
+				EnergyContainers: [{
+					Container: 0b
+					stored: "18446744073709551615.9999"
+				}]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 100.0d
+		height: 100.0d
+		rotation: 0.0d
+		image: "atm:textures/clouds.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			icon: "minecraft:redstone_torch"
+			x: 0.0d
+			y: -2.0d
+			shape: "gear"
+			description: ["{chapter.12.quest.1.description.1}"]
+			size: 2.0d
+			id: "4AB0DD227471FDBF"
+			tasks: [{
+				id: "4800DD5A7039B8B7"
+				type: "checkmark"
+				title: "{chapter.12.quest.1.task.1.title}"
+			}]
+			rewards: [{
+				id: "3C8F065AEE4CDB80"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "{chapter.12.quest.2.title}"
+			icon: "biggerreactors:reactor_terminal"
+			x: 5.0d
+			y: 1.0d
+			shape: "hexagon"
+			subtitle: "{chapter.12.quest.2.subtitle}"
+			description: ["{chapter.12.quest.2.description.1}"]
+			hide_dependency_lines: true
+			dependencies: ["4AB0DD227471FDBF"]
+			size: 1.5d
+			id: "6D6E07564D8FDD8D"
+			tasks: [
+				{
+					id: "0F3CDD03BD113E3C"
+					type: "item"
+					item: "biggerreactors:reactor_casing"
+					count: 21L
+				}
+				{
+					id: "716F7F56F5BD3471"
+					type: "item"
+					item: "biggerreactors:reactor_power_tap"
+				}
+				{
+					id: "5E284716861DCB35"
+					type: "item"
+					item: "biggerreactors:reactor_access_port"
+					count: 2L
+				}
+				{
+					id: "5CBB67112022CF26"
+					type: "item"
+					item: "biggerreactors:reactor_terminal"
+				}
+				{
+					id: "387110A40BBD7648"
+					type: "item"
+					item: "biggerreactors:reactor_control_rod"
+				}
+				{
+					id: "7EB1CF0A9D1C5747"
+					type: "item"
+					item: "biggerreactors:reactor_fuel_rod"
+				}
+			]
+			rewards: [
+				{
+					id: "3BB81CAD72D9CC86"
+					type: "item"
+					item: "biggerreactors:reactor_glass"
+					count: 8
+				}
+				{
+					id: "1C7FBA6844D50ABA"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "{chapter.12.quest.3.subtitle}"
+			description: ["{chapter.12.quest.3.description.1}"]
+			hide_dependency_lines: true
+			dependencies: ["4B57DA2DD8F828B6"]
+			id: "48DC9E8E9D21A2FA"
+			tasks: [{
+				id: "54887477FC9FECF0"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
+			}]
+			rewards: [{
+				id: "2E06B6F7B5224A02"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "{chapter.12.quest.4.subtitle}"
+			description: ["{chapter.12.quest.4.description.1}"]
+			dependencies: ["4B57DA2DD8F828B6"]
+			id: "109B61D7D9A0FE32"
+			tasks: [{
+				id: "698ED1CD2646D0EA"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+			rewards: [{
+				id: "6D68730D2527BB2B"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "{chapter.12.quest.5.subtitle}"
+			description: ["{chapter.12.quest.5.description.1}"]
+			dependencies: ["42D173B9FF8D16E4"]
+			id: "11D09E918015355C"
+			tasks: [{
+				id: "44999798D86177A3"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+			rewards: [{
+				id: "3E3F4483E3804F21"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "{chapter.12.quest.6.subtitle}"
+			description: ["{chapter.12.quest.6.description.1}"]
+			hide_dependency_lines: true
+			dependencies: ["4B57DA2DD8F828B6"]
+			id: "40DEB714CFBCD5A0"
+			tasks: [{
+				id: "5153EFABD1A1F9F1"
+				type: "item"
+				item: "productivebees:honey_generator"
+			}]
+			rewards: [{
+				id: "7378812F1E128E20"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			shape: "diamond"
+			description: ["{chapter.12.quest.7.description.1}"]
+			dependencies: ["42D173B9FF8D16E4"]
+			id: "0BB367839D28607D"
+			tasks: [{
+				id: "0F7D7AE91E20F778"
+				type: "item"
+				item: "rftoolspower:coalgenerator"
+			}]
+			rewards: [{
+				id: "698CCE0DFA894C3A"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "{chapter.12.quest.8.subtitle}"
+			description: ["{chapter.12.quest.8.description.1}"]
+			dependencies: ["42D173B9FF8D16E4"]
+			id: "1BEF6980660ACBF7"
+			tasks: [{
+				id: "62DB6F893816DE59"
+				type: "item"
+				item: "industrialforegoing:pitiful_generator"
+			}]
+			rewards: [{
+				id: "6021572EAD29C797"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			shape: "hexagon"
+			subtitle: "{chapter.12.quest.9.subtitle}"
+			description: ["{chapter.12.quest.9.description.1}"]
+			hide_dependency_lines: true
+			dependencies: ["4AB0DD227471FDBF"]
+			id: "42D173B9FF8D16E4"
+			tasks: [{
+				id: "55F3497E936C4885"
+				type: "checkmark"
+				title: "{chapter.12.quest.9.task.1.title}"
+			}]
+			rewards: [{
+				id: "0CE525ECCA99C748"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			shape: "hexagon"
+			description: ["{chapter.12.quest.10.description.1}"]
+			hide_dependency_lines: true
+			dependencies: ["4AB0DD227471FDBF"]
+			id: "4B57DA2DD8F828B6"
+			tasks: [{
+				id: "58BC69C8062179B9"
+				type: "checkmark"
+				title: "{chapter.12.quest.10.task.1.title}"
+			}]
+			rewards: [{
+				id: "7180E226607FBE39"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "{chapter.12.quest.11.title}"
+			x: 3.0d
+			y: 2.5d
+			shape: "diamond"
+			description: ["{chapter.12.quest.11.description.1}"]
+			dependencies: ["1F81EA5E45424308"]
+			id: "4EEAB467C722ECE7"
+			tasks: [
+				{
+					id: "467584E3BB06E9CD"
+					type: "item"
+					item: "pipez:energy_pipe"
+				}
+				{
+					id: "5299A78587A00044"
+					type: "item"
+					item: "pipez:wrench"
+				}
+			]
+			rewards: [
+				{
+					id: "541B029BD340E169"
+					type: "item"
+					item: "pipez:basic_upgrade"
+				}
+				{
+					id: "4FE5FAE1AA387086"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.12.quest.12.title}"
+			x: 2.5d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "{chapter.12.quest.12.subtitle}"
+			dependencies: ["1F81EA5E45424308"]
+			id: "5C47935A3B2877FF"
+			tasks: [{
+				id: "710D45F1278C8970"
+				type: "item"
+				item: "mekanism:basic_universal_cable"
+			}]
+			rewards: [{
+				id: "1C5C0D374EC4391D"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["4AB0DD227471FDBF"]
+			id: "1F81EA5E45424308"
+			tasks: [{
+				id: "6D3C243268479EE9"
+				type: "checkmark"
+				title: "{chapter.12.quest.13.task.1.title}"
+			}]
+			rewards: [{
+				id: "5C863FCC138617D2"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "{chapter.12.quest.14.title}"
+			x: 2.5d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "{chapter.12.quest.14.subtitle}"
+			description: ["{chapter.12.quest.14.description.1}"]
+			dependencies: ["1F81EA5E45424308"]
+			id: "7FE969CB4B419FC6"
+			tasks: [{
+				id: "3E843C44C9CD3ACC"
+				type: "item"
+				item: "mekanism:quantum_entangloporter"
+			}]
+			rewards: [{
+				id: "31A1DA2A1735B16F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{chapter.12.quest.15.title}"
+			x: 2.0d
+			y: 2.5d
+			shape: "diamond"
+			description: ["{chapter.12.quest.15.description.1}"]
+			dependencies: ["1F81EA5E45424308"]
+			id: "3F8F17B6A1DD9612"
+			tasks: [
+				{
+					id: "4C4848D08EA60CEA"
+					type: "item"
+					item: "fluxnetworks:flux_plug"
+				}
+				{
+					id: "26DCCD9F6565FCFF"
+					type: "item"
+					item: "fluxnetworks:flux_point"
+				}
+				{
+					id: "7C9E68AC138A22FE"
+					type: "item"
+					item: "fluxnetworks:flux_controller"
+				}
+				{
+					id: "7F0AE4C079EE9FBE"
+					type: "item"
+					item: "fluxnetworks:basic_flux_storage"
+				}
+			]
+			rewards: [
+				{
+					id: "258D10A2073AC47F"
+					type: "item"
+					item: "fluxnetworks:flux_dust"
+					count: 4
+				}
+				{
+					id: "14F9B32C8798B9AF"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "{chapter.12.quest.16.subtitle}"
+			description: ["{chapter.12.quest.16.description.1}"]
+			dependencies: ["48DC9E8E9D21A2FA"]
+			id: "2837827CCD8DE8DE"
+			tasks: [{
+				id: "1FDFDACBEC784628"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+			rewards: [{
+				id: "7E406787E2E65B4A"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			shape: "hexagon"
+			description: ["{chapter.12.quest.17.description.1}"]
+			hide_dependency_lines: true
+			dependencies: ["4AB0DD227471FDBF"]
+			id: "76EA017B12E8F01B"
+			tasks: [{
+				id: "3121BA0C9976AFCD"
+				type: "checkmark"
+				title: "{chapter.12.quest.17.task.1.title}"
+			}]
+			rewards: [{
+				id: "477F18566EC6FB2A"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "{chapter.12.quest.18.subtitle}"
+			description: ["{chapter.12.quest.18.description.1}"]
+			dependencies: ["76EA017B12E8F01B"]
+			id: "477B411F84342EEA"
+			tasks: [{
+				id: "7C8D04DDD4C2C267"
+				type: "item"
+				item: "mekanism:basic_energy_cube"
+			}]
+			rewards: [{
+				id: "039E00B83AAA154A"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "{chapter.12.quest.19.subtitle}"
+			description: ["{chapter.12.quest.19.description.1}"]
+			dependencies: ["76EA017B12E8F01B"]
+			id: "05B6DB75AEC01187"
+			tasks: [{
+				id: "4B11CC3C78319F24"
+				type: "item"
+				item: "rftoolspower:cell1"
+			}]
+			rewards: [{
+				id: "54A1A37A02201DB9"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "{chapter.12.quest.20.subtitle}"
+			description: ["{chapter.12.quest.20.description.1}"]
+			dependencies: ["76EA017B12E8F01B"]
+			id: "0F8A6478AFB21C48"
+			tasks: [{
+				id: "0478CC93C5B99CBA"
+				type: "item"
+				item: {
+					id: "thermal:energy_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							EnergyMax: 1000000
+							EnergySend: 1000
+							Energy: 0
+							EnergyRecv: 1000
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "17BCE89233B125F0"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "{chapter.12.quest.21.subtitle}"
+			description: ["{chapter.12.quest.21.description.1}"]
+			dependencies: ["76EA017B12E8F01B"]
+			id: "72EA25D05C46D39A"
+			tasks: [{
+				id: "460A67B09BD45CF4"
+				type: "item"
+				item: {
+					id: "integrateddynamics:energy_battery"
+					Count: 1b
+					tag: {
+						energy: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "59A5734689019951"
+				type: "xp"
+				xp: 10
+			}]
+		}
+	]
+}

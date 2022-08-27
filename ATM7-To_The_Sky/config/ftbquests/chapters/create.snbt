@@ -1,0 +1,784 @@
+{
+	id: "100C477F4E63F20A"
+	group: "2B51AC12041E3F89"
+	order_index: 1
+	filename: "create"
+	title: "{chapter.13.title}"
+	icon: "create:large_cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -0.5d
+		width: 100.0d
+		height: 100.0d
+		rotation: 0.0d
+		image: "atm:textures/clouds.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: ["{chapter.13.quest.1.description.1}"]
+			size: 1.5d
+			id: "57A7A5C79389A96A"
+			tasks: [{
+				id: "695A0E0BC4B78AEC"
+				type: "checkmark"
+				title: "{chapter.13.quest.1.task.1.title}"
+				icon: "create:wrench"
+			}]
+			rewards: [{
+				id: "1E5B06A1884F3578"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["{chapter.13.quest.2.description.1}"]
+			dependencies: ["57A7A5C79389A96A"]
+			id: "0F16498769DFB3B0"
+			tasks: [{
+				id: "5D2B9139C49F5ABA"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 32L
+			}]
+			rewards: [{
+				id: "50217BC8953EBD3E"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 32
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			description: ["{chapter.13.quest.3.description.1}"]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "5B36DE3826F26963"
+			tasks: [{
+				id: "2F89C6C2CD322B51"
+				type: "item"
+				item: "create:shaft"
+				count: 16L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			description: ["{chapter.13.quest.4.description.1}"]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "3E5E0C768038CDF4"
+			tasks: [{
+				id: "68F2BD699AADA753"
+				type: "item"
+				item: "create:cogwheel"
+				count: 8L
+			}]
+			rewards: [{
+				id: "76537C95327D603D"
+				type: "item"
+				item: "create:cogwheel"
+				count: 8
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			description: ["{chapter.13.quest.5.description.1}"]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "23A9617F183C4EB1"
+			tasks: [{
+				id: "3E2A4428BDE92738"
+				type: "item"
+				item: "create:large_cogwheel"
+				count: 8L
+			}]
+			rewards: [{
+				id: "01DCE2A5A57DAEC5"
+				type: "item"
+				item: "create:large_cogwheel"
+				count: 8
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			description: ["{chapter.13.quest.6.description.1}"]
+			dependencies: ["23A9617F183C4EB1"]
+			id: "1AC0B7934F275EDE"
+			tasks: [{
+				id: "35709DE2871F0CED"
+				type: "item"
+				item: "create:water_wheel"
+				count: 3L
+			}]
+			rewards: [{
+				id: "5118928E884676B3"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			description: ["{chapter.13.quest.7.description.1}"]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "1E9B2D814F50A265"
+			tasks: [{
+				id: "1A4B96C7C821174E"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			description: ["{chapter.13.quest.8.description.1}"]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "4285510271B5223D"
+			tasks: [{
+				id: "1840DB80F48921E2"
+				type: "item"
+				item: "create:gearbox"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			description: ["{chapter.13.quest.9.description.1}"]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "2BB3DB19D5EFC7E2"
+			tasks: [{
+				id: "54F14BE619292D1D"
+				type: "item"
+				item: "create:clutch"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.5d
+			description: ["{chapter.13.quest.10.description.1}"]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "67A46ED73E488CEE"
+			tasks: [{
+				id: "0CE491535E6FA50B"
+				type: "item"
+				item: "create:gearshift"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.0d
+			description: ["{chapter.13.quest.11.description.1}"]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "7F8E50FA436DB4E6"
+			tasks: [{
+				id: "1674E46511507301"
+				type: "item"
+				item: "create:encased_chain_drive"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			description: ["{chapter.13.quest.12.description.1}"]
+			dependencies: ["7F8E50FA436DB4E6"]
+			id: "54EC1C7FC1DA9107"
+			tasks: [{
+				id: "115F81D0A661F71F"
+				type: "item"
+				item: "create:adjustable_chain_gearshift"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			description: ["{chapter.13.quest.13.description.1}"]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "2D41B04C75FA02BC"
+			tasks: [{
+				id: "52136CB29F02E923"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			description: ["{chapter.13.quest.14.description.1}"]
+			dependencies: ["2D41B04C75FA02BC"]
+			id: "5DC892BA79EB52EC"
+			tasks: [{
+				id: "057EDA1FF37AE35E"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			description: ["{chapter.13.quest.15.description.1}"]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "75CBB5BD8C1DFEA1"
+			tasks: [{
+				id: "56DBF4356117F26A"
+				type: "item"
+				item: "create:basin"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			description: ["{chapter.13.quest.16.description.1}"]
+			dependencies: ["2D41B04C75FA02BC"]
+			id: "1B182A30604655E2"
+			tasks: [{
+				id: "50FED4EED98A8648"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			description: ["{chapter.13.quest.17.description.1}"]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "45EC31812FB9934D"
+			tasks: [{
+				id: "7C7AF9238D06CB36"
+				type: "item"
+				item: "create:mechanical_piston"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			description: ["{chapter.13.quest.18.description.1}"]
+			dependencies: ["4F95F00ED78FBAB9"]
+			id: "29917E6196649F5D"
+			tasks: [{
+				id: "6A5BBAA13F1730F2"
+				type: "item"
+				item: "create:speedometer"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			description: ["{chapter.13.quest.19.description.1}"]
+			dependencies: ["4F95F00ED78FBAB9"]
+			id: "48BE7DAC5082044D"
+			tasks: [{
+				id: "10CB6FCDDD3E38D4"
+				type: "item"
+				item: "create:stressometer"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			description: ["{chapter.13.quest.20.description.1}"]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "09936F8FCEA72C5C"
+			tasks: [{
+				id: "15BA4109324B4A44"
+				type: "item"
+				item: "create:cart_assembler"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: ["{chapter.13.quest.21.description.1}"]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "51EA6B1452883AB2"
+			tasks: [{
+				id: "4A80AC1DE4002191"
+				type: "item"
+				item: "create:linear_chassis"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: ["{chapter.13.quest.22.description.1}"]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "459BA85E48B343AE"
+			tasks: [{
+				id: "3598B8EDD5834F92"
+				type: "item"
+				item: "create:radial_chassis"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			description: ["{chapter.13.quest.23.description.1}"]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "76CBFA38D021AC95"
+			tasks: [{
+				id: "3652E21F6AD6D33F"
+				type: "item"
+				item: "create:white_sail"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			description: ["{chapter.13.quest.24.description.1}"]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "3029E1E133B91ED8"
+			tasks: [{
+				id: "072131C19C185896"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			description: ["{chapter.13.quest.25.description.1}"]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "72DCE154E1714890"
+			tasks: [{
+				id: "36C1D75275CE2AAB"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			description: ["{chapter.13.quest.26.description.1}"]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "3314FBC4FEAE1D08"
+			tasks: [{
+				id: "79D2F12337D1F637"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.5d
+			description: ["{chapter.13.quest.27.description.1}"]
+			dependencies: ["48EA6D9923E38B71"]
+			id: "134BC365E77C6DB8"
+			tasks: [{
+				id: "2D54A1DB29903A0A"
+				type: "item"
+				item: "create:portable_storage_interface"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			description: ["{chapter.13.quest.28.description.1}"]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "4C31649D721F76B5"
+			tasks: [{
+				id: "1357FF84B9B133C4"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			description: ["{chapter.13.quest.29.description.1}"]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "0759CA52EECF3B49"
+			tasks: [{
+				id: "7B9B459AAB9F6483"
+				type: "item"
+				item: "create:mechanical_plough"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["{chapter.13.quest.30.description.1}"]
+			dependencies: ["57A7A5C79389A96A"]
+			id: "17885C2DE986F1BD"
+			tasks: [{
+				id: "0341E5F9B7361D1F"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 4.5d
+			description: ["{chapter.13.quest.31.description.1}"]
+			dependencies: ["1DA6B8B2DCC97809"]
+			id: "48EA6D9923E38B71"
+			tasks: [{
+				id: "23E40F6D58658887"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			description: ["{chapter.13.quest.32.description.1}"]
+			dependencies: ["2D41B04C75FA02BC"]
+			id: "3F663416E824720C"
+			tasks: [{
+				id: "7FE62F264B4FA5DE"
+				type: "item"
+				item: "create:copper_casing"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 5.0d
+			dependencies: ["1DA6B8B2DCC97809"]
+			id: "2244A1B11D7D6E11"
+			tasks: [{
+				id: "4BE77A9A3F878072"
+				type: "item"
+				item: "create:flywheel"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 2.5d
+			description: ["{chapter.13.quest.34.description.1}"]
+			dependencies: ["4194397DFD0199C2"]
+			id: "3F2C1A81C17D2D67"
+			tasks: [{
+				id: "3EC06DE78E520CC9"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			description: ["{chapter.13.quest.35.description.1}"]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "47A6769B6BF1A46D"
+			tasks: [{
+				id: "5CB1191F8F7BBAA4"
+				type: "item"
+				item: "create:andesite_funnel"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			description: ["{chapter.13.quest.36.description.1}"]
+			dependencies: ["1DA6B8B2DCC97809"]
+			id: "495B0CC178B4CFA9"
+			tasks: [{
+				id: "1C5B4D14826937BB"
+				type: "item"
+				item: "create:brass_funnel"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			description: ["{chapter.13.quest.37.description.1}"]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "7C8CDD259495A31A"
+			tasks: [{
+				id: "07162DA2FD7B0E05"
+				type: "item"
+				item: "create:andesite_tunnel"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.0d
+			description: ["{chapter.13.quest.38.description.1}"]
+			dependencies: ["1DA6B8B2DCC97809"]
+			id: "78656C89EEE80DB5"
+			tasks: [{
+				id: "688E14A6938EBEF7"
+				type: "item"
+				item: "create:brass_tunnel"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			description: ["{chapter.13.quest.39.description.1}"]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "7F0D59EC1573FDC0"
+			tasks: [{
+				id: "7EFB9500BBDD745C"
+				type: "item"
+				item: "create:depot"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.5d
+			description: ["{chapter.13.quest.40.description.1}"]
+			dependencies: ["2D41B04C75FA02BC"]
+			id: "3D2A03EB2B91E9C1"
+			tasks: [{
+				id: "105F8859D59964C4"
+				type: "item"
+				item: "create:chute"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: ["{chapter.13.quest.41.description.1}"]
+			dependencies: ["57A7A5C79389A96A"]
+			id: "4F95F00ED78FBAB9"
+			tasks: [{
+				id: "6989058FD488CE64"
+				type: "item"
+				item: "create:goggles"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: ["{chapter.13.quest.42.description.1}"]
+			dependencies: ["57A7A5C79389A96A"]
+			id: "610DEC4FC4FBB63E"
+			tasks: [{
+				id: "3BC40DF423178031"
+				type: "item"
+				item: "create:polished_rose_quartz"
+				count: 8L
+			}]
+			rewards: [{
+				id: "43C2760F8FDD84CA"
+				type: "item"
+				item: {
+					id: "create:sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			description: ["{chapter.13.quest.43.description.1}"]
+			dependencies: ["1C2309DB4B890E71"]
+			id: "4C77ABCD41383F32"
+			tasks: [{
+				id: "2E9A4E9BFFC10819"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.5d
+			description: ["{chapter.13.quest.44.description.1}"]
+			dependencies: ["1DA6B8B2DCC97809"]
+			id: "4194397DFD0199C2"
+			tasks: [{
+				id: "65C6E83AF17405E0"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.5d
+			description: ["{chapter.13.quest.45.description.1}"]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "75B14A09FE39EDDA"
+			tasks: [{
+				id: "7DA78C3A582368E2"
+				type: "item"
+				item: "create:gantry_carriage"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			description: ["{chapter.13.quest.46.description.1}"]
+			dependencies: ["7F0D59EC1573FDC0"]
+			id: "4EA4EDD5A7923F98"
+			tasks: [{
+				id: "34313AA5D327317C"
+				type: "item"
+				item: "create:weighted_ejector"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			description: ["{chapter.13.quest.47.description.1}"]
+			dependencies: ["3D2A03EB2B91E9C1"]
+			id: "7EEEEDD5FF31ACD3"
+			tasks: [{
+				id: "37EE09651ED58F6F"
+				type: "item"
+				item: "create:smart_chute"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			description: ["{chapter.13.quest.48.description.1}"]
+			dependencies: ["57A7A5C79389A96A"]
+			id: "0CF69DBA9573A7B3"
+			tasks: [{
+				id: "0FB1E9BD14FE8EF8"
+				type: "item"
+				item: "create:schematic_table"
+			}]
+			rewards: [{
+				id: "35DCC6CB7C472F17"
+				type: "item"
+				item: "create:schematic_and_quill"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			description: ["{chapter.13.quest.49.description.1}"]
+			dependencies: ["0CF69DBA9573A7B3"]
+			id: "7D67058592EE5958"
+			tasks: [{
+				id: "5D989C876E9B8AA5"
+				type: "item"
+				item: "create:schematicannon"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			description: ["{chapter.13.quest.50.description.1}"]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "24E658BA47367A44"
+			tasks: [{
+				id: "0674C07C7DE332A9"
+				type: "item"
+				item: "create:rope_pulley"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			description: ["{chapter.13.quest.51.description.1}"]
+			dependencies: ["3F663416E824720C"]
+			id: "1C2309DB4B890E71"
+			tasks: [{
+				id: "6772D04457414991"
+				type: "item"
+				item: "create:spout"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.0d
+			description: ["{chapter.13.quest.52.description.1}"]
+			dependencies: ["3F663416E824720C"]
+			id: "77382D4114E901CB"
+			tasks: [{
+				id: "739701B00C0F8A7B"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["45EC31812FB9934D"]
+			id: "1265C49FE7032C4F"
+			tasks: [{
+				id: "64C79C55EB1CC9F2"
+				type: "item"
+				item: "create:sticky_mechanical_piston"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["45EC31812FB9934D"]
+			id: "47897D827C50629D"
+			tasks: [{
+				id: "473DA14538E1B94C"
+				type: "item"
+				item: "create:piston_extension_pole"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			description: ["{chapter.13.quest.55.description.1}"]
+			dependencies: ["3F663416E824720C"]
+			id: "71B1B53A03A16296"
+			tasks: [{
+				id: "339D26EDFBB54047"
+				type: "item"
+				item: "create:portable_fluid_interface"
+			}]
+		}
+		{
+			title: "{chapter.13.quest.56.title}"
+			x: 10.5d
+			y: 3.0d
+			dependencies: ["5DC892BA79EB52EC"]
+			id: "1DA6B8B2DCC97809"
+			tasks: [{
+				id: "07896B715ED0E04F"
+				type: "item"
+				title: "{chapter.13.quest.56.task.1.title}"
+				icon: "create:brass_ingot"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/brass"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			description: ["{chapter.13.quest.57.description.1}"]
+			dependencies: ["2D41B04C75FA02BC"]
+			id: "1F58AA51814C7568"
+			tasks: [{
+				id: "1A9BC10CDDA9FCF2"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			description: ["{chapter.13.quest.58.description.1}"]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "13AEBC331F29BC3D"
+			tasks: [{
+				id: "4D2A907287515990"
+				type: "item"
+				item: "create:belt_connector"
+				count: 4L
+			}]
+		}
+	]
+}

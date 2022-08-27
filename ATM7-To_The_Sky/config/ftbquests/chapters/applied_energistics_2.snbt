@@ -1,0 +1,2385 @@
+{
+	id: "07210DDF872160BA"
+	group: "1AC60211DE7427FC"
+	order_index: 1
+	filename: "applied_energistics_2"
+	title: "{chapter.9.title}"
+	icon: "ae2:controller"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: 0.5d
+			width: 100.0d
+			height: 100.0d
+			rotation: 0.0d
+			image: "atm:textures/clouds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "ae2:textures/item/wireless_crafting_terminal.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "{chapter.9.quest.1.title}"
+			icon: "ae2:certus_quartz_crystal"
+			x: -10.0d
+			y: 0.5d
+			shape: "hexagon"
+			subtitle: "{chapter.9.quest.1.subtitle}"
+			description: ["{chapter.9.quest.1.description.1}"]
+			size: 1.5d
+			id: "2893F483C10293E6"
+			tasks: [
+				{
+					id: "43FD619EF9A41E76"
+					type: "item"
+					item: "ae2:certus_quartz_dust"
+				}
+				{
+					id: "7B9519E1AF53A9A3"
+					type: "item"
+					item: "ae2:certus_quartz_crystal"
+				}
+			]
+			rewards: [
+				{
+					id: "705C55E801A67B8C"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1680803463
+									-166246322
+									-1868942693
+									1690810404
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY1NTA1MjI1MjUyMSwKICAicHJvZmlsZUlkIiA6ICI5YmQwZjk3OWY2MTc0ODRlOTA5YTMyOWI2NGM3YjgyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4MjAwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZGVjZjI1NzkyZDc3YTc4NzkzZjcxNDY3OGUxMTk4YTY1ZDY3OTA3OTI5YWIyZDRlYmZmZjZlZmQwYTRlZWVhIgogICAgfQogIH0KfQ=="
+										Signature: "afEokwjhQtrEuhPrUCmvW/OHzXnvehI3eVhaYzEFWtMtoeHyv2sEuo98N8+wdJD96s20vNYxzrW+epk27SVhGXzd9wDg0An6Q3OcdlWXeENr2nN4HEtxdWxodBHZU3/vdVKv7WcsGK0Oqu7PXIdUj1pRA9e6YS2MpMapS7b+65S6EmeC4zZTir4rOFbzZaDno1dNuOeyCX5azT8vF6B1ayMbfxo6NyhRz/PhY0Wp6ArZXAjgQXUUoBUSFHRnz25U4GqdlDiDF8ZDeP314lDbws0kjYpuM9Kagj71xvlUC3bFgFFGXzvXP0gYfexxMBU91T37jDrQwaXAywP+lfArCh3G/QwwJ7jwBFPc1B2Pqb0+z9w2r7ntM/VC/R/1w8xyyYmHB/xE+XIicx97bfNl/Yi7M6mkprlFq3H6Be/KD2n/MZ+O/R9bOklryen811LuTfiBPXhR2a5ye3prkcV+WMWNS65q5HCw6/F8ZBydj/Uym++fHWW/mKB7kBbj2gcZf5fukw2KTIuEcZQVHRKyRQNns4JSBlXb90VKg56rNmwcs2CnVs+sNrCTWFqYocJAdQ+F25pdJ0wbQhXUSAV709F2phRuYurCW+2QyvyO8LlRHKjfSQ59VxxihnEQOqYfiBW49E+Dut5aQiFif6c9UDtTATvXucase/7v4ni7yug="
+									}]
+								}
+								Name: "82000"
+							}
+						}
+					}
+				}
+				{
+					id: "3B8F9C922DCD426E"
+					type: "item"
+					item: "ae2:certus_quartz_dust"
+					count: 8
+				}
+				{
+					id: "04731B877AA067A3"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.2.title}"
+			x: -8.0d
+			y: 0.5d
+			subtitle: "{chapter.9.quest.2.subtitle}"
+			description: ["{chapter.9.quest.2.description.1}"]
+			dependencies: ["2893F483C10293E6"]
+			id: "68B0B3DAF1145191"
+			tasks: [
+				{
+					id: "29C4195E8366DBDD"
+					type: "item"
+					item: "ae2:charger"
+				}
+				{
+					id: "1F40760C2108BA36"
+					type: "item"
+					item: "ae2:inscriber"
+				}
+			]
+			rewards: [
+				{
+					id: "132524D80F352F06"
+					type: "random"
+					table_id: 727499692191347770L
+				}
+				{
+					id: "230CB9AC06A29B7A"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.3.title}"
+			icon: "ae2:sky_compass"
+			x: -6.0d
+			y: 0.5d
+			subtitle: "{chapter.9.quest.3.subtitle}"
+			description: ["{chapter.9.quest.3.description.1}"]
+			dependencies: ["68B0B3DAF1145191"]
+			id: "51236544BFEF487B"
+			tasks: [
+				{
+					id: "616E037C2D135DEE"
+					type: "item"
+					item: "ae2:calculation_processor_press"
+				}
+				{
+					id: "23C1CFAE250033CD"
+					type: "item"
+					item: "ae2:engineering_processor_press"
+				}
+				{
+					id: "4F4058686BD08FA9"
+					type: "item"
+					item: "ae2:logic_processor_press"
+				}
+				{
+					id: "58B223074092B8E4"
+					type: "item"
+					item: "ae2:silicon_press"
+				}
+			]
+			rewards: [
+				{
+					id: "1745CCFAC5C46D28"
+					type: "item"
+					item: "ae2:sky_stone_block"
+					count: 4
+				}
+				{
+					id: "34DBB0E01FC07555"
+					type: "random"
+					table_id: 727499692191347770L
+				}
+				{
+					id: "53D03CFF7586058B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			subtitle: "{chapter.9.quest.4.subtitle}"
+			description: ["{chapter.9.quest.4.description.1}"]
+			dependencies: ["68B0B3DAF1145191"]
+			id: "00611844AFD5C31E"
+			tasks: [{
+				id: "5B4DDF66C36AF356"
+				type: "item"
+				item: "ae2:energy_acceptor"
+			}]
+			rewards: [
+				{
+					id: "218200BE2C9DD409"
+					type: "random"
+					table_id: 727499692191347770L
+				}
+				{
+					id: "241ED08CDD530739"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			description: ["{chapter.9.quest.5.description.1}"]
+			dependencies: ["00611844AFD5C31E"]
+			id: "037488EF1F3581CE"
+			tasks: [
+				{
+					id: "19CE95EDCB04AA89"
+					type: "item"
+					item: {
+						id: "ae2:energy_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "3606A3CEDFF76F77"
+					type: "item"
+					item: {
+						id: "ae2:dense_energy_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "07AC6981E4FBB7B3"
+					type: "random"
+					table_id: 727499692191347770L
+				}
+				{
+					id: "20DA7014A7644F65"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			shape: "circle"
+			description: ["{chapter.9.quest.6.description.1}"]
+			dependencies: ["037488EF1F3581CE"]
+			id: "6D54B45CDA70FEAB"
+			tasks: [{
+				id: "42C1EB9094F67B62"
+				type: "item"
+				item: "ae2:energy_card"
+			}]
+			rewards: [
+				{
+					id: "4807A39C56865642"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "198B5EB3662F4C18"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.7.title}"
+			x: -4.0d
+			y: 0.5d
+			description: ["{chapter.9.quest.7.description.1}"]
+			dependencies: ["51236544BFEF487B"]
+			id: "15564C11744D6AA0"
+			tasks: [
+				{
+					id: "2B6D34E0CD1999C9"
+					type: "item"
+					item: "ae2:logic_processor"
+				}
+				{
+					id: "54C120660252682A"
+					type: "item"
+					item: "ae2:calculation_processor"
+				}
+				{
+					id: "41282D3DCFEB5136"
+					type: "item"
+					item: "ae2:engineering_processor"
+				}
+			]
+			rewards: [
+				{
+					id: "6F428D141799FF83"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "622636484932AB15"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.8.title}"
+			icon: "ae2:fluix_crystal"
+			x: -7.0d
+			y: 1.5d
+			description: ["{chapter.9.quest.8.description.1}"]
+			dependencies: ["68B0B3DAF1145191"]
+			id: "4BF0BB763BFFACF0"
+			tasks: [
+				{
+					id: "0FC1380E32E02533"
+					type: "item"
+					item: "ae2:fluix_dust"
+				}
+				{
+					id: "4498692EC5F9E09B"
+					type: "item"
+					item: "ae2:fluix_crystal"
+				}
+			]
+			rewards: [
+				{
+					id: "724ADD8BA4137929"
+					type: "item"
+					item: "ae2:fluix_dust"
+					count: 4
+				}
+				{
+					id: "6F34DE4A8A1E9829"
+					type: "random"
+					table_id: 727499692191347770L
+				}
+				{
+					id: "34AA471D42A56F02"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.9.title}"
+			x: -5.0d
+			y: 1.5d
+			description: ["{chapter.9.quest.9.description.1}"]
+			dependencies: ["4BF0BB763BFFACF0"]
+			id: "5C22E3103544B120"
+			tasks: [
+				{
+					id: "40A7CC56DACC2623"
+					type: "item"
+					title: "{chapter.9.quest.9.task.1.title}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ae2:glass_cable"
+						}
+					}
+				}
+				{
+					id: "64EAD3DE84E94F02"
+					type: "item"
+					title: "{chapter.9.quest.9.task.2.title}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ae2:covered_cable"
+						}
+					}
+				}
+				{
+					id: "14DEFFB80CC96BC1"
+					type: "item"
+					title: "{chapter.9.quest.9.task.3.title}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ae2:covered_dense_cable"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "23EF97F2F01671B6"
+					type: "random"
+					table_id: 727499692191347770L
+				}
+				{
+					id: "2D1445E4299E8619"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.10.title}"
+			x: -5.0d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "{chapter.9.quest.10.subtitle}"
+			description: ["{chapter.9.quest.10.description.1}"]
+			dependencies: ["5C22E3103544B120"]
+			id: "5233A447BAA4593C"
+			tasks: [
+				{
+					id: "7FC3DAA1BD5016A0"
+					type: "item"
+					title: "{chapter.9.quest.10.task.1.title}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ae2:smart_cable"
+						}
+					}
+				}
+				{
+					id: "38E290AC5E011888"
+					type: "item"
+					title: "{chapter.9.quest.10.task.2.title}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ae2:smart_dense_cable"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7493EF469CDF6FB6"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "7F6B396987F63DB7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5EBB888A8D38FAC8"
+					type: "item"
+					item: "ae2:quartz_fiber"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.11.title}"
+			x: -2.0d
+			y: 0.5d
+			subtitle: "{chapter.9.quest.11.subtitle}"
+			description: ["{chapter.9.quest.11.description.1}"]
+			dependencies: ["15564C11744D6AA0"]
+			id: "22C4318523A43B49"
+			tasks: [
+				{
+					id: "6C7282A058006A21"
+					type: "item"
+					item: "ae2:terminal"
+				}
+				{
+					id: "2CFD7CA282DFB2FF"
+					type: "item"
+					item: "ae2:crafting_terminal"
+				}
+			]
+			rewards: [
+				{
+					id: "6D1EBB1DBB711A5A"
+					type: "random"
+					title: "{chapter.9.quest.11.reward.1.title}"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "7B32D21CD627FB4A"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.12.title}"
+			x: 1.0d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "{chapter.9.quest.12.subtitle}"
+			description: ["{chapter.9.quest.12.description.1}"]
+			dependencies: [
+				"40A7CC56DACC2623"
+				"2F16B6A173525277"
+			]
+			size: 1.5d
+			id: "4E8A05C3BFA80540"
+			tasks: [
+				{
+					id: "74AA3FA06B3574A8"
+					type: "item"
+					item: "ae2:chest"
+				}
+				{
+					id: "58C4DF6CFBDF8577"
+					type: "item"
+					item: "ae2:drive"
+				}
+			]
+			rewards: [
+				{
+					id: "107B36337206758B"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "5D0CC7AC4BD78134"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.13.title}"
+			icon: "ae2:interface"
+			x: 13.5d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "{chapter.9.quest.13.subtitle}"
+			description: ["{chapter.9.quest.13.description.1}"]
+			dependencies: ["40A7CC56DACC2623"]
+			size: 1.5d
+			id: "74FC0DDDB91DB172"
+			tasks: [{
+				id: "7241918F270CA402"
+				type: "item"
+				title: "{chapter.9.quest.13.task.1.title}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ae2:interface"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "12DC218C9BBC8422"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "341F5229D281635E"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.14.title}"
+			icon: "ae2:pattern_provider"
+			x: 3.0d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "{chapter.9.quest.14.subtitle}"
+			description: ["{chapter.9.quest.14.description.1}"]
+			dependencies: ["40A7CC56DACC2623"]
+			size: 1.5d
+			id: "51DE3157DE3E57B8"
+			tasks: [
+				{
+					id: "338A6DA0D711B7DC"
+					type: "item"
+					title: "{chapter.9.quest.14.task.1.title}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ae2:pattern_provider"
+						}
+					}
+				}
+				{
+					id: "299121F0AFF40604"
+					type: "item"
+					item: "ae2:pattern_access_terminal"
+				}
+			]
+			rewards: [
+				{
+					id: "50D0A08E66B3F6DF"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "12405240582D9D1A"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			description: ["{chapter.9.quest.15.description.1}"]
+			dependencies: [
+				"22C4318523A43B49"
+				"78311531069807DE"
+			]
+			id: "2F16B6A173525277"
+			tasks: [{
+				id: "6C80AA2FD67BD192"
+				type: "item"
+				item: "ae2:controller"
+			}]
+			rewards: [
+				{
+					id: "345C7C78BABD07F6"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "6593BF772EE96538"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 1.5d
+			shape: "circle"
+			subtitle: "{chapter.9.quest.16.subtitle}"
+			description: ["{chapter.9.quest.16.description.1}"]
+			dependencies: ["2893F483C10293E6"]
+			id: "1B686954D34A0F23"
+			tasks: [{
+				id: "1076BC82EECB73F5"
+				type: "item"
+				title: "{chapter.9.quest.16.task.1.title}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ae2:quartz_wrench"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F733DD53ED27710"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			description: ["{chapter.9.quest.17.description.1}"]
+			dependencies: [
+				"22C4318523A43B49"
+				"1076BC82EECB73F5"
+			]
+			id: "6431A384DDFBF439"
+			tasks: [{
+				id: "7BDCDEB679A9969C"
+				type: "item"
+				item: "ae2:network_tool"
+			}]
+		}
+		{
+			title: "{chapter.9.quest.18.title}"
+			x: 4.0d
+			y: 1.5d
+			shape: "diamond"
+			subtitle: "{chapter.9.quest.18.subtitle}"
+			description: ["{chapter.9.quest.18.description.1}"]
+			dependencies: ["4E8A05C3BFA80540"]
+			id: "2FB231069D2E4E77"
+			tasks: [{
+				id: "64CCF1FB42AA41CE"
+				type: "item"
+				item: "ae2:cell_component_1k"
+			}]
+			rewards: [
+				{
+					id: "6E23A177701DE35C"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "7878EA4ADE367154"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.19.title}"
+			x: 5.0d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "{chapter.9.quest.19.subtitle}"
+			description: ["{chapter.9.quest.19.description.1}"]
+			dependencies: [
+				"64CCF1FB42AA41CE"
+				"2FB231069D2E4E77"
+			]
+			id: "3B42CCC19D23EC6D"
+			tasks: [{
+				id: "066F1BBF3D0863C5"
+				type: "item"
+				item: "ae2:cell_component_4k"
+			}]
+			rewards: [
+				{
+					id: "0DED7909D8F260FB"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "4D1AC818C4203ADC"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.20.title}"
+			x: 4.5d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "{chapter.9.quest.20.subtitle}"
+			description: ["{chapter.9.quest.20.description.1}"]
+			dependencies: [
+				"066F1BBF3D0863C5"
+				"3B42CCC19D23EC6D"
+			]
+			id: "219932CB19258C16"
+			tasks: [{
+				id: "076237ECA6D5DE58"
+				type: "item"
+				item: "ae2:cell_component_16k"
+			}]
+			rewards: [
+				{
+					id: "3D78D39AC9F9149F"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "42CEB9C64CCDCFEC"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.21.title}"
+			x: 5.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "{chapter.9.quest.21.subtitle}"
+			description: ["{chapter.9.quest.21.description.1}"]
+			dependencies: [
+				"076237ECA6D5DE58"
+				"219932CB19258C16"
+			]
+			id: "523853C1C4E688BA"
+			tasks: [{
+				id: "32FFC36DEEA7792D"
+				type: "item"
+				item: "ae2:cell_component_64k"
+			}]
+			rewards: [
+				{
+					id: "74692DCB87938B3B"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "16FC3AB2ACBFF4B3"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.22.title}"
+			x: 5.5d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "{chapter.9.quest.22.subtitle}"
+			description: ["{chapter.9.quest.22.description.1}"]
+			dependencies: [
+				"32FFC36DEEA7792D"
+				"523853C1C4E688BA"
+			]
+			id: "5F56892CD904C40F"
+			tasks: [{
+				id: "2C4616CD2EBB58C6"
+				type: "item"
+				item: "ae2:cell_component_256k"
+			}]
+			rewards: [
+				{
+					id: "109149BBD22105C5"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "4DE1354173902859"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.23.title}"
+			x: 6.5d
+			y: 1.5d
+			shape: "rsquare"
+			description: ["{chapter.9.quest.23.description.1}"]
+			dependencies: ["2FB231069D2E4E77"]
+			id: "361CCBD353D6FF34"
+			tasks: [{
+				id: "52521FCD58B2FEF0"
+				type: "item"
+				title: "{chapter.9.quest.23.task.1.title}"
+				item: {
+					id: "ae2:item_storage_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "402B607EA6D67580"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "318D3CF0DD1E3A58"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "06150B632CA535D8"
+					type: "item"
+					item: "ae2:item_cell_housing"
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.24.title}"
+			x: 8.5d
+			y: 1.5d
+			shape: "rsquare"
+			description: ["{chapter.9.quest.24.description.1}"]
+			dependencies: ["361CCBD353D6FF34"]
+			id: "5E24012A3D9B72A1"
+			tasks: [{
+				id: "61D93B13D496547D"
+				type: "item"
+				title: "{chapter.9.quest.24.task.1.title}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: ":fluid_storage_cell_"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1AB0AE41CCA6C48E"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "687E190D01E7344A"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.25.title}"
+			x: 10.5d
+			y: 1.5d
+			shape: "rsquare"
+			description: ["{chapter.9.quest.25.description.1}"]
+			dependencies: ["5E24012A3D9B72A1"]
+			id: "397165BB305A887E"
+			tasks: [{
+				id: "773E8781B09CA753"
+				type: "item"
+				title: "{chapter.9.quest.25.task.1.title}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: ":chemical_storage_cell_"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "37876CCD31C58E76"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "5704DADB6CD89439"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			shape: "rsquare"
+			description: ["{chapter.9.quest.26.description.1}"]
+			dependencies: ["4E8A05C3BFA80540"]
+			id: "2F556E7919582D2D"
+			tasks: [{
+				id: "19F84B1451F7D602"
+				type: "item"
+				item: "ae2:cell_workbench"
+			}]
+			rewards: [
+				{
+					id: "60C2464FFC06FB37"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "4956E92D2FDA5190"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			shape: "rsquare"
+			subtitle: "{chapter.9.quest.27.subtitle}"
+			description: ["{chapter.9.quest.27.description.1}"]
+			dependencies: ["4E8A05C3BFA80540"]
+			id: "7B7D1F0CB326B28F"
+			tasks: [{
+				id: "23261340EF9D48AF"
+				type: "item"
+				item: "ae2:io_port"
+			}]
+			rewards: [
+				{
+					id: "32864F0FE8996DE8"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "4531F48DEB750518"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 0.5d
+			shape: "rsquare"
+			subtitle: "{chapter.9.quest.28.subtitle}"
+			description: ["{chapter.9.quest.28.description.1}"]
+			dependencies: ["74FC0DDDB91DB172"]
+			id: "5E7E35CCAF1C88EE"
+			tasks: [{
+				id: "060BD30C77262BDA"
+				type: "item"
+				item: "ae2:import_bus"
+			}]
+			rewards: [
+				{
+					id: "6F34C1E65B9B9204"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "462A0C71B591C11F"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 0.5d
+			shape: "rsquare"
+			subtitle: "{chapter.9.quest.29.subtitle}"
+			description: ["{chapter.9.quest.29.description.1}"]
+			dependencies: ["74FC0DDDB91DB172"]
+			id: "083D458032F0325C"
+			tasks: [{
+				id: "6D6E070CB7998FA1"
+				type: "item"
+				item: "ae2:export_bus"
+			}]
+			rewards: [
+				{
+					id: "0F7B866B6B54A6D2"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "311337C7850C46F1"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "{chapter.9.quest.30.subtitle}"
+			description: ["{chapter.9.quest.30.description.1}"]
+			dependencies: ["5E7E35CCAF1C88EE"]
+			id: "140DE53DC0FCD9F4"
+			tasks: [{
+				id: "3F715007AD9C0D58"
+				type: "item"
+				item: "ae2:annihilation_plane"
+			}]
+			rewards: [
+				{
+					id: "6EA69EB703D93D1F"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "43B0C50B9F25E213"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "{chapter.9.quest.31.subtitle}"
+			description: ["{chapter.9.quest.31.description.1}"]
+			dependencies: ["083D458032F0325C"]
+			id: "525F25F4ADE45B50"
+			tasks: [{
+				id: "0BEBC087F970093E"
+				type: "item"
+				item: "ae2:formation_plane"
+			}]
+			rewards: [
+				{
+					id: "0850790D93DB56E2"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "4DA3D1592D0E57DA"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.32.title}"
+			x: 15.5d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "{chapter.9.quest.32.subtitle}"
+			description: ["{chapter.9.quest.32.description.1}"]
+			dependencies: ["74FC0DDDB91DB172"]
+			id: "1710B3D05215A71E"
+			tasks: [{
+				id: "36A7C775D94798EE"
+				type: "item"
+				item: "ae2:me_p2p_tunnel"
+			}]
+			rewards: [
+				{
+					id: "005990362F9FDD61"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "682CBB4D63EC2625"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: -0.5d
+			shape: "rsquare"
+			subtitle: "{chapter.9.quest.33.subtitle}"
+			description: ["{chapter.9.quest.33.description.1}"]
+			dependencies: ["74FC0DDDB91DB172"]
+			id: "7EFBAF3E281D2EBE"
+			tasks: [{
+				id: "294FA6663BE38B7C"
+				type: "item"
+				item: "ae2:storage_bus"
+			}]
+			rewards: [
+				{
+					id: "7EC06E5DA9EA41BC"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "74C059194CC4F45D"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: -0.5d
+			shape: "circle"
+			description: ["{chapter.9.quest.34.description.1}"]
+			dependencies: ["1710B3D05215A71E"]
+			id: "55186B8602689B66"
+			tasks: [{
+				id: "2D19A4EF2E4B7A55"
+				type: "item"
+				title: "{chapter.9.quest.34.task.1.title}"
+				item: {
+					id: "ae2:memory_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "433DCE2CD821C784"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "58A650BEBD72CCDB"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			shape: "circle"
+			subtitle: "{chapter.9.quest.35.subtitle}"
+			description: ["{chapter.9.quest.35.description.1}"]
+			dependencies: ["2F556E7919582D2D"]
+			id: "3195A7AA874163CD"
+			tasks: [{
+				id: "5E1E2F6E86A3E0F3"
+				type: "item"
+				item: "ae2:equal_distribution_card"
+			}]
+			rewards: [
+				{
+					id: "70C47DA0DCEA52BB"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "7425BEBDF51C1684"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			shape: "circle"
+			description: ["{chapter.9.quest.36.description.1}"]
+			dependencies: ["2F556E7919582D2D"]
+			id: "33ADE41526C39AFD"
+			tasks: [{
+				id: "2D72E699C4D506CE"
+				type: "item"
+				item: "ae2:void_card"
+			}]
+			rewards: [
+				{
+					id: "7FDED9CF7F39532F"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "48C92D1EB16C0CA2"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			description: ["{chapter.9.quest.37.description.1}"]
+			dependencies: ["361CCBD353D6FF34"]
+			id: "77C9EE701F72586D"
+			tasks: [{
+				id: "65C439FD14C5EEB9"
+				type: "item"
+				title: "{chapter.9.quest.37.task.1.title}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: ":portable_(.*)_cell_"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6A5F5E6ABCD405F1"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "3280EFC4446DD684"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: -2.5d
+			shape: "circle"
+			description: ["{chapter.9.quest.38.description.1}"]
+			dependencies: ["7EFBAF3E281D2EBE"]
+			id: "371A382CF1DDF2B2"
+			tasks: [{
+				id: "6DC55B5EA1534444"
+				type: "item"
+				item: "ae2:capacity_card"
+			}]
+			rewards: [
+				{
+					id: "370E5557C95C8C9D"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "45FEE3C549C049B0"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.39.title}"
+			x: -9.0d
+			y: -0.5d
+			shape: "circle"
+			subtitle: "{chapter.9.quest.39.subtitle}"
+			description: ["{chapter.9.quest.39.description.1}"]
+			dependencies: ["2893F483C10293E6"]
+			id: "23DB492528A25B25"
+			tasks: [{
+				id: "0AFE928466695096"
+				type: "item"
+				item: "ae2:certus_crystal_seed"
+			}]
+			rewards: [
+				{
+					id: "242F6B674493768E"
+					type: "random"
+					table_id: 727499692191347770L
+				}
+				{
+					id: "69F44152600E491B"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.40.title}"
+			x: 14.5d
+			y: 2.5d
+			shape: "rsquare"
+			subtitle: "{chapter.9.quest.40.subtitle}"
+			description: ["{chapter.9.quest.40.description.1}"]
+			dependencies: ["74FC0DDDB91DB172"]
+			id: "2077D64428E9C067"
+			tasks: [{
+				id: "05A8DD006B623032"
+				type: "item"
+				item: "ae2:quartz_fiber"
+			}]
+			rewards: [
+				{
+					id: "165710BE640551ED"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "3337CC6EF03730C7"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.41.title}"
+			icon: "ae2:blank_pattern"
+			x: 4.0d
+			y: -3.5d
+			shape: "rsquare"
+			description: ["{chapter.9.quest.41.description.1}"]
+			dependencies: ["51DE3157DE3E57B8"]
+			id: "2C04B3BA507D5673"
+			tasks: [
+				{
+					id: "58BF9A4EAD7C88E6"
+					type: "item"
+					item: "ae2:pattern_encoding_terminal"
+				}
+				{
+					id: "08D08A1400F7348F"
+					type: "item"
+					item: "ae2:blank_pattern"
+				}
+			]
+			rewards: [
+				{
+					id: "7E23E751506B04D0"
+					type: "item"
+					item: "ae2:blank_pattern"
+					count: 8
+				}
+				{
+					id: "0741594A950C662F"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "20EB24D02799A27D"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			shape: "rsquare"
+			description: ["{chapter.9.quest.42.description.1}"]
+			dependencies: ["2C04B3BA507D5673"]
+			id: "4597D3B3BDC2BED5"
+			tasks: [{
+				id: "5639418C0364E5A1"
+				type: "item"
+				item: "ae2:molecular_assembler"
+			}]
+			rewards: [
+				{
+					id: "48E60A68CD703710"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "59D9A5E482B1D2A6"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			shape: "rsquare"
+			description: ["{chapter.9.quest.43.description.1}"]
+			dependencies: ["51DE3157DE3E57B8"]
+			id: "3DDB0DDA7571B2C1"
+			tasks: [{
+				id: "3E4BDC8D3B7F727C"
+				type: "item"
+				item: "ae2:level_emitter"
+			}]
+			rewards: [
+				{
+					id: "7791DE05E46C6030"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "2465F9C03BFFB3B8"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.44.title}"
+			x: 7.0d
+			y: -2.5d
+			shape: "circle"
+			description: ["{chapter.9.quest.44.description.1}"]
+			dependencies: ["3DDB0DDA7571B2C1"]
+			id: "1AAF0B31B47AF23D"
+			tasks: [
+				{
+					id: "4D92DB15F45D3F10"
+					type: "item"
+					item: "ae2:redstone_card"
+				}
+				{
+					id: "651CCE50554D6ABC"
+					type: "item"
+					item: "ae2:toggle_bus"
+				}
+			]
+			rewards: [
+				{
+					id: "15D28C974906C579"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "11376476D428D86A"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			shape: "circle"
+			subtitle: "{chapter.9.quest.45.subtitle}"
+			description: ["{chapter.9.quest.45.description.1}"]
+			dependencies: ["1AAF0B31B47AF23D"]
+			id: "5E6585F7627247E3"
+			tasks: [{
+				id: "356C06E894DC659B"
+				type: "item"
+				item: "ae2:crafting_card"
+			}]
+			rewards: [
+				{
+					id: "24B873E672174D86"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "09DCAA3326CEE78F"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			description: ["{chapter.9.quest.46.description.1}"]
+			dependencies: ["51DE3157DE3E57B8"]
+			id: "5AA3E5DFECB4AC4D"
+			tasks: [{
+				id: "5F33C4F4AD2F297B"
+				type: "item"
+				item: "ae2:quartz_growth_accelerator"
+			}]
+			rewards: [
+				{
+					id: "0BE24B3629BD5016"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "67FE782D7A821701"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			shape: "rsquare"
+			subtitle: "{chapter.9.quest.47.subtitle}"
+			description: ["{chapter.9.quest.47.description.1}"]
+			dependencies: ["51DE3157DE3E57B8"]
+			id: "7234D2F9FCB968C4"
+			tasks: [{
+				id: "548DEBE39C8043D8"
+				type: "item"
+				item: "lazierae2:resonating_crystal"
+			}]
+			rewards: [
+				{
+					id: "41AAD44F0915C925"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "722C062B130D48AA"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			description: ["{chapter.9.quest.48.description.1}"]
+			dependencies: ["51DE3157DE3E57B8"]
+			id: "4DEACC65B5FA57FC"
+			tasks: [{
+				id: "552FB43EA62C6AA3"
+				type: "item"
+				item: "ae2things:advanced_inscriber"
+			}]
+			rewards: [
+				{
+					id: "601630EECA58E634"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "56BE72089A3373E1"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			description: ["{chapter.9.quest.49.description.1}"]
+			dependencies: ["5AA3E5DFECB4AC4D"]
+			id: "77EE3FF184FB6417"
+			tasks: [{
+				id: "56A4576AD40FB08D"
+				type: "item"
+				item: "ae2things:crystal_growth"
+			}]
+			rewards: [
+				{
+					id: "21E876498F2098E2"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "0D1F1C3657656C66"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.50.title}"
+			x: 7.5d
+			y: 0.5d
+			shape: "rsquare"
+			subtitle: "{chapter.9.quest.50.subtitle}"
+			description: ["{chapter.9.quest.50.description.1}"]
+			dependencies: ["361CCBD353D6FF34"]
+			id: "17F29706CE9A846E"
+			tasks: [{
+				id: "5A4954089684B71A"
+				type: "item"
+				title: "{chapter.9.quest.50.task.1.title}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "ae2things:disk_drive_"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "70BE5C50D5B1049F"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "21A01E1077934041"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			shape: "rsquare"
+			description: ["{chapter.9.quest.51.description.1}"]
+			dependencies: ["7234D2F9FCB968C4"]
+			id: "24D70F20329B965B"
+			tasks: [{
+				id: "49D9C2B198BD3F04"
+				type: "item"
+				item: "lazierae2:infuser"
+			}]
+			rewards: [
+				{
+					id: "0867DA835D1316B1"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "239B4469A248350D"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			shape: "rsquare"
+			description: ["{chapter.9.quest.52.description.1}"]
+			dependencies: ["24D70F20329B965B"]
+			id: "570C5B9BCBFBA26F"
+			tasks: [{
+				id: "528B64BEADDE2541"
+				type: "item"
+				item: "lazierae2:fluix_steel_ingot"
+			}]
+			rewards: [
+				{
+					id: "2BC77B32EAE1F150"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "1F3F152A41ACCBBA"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -3.5d
+			shape: "rsquare"
+			subtitle: "{chapter.9.quest.53.subtitle}"
+			description: ["{chapter.9.quest.53.description.1}"]
+			dependencies: ["67F41B121639F942"]
+			id: "3EC23876395F1E73"
+			tasks: [{
+				id: "1D646B369E1C8A66"
+				type: "item"
+				item: "lazierae2:requester"
+			}]
+			rewards: [
+				{
+					id: "44C2BE6FF4F7D4E6"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "2EC9F102E1364C5D"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.54.title}"
+			x: 9.0d
+			y: -4.5d
+			shape: "rsquare"
+			description: ["{chapter.9.quest.54.description.1}"]
+			dependencies: ["570C5B9BCBFBA26F"]
+			id: "67F41B121639F942"
+			tasks: [
+				{
+					id: "5F7E8B833DBD262A"
+					type: "item"
+					item: "lazierae2:grinder"
+				}
+				{
+					id: "4C62A0AC8F33C77A"
+					type: "item"
+					item: "lazierae2:aggregator"
+				}
+				{
+					id: "2694135F101B927A"
+					type: "item"
+					item: "lazierae2:etcher"
+				}
+			]
+			rewards: [
+				{
+					id: "6EB83CF3E7DEA493"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "1D9E802F3D59FABA"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			shape: "circle"
+			description: ["{chapter.9.quest.55.description.1}"]
+			dependencies: ["4597D3B3BDC2BED5"]
+			id: "1F7DFA5AA65F2812"
+			tasks: [{
+				id: "495253F1301A8070"
+				type: "item"
+				item: "ae2:speed_card"
+			}]
+			rewards: [
+				{
+					id: "6223D6D4A01B9122"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "394DBCEAD38760C0"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.56.title}"
+			x: 11.799999999999997d
+			y: 4.050000000000001d
+			shape: "gear"
+			description: ["{chapter.9.quest.56.description.1}"]
+			dependencies: ["40A7CC56DACC2623"]
+			size: 1.5d
+			id: "01F3F0C25BA72BDA"
+			tasks: [{
+				id: "0EFC322997906572"
+				type: "item"
+				item: "ae2:spatial_io_port"
+			}]
+			rewards: [
+				{
+					id: "2AB07DF6AB7560BF"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "71A9F7793267D5CD"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.57.title}"
+			x: 10.0d
+			y: 6.0d
+			description: ["{chapter.9.quest.57.description.1}"]
+			dependencies: ["01F3F0C25BA72BDA"]
+			id: "18DFB25DC48D8BF7"
+			tasks: [{
+				id: "4E0C5E3A98293C08"
+				type: "item"
+				title: "{chapter.9.quest.57.task.1.title}"
+				item: "ae2:spatial_pylon"
+			}]
+			rewards: [
+				{
+					id: "664A4B1C34FC382C"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "60430373241A6839"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 6.0d
+			description: ["{chapter.9.quest.58.description.1}"]
+			dependencies: ["18DFB25DC48D8BF7"]
+			id: "2897FA291E5A38D8"
+			tasks: [{
+				id: "68A36AB341CC016D"
+				type: "item"
+				item: "ae2:spatial_anchor"
+			}]
+			rewards: [
+				{
+					id: "1560015D5E8AFFEA"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "29737736E2B314EA"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			description: ["{chapter.9.quest.59.description.1}"]
+			dependencies: ["18DFB25DC48D8BF7"]
+			id: "6F3D0A248B5A9CA2"
+			tasks: [{
+				id: "75924053D6F5B242"
+				type: "item"
+				title: "{chapter.9.quest.59.task.1.title}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "ae2:spatial_storage_cell_"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "40FB6290F9B4CF05"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "0CB125E5654F810B"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "{chapter.9.quest.60.subtitle}"
+			description: ["{chapter.9.quest.60.description.1}"]
+			dependencies: ["51DE3157DE3E57B8"]
+			id: "30E853CE699E669B"
+			tasks: [{
+				id: "08DA73B1AC17E5F5"
+				type: "item"
+				title: "{chapter.9.quest.60.task.1.title}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "(.*)crafting_storage"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "380CA842CF1F8374"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "57230DB26A88BF90"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "{chapter.9.quest.61.subtitle}"
+			description: ["{chapter.9.quest.61.description.1}"]
+			dependencies: ["30E853CE699E669B"]
+			id: "69B7DE2283B4EE6C"
+			tasks: [{
+				id: "5EC8D891031E34EF"
+				type: "item"
+				title: "{chapter.9.quest.61.task.1.title}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "(.*)crafting_accelerator"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "30447C55F39E6DA1"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "33A5EAC376E2828C"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "{chapter.9.quest.62.subtitle}"
+			description: ["{chapter.9.quest.62.description.1}"]
+			dependencies: ["69B7DE2283B4EE6C"]
+			id: "1348995F64A94396"
+			tasks: [{
+				id: "2D386EFC23C45581"
+				type: "item"
+				title: "{chapter.9.quest.62.task.1.title}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "(ae2|mega)(.*)crafting_monitor"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "67F817808F544C51"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "77A6ACEA6F5542AF"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.63.title}"
+			icon: "ae2:cable_anchor"
+			x: -5.5d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "{chapter.9.quest.63.subtitle}"
+			description: ["{chapter.9.quest.63.description.1}"]
+			dependencies: ["5C22E3103544B120"]
+			id: "6144202A97C6CD1C"
+			tasks: [
+				{
+					id: "23D186249A999B8C"
+					type: "item"
+					title: "{chapter.9.quest.63.task.1.title}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ae2:knife"
+						}
+					}
+				}
+				{
+					id: "2B8EC37AF863F9A6"
+					type: "item"
+					item: "ae2:cable_anchor"
+				}
+				{
+					id: "1FFAB0FE9A2D46F2"
+					type: "item"
+					item: {
+						id: "ae2:name_press"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4330FAC592266D62"
+					type: "random"
+					table_id: 727499692191347770L
+				}
+				{
+					id: "0BAC4AB615750E48"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.64.title}"
+			x: -4.5d
+			y: 2.5d
+			shape: "diamond"
+			description: ["{chapter.9.quest.64.description.1}"]
+			dependencies: [
+				"066F1BBF3D0863C5"
+				"19CE95EDCB04AA89"
+				"5C22E3103544B120"
+			]
+			id: "03E6FA4DCB71162E"
+			tasks: [{
+				id: "6691176371563341"
+				type: "item"
+				item: {
+					id: "ae2:color_applicator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "72469A8B94967668"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "2AD4CA497DAF5DDE"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.65.title}"
+			x: 5.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "{chapter.9.quest.65.subtitle}"
+			description: ["{chapter.9.quest.65.description.1}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"40A7CC56DACC2623"
+				"2FB231069D2E4E77"
+			]
+			id: "5CD8D169181C7339"
+			tasks: [
+				{
+					id: "3AC5F84892DC0717"
+					type: "item"
+					item: "ae2:charged_staff"
+				}
+				{
+					id: "68BE70918BD7F81B"
+					type: "item"
+					item: "ae2:entropy_manipulator"
+				}
+				{
+					id: "3B720F63D105F7DF"
+					type: "item"
+					item: {
+						id: "ae2:matter_cannon"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "653C5DBC5B2DFB83"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "79695D39F0DA9907"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.66.title}"
+			icon: "ae2:security_station"
+			x: -2.049999999999999d
+			y: 4.5d
+			shape: "gear"
+			subtitle: "{chapter.9.quest.66.subtitle}"
+			description: ["{chapter.9.quest.66.description.1}"]
+			dependencies: ["40A7CC56DACC2623"]
+			size: 1.5d
+			id: "4D846582D408479D"
+			tasks: [
+				{
+					id: "3778EAFF6F5475D5"
+					type: "item"
+					item: "ae2:security_station"
+				}
+				{
+					id: "4514B01B87A19457"
+					type: "item"
+					item: "ae2:biometric_card"
+				}
+			]
+			rewards: [
+				{
+					id: "686716106E48E416"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "46140D2AFCD01CD0"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 6.0d
+			shape: "rsquare"
+			description: ["{chapter.9.quest.67.description.1}"]
+			dependencies: ["4D846582D408479D"]
+			id: "2B31E6C1707D8195"
+			tasks: [
+				{
+					id: "3DF8F1A72EBCD73F"
+					type: "item"
+					item: "ae2:wireless_access_point"
+				}
+				{
+					id: "60F10069FD956D54"
+					type: "item"
+					item: "ae2:wireless_booster"
+				}
+			]
+			rewards: [
+				{
+					id: "72CFEEE18B84AC11"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "7C6512C24B5A19A3"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.68.title}"
+			x: -4.0d
+			y: 4.5d
+			shape: "rsquare"
+			description: ["{chapter.9.quest.68.description.1}"]
+			dependencies: ["4D846582D408479D"]
+			id: "5BB887411B8B38FA"
+			tasks: [
+				{
+					id: "184FBC2F91C37271"
+					type: "item"
+					item: "ae2:condenser"
+				}
+				{
+					id: "167B710CB84B12C1"
+					type: "item"
+					item: "ae2:matter_ball"
+				}
+			]
+			rewards: [
+				{
+					id: "3AF0C07815901F6E"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "0F9CCE69ADAF459C"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			shape: "rsquare"
+			subtitle: "{chapter.9.quest.69.subtitle}"
+			description: ["{chapter.9.quest.69.description.1}"]
+			dependencies: ["2B31E6C1707D8195"]
+			id: "16299B9AE87257DC"
+			tasks: [
+				{
+					id: "195B7DC4D7815D29"
+					type: "item"
+					item: "ae2:wireless_terminal"
+				}
+				{
+					id: "384594EA34F0985B"
+					type: "item"
+					item: "ae2:wireless_crafting_terminal"
+				}
+			]
+			rewards: [
+				{
+					id: "7C69F2A048685089"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "3A1C068ABC13E7EE"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.70.title}"
+			x: 4.5d
+			y: 6.0d
+			subtitle: "{chapter.9.quest.70.subtitle}"
+			description: ["{chapter.9.quest.70.description.1}"]
+			dependencies: ["16299B9AE87257DC"]
+			id: "234DC1702333EB18"
+			tasks: [
+				{
+					id: "745C92ED1392EE1A"
+					type: "item"
+					item: "aeinfinitybooster:infinity_card"
+				}
+				{
+					id: "4EDA481E8668C82B"
+					type: "item"
+					item: "aeinfinitybooster:dimension_card"
+				}
+			]
+			rewards: [
+				{
+					id: "166910739B51C0F9"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "6724FE14F1AF7CB1"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.71.title}"
+			icon: "ae2:singularity"
+			x: -6.0d
+			y: 4.5d
+			shape: "rsquare"
+			subtitle: "{chapter.9.quest.71.subtitle}"
+			description: ["{chapter.9.quest.71.description.1}"]
+			dependencies: ["5BB887411B8B38FA"]
+			id: "3E3DF8E967D95DB0"
+			tasks: [
+				{
+					id: "3458474D44BD443F"
+					type: "item"
+					item: "ae2:singularity"
+				}
+				{
+					id: "523A126499263FE0"
+					type: "item"
+					item: "ae2:ender_dust"
+				}
+				{
+					id: "3A45E1C2AE35002B"
+					type: "item"
+					item: "ae2:tiny_tnt"
+				}
+			]
+			rewards: [
+				{
+					id: "545E8CF0C43F9B5B"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "6C2DAC14419B90E4"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.72.title}"
+			x: 15.5d
+			y: -2.5d
+			shape: "circle"
+			subtitle: "{chapter.9.quest.72.subtitle}"
+			description: ["{chapter.9.quest.72.description.1}"]
+			dependencies: ["371A382CF1DDF2B2"]
+			id: "6E15447FC3D678E0"
+			tasks: [
+				{
+					id: "79E894E41241B6A2"
+					type: "item"
+					item: "ae2:fuzzy_card"
+				}
+				{
+					id: "6AAE42DF0347D1F4"
+					type: "item"
+					item: "ae2:inverter_card"
+				}
+			]
+			rewards: [
+				{
+					id: "6FF117C99E79959D"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "27958B72A4A4CD9E"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.73.title}"
+			x: -8.0d
+			y: 4.5d
+			shape: "rsquare"
+			description: ["{chapter.9.quest.73.description.1}"]
+			dependencies: ["3E3DF8E967D95DB0"]
+			id: "0B218DD73FE8D985"
+			tasks: [
+				{
+					id: "7D869E1310E92BED"
+					type: "item"
+					item: "ae2:quantum_ring"
+					count: 16L
+				}
+				{
+					id: "20AA67ECEA653B99"
+					type: "item"
+					item: "ae2:quantum_link"
+					count: 2L
+				}
+				{
+					id: "6590872EF147B7DF"
+					type: "item"
+					item: "ae2:quantum_entangled_singularity"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "202B598DA89EB6EA"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "25C4692C8D47D950"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.9.quest.74.title}"
+			x: -3.0d
+			y: 1.5d
+			shape: "rsquare"
+			description: ["{chapter.9.quest.74.description.1}"]
+			dependencies: ["5C22E3103544B120"]
+			id: "78311531069807DE"
+			tasks: [{
+				id: "7E0D9E6342295AB0"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0608B89F87FECB34"
+				type: "xp"
+				xp: 10
+			}]
+		}
+	]
+}
