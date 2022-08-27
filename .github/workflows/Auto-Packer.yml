@@ -30,6 +30,10 @@ jobs:
           cd ATM7-To_The_Sky
           rm -r backup
 
+      - name: Move License
+        run: |
+          cp LICENSE ATM7-To_The_Sky/kubejs/assets/kubejs/lang/
+
       - name: Make ATM7 - To The Sky Archive
         run: |
           cd ATM7-To_The_Sky
