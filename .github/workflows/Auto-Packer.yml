@@ -61,7 +61,7 @@ jobs:
           body: |
             ## 📝 下載
             下載下方的 Assets 內的對應模組任務翻譯包
-            並將其解壓縮至你的 minecraft 目錄中
+            並將其解壓縮**覆蓋**至你的 minecraft 目錄中
             (該目錄必須有同時顯示 config resourcepack 資料夾等等，才會是正確的位置)
 
             ## ⭐ 更新
