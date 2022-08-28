@@ -37,12 +37,12 @@ jobs:
       - name: Make ATM7 - To The Sky Archive
         run: |
           cd ATM7-To_The_Sky
-          zip -r ../TranslateModPack-ATM7sky.zip *
+          zip -r ../TranslateQuestPack-ATM7sky.zip *
 
       - name: Make Checksum
         id: checksum
         run: |
-          echo "::set-output name=sum-01::$(sha256sum TranslateModPack-ATM7sky.zip)"
+          echo "::set-output name=sum-01::$(sha256sum TranslateQuestPack-ATM7sky.zip)"
 
       - name: Make Git Version
         id: version
