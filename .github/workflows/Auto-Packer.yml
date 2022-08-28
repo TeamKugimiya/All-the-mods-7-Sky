@@ -5,7 +5,7 @@ on:
     branches:
     - main
     paths:
-    - ATM7-To_The_Sky/***
+    - "ATM7-To_The_Sky/**"
   workflow_dispatch: {}
 
 jobs:
