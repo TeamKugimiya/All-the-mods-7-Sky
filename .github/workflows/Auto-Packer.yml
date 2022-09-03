@@ -11,6 +11,11 @@ on:
 jobs:
   Packer:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        full_name: [ "ATM7 To The Sky" ]
+        file_name: [ "ATM7-ToTheSky" ]
+        folder_path: [ "ATM7-To_The_Sky" ]
 
     steps:
       - name: Checking Repostiory
@@ -18,31 +23,60 @@ jobs:
         with:
           fetch-depth: 0
       
-      - name: Fix FTBQuest path
+      - name: Make Resourcepack Step 01 (${{ matrix.full_name }})
         run: |
-          cd ATM7-To_The_Sky/config
+          mkdir workdir
+          cp -r ${{ matrix.folder_path }}/kubejs/assets workdir
+          cp LICENSE workdir
+          echo "{\"pack\":{\"pack_format\":8,\"description\":\"§3模組任務翻譯包\n§b${{ matrix.full_name }}\"}}" > workdir/pack.mcmeta
+
+      - name: Make Resourcepack Step 02 (${{ matrix.full_name }})
+        uses: ComunidadAylas/PackSquash-action@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          force_include_files: LICENSE
+          never_store_squash_times: true
+          path: ./workdir
+
+      - name: Make Resourcepack Step 03 (${{ matrix.full_name }})
+        uses: actions/download-artifact@v2
+        with:
+          name: Optimized pack
+          path: ./
+
+      - name: Make Resourcepack Step 04 (${{ matrix.full_name }})
+        run: |
+          mv ./pack.zip QuestsTranslationPack-${{ matrix.file_name }}.zip
+
+      - name: Delete Artifact
+        uses: geekyeggo/delete-artifact@v1
+        with:
+          name: |
+            Optimized pack
+      
+      - name: Fix FTBQuest path (${{ matrix.full_name }}-Config)
+        run: |
+          cd ${{ matrix.folder_path }}/config
           mv ftbquests quests
           mkdir ftbquests
           mv quests ftbquests
 
-      - name: Remove backup folder
+      - name: Remove backup & kubejs folder (${{ matrix.full_name }}-Config)
         run: |
-          cd ATM7-To_The_Sky
+          cd ${{ matrix.folder_path }}
           rm -r backup
+          rm -r kubejs
 
-      - name: Move License
+      - name: Make ConfigPack (${{ matrix.full_name }})
         run: |
-          cp LICENSE ATM7-To_The_Sky/kubejs/assets/kubejs/lang/
-
-      - name: Make ATM7 - To The Sky Archive
-        run: |
-          cd ATM7-To_The_Sky
-          zip -r ../TranslateQuestPack-ATM7sky.zip *
+          cd ${{ matrix.folder_path }}
+          zip -r ../QuestsTranslationPack-${{ matrix.file_name }}-Config.zip *
 
       - name: Make Checksum
         id: checksum
         run: |
-          echo "::set-output name=sum-01::$(sha256sum TranslateQuestPack-ATM7sky.zip)"
+          echo "::set-output name=sum-01::$(sha256sum QuestsTranslationPack-${{ matrix.file_name }}.zip)"
+          echo "::set-output name=sum-02::$(sha256sum QuestsTranslationPack-${{ matrix.file_name }}-Config.zip)"
 
       - name: Make Git Version
         id: version
@@ -63,17 +97,26 @@ jobs:
           tag: latest
           name: 模組任務翻譯包 (git ${{ steps.version.outputs.sha_short }})
           body: |
-            ## 📝 下載
-            下載下方的 Assets 內的對應模組任務翻譯包
-            並將其解壓縮**覆蓋**至你的 `minecraft/` 目錄中
-            (該目錄必須有同時顯示 config resourcepack 資料夾等等，才會是正確的位置)
+            ## 📝 安裝
+
+            ### 用戶端
+            下載 `QuestsTranslationPack-ATM7-ToTheSky.zip`
+            並放到資源包資料夾中，在遊戲加載即可完成！
+            
+            ### 伺服器端／單人遊戲
+            如果你是單人遊戲或是多人遊戲
+            需將把任務的變數包裝入伺服器
+            將 `QuestsTranslationPack-ATM7-ToTheSky-Config.zip`
+            解壓縮到 `minecraft/` 資料夾中覆蓋 `config` 資料夾內的
+            FTBQuest 即可完成！
 
             ## ⭐ 更新
-            將新版本的模組翻譯包一樣在 `minecraft/` 資料夾中再度解壓縮並覆蓋即可！
+            僅需要下載最新資源包套用即可！
 
             > ${{ steps.current_time.outputs.time }}
 
             ## ✅ Checksum
             ```
             ${{ steps.checksum.outputs.sum-01 }}
+            ${{ steps.checksum.outputs.sum-02 }}
             ```
