@@ -76,7 +76,6 @@
 			x: -8.0d
 			y: -1.0d
 			shape: "hexagon"
-			subtitle: "{chapter.6.quest.1.subtitle}"
 			description: ["{chapter.6.quest.1.description.1}"]
 			dependency_requirement: "one_completed"
 			size: 2.0d
@@ -148,8 +147,8 @@
 		}
 		{
 			title: "{chapter.6.quest.3.title}"
-			x: 2.5d
-			y: 0.0d
+			x: 0.5d
+			y: 0.5d
 			subtitle: "{chapter.6.quest.3.subtitle}"
 			description: ["{chapter.6.quest.3.description.1}"]
 			dependencies: ["231765C07B4A12B7"]
@@ -175,7 +174,7 @@
 		{
 			title: "{chapter.6.quest.4.title}"
 			icon: "minecraft:wheat_seeds"
-			x: 2.5d
+			x: 2.0d
 			y: -2.5d
 			subtitle: "{chapter.6.quest.4.subtitle}"
 			description: ["{chapter.6.quest.4.description.1}"]
@@ -236,7 +235,7 @@
 		{
 			title: "{chapter.6.quest.5.title}"
 			icon: "minecraft:apple"
-			x: 5.0d
+			x: 4.0d
 			y: -2.5d
 			shape: "gear"
 			subtitle: "{chapter.6.quest.5.subtitle}"
@@ -258,8 +257,8 @@
 		{
 			title: "{chapter.6.quest.6.title}"
 			icon: "rftoolspower:coalgenerator"
-			x: 2.5d
-			y: 1.0d
+			x: 2.0d
+			y: 2.0d
 			subtitle: "{chapter.6.quest.6.subtitle}"
 			description: ["{chapter.6.quest.6.description.1}"]
 			dependencies: ["231765C07B4A12B7"]
@@ -286,15 +285,12 @@
 		{
 			title: "{chapter.6.quest.7.title}"
 			icon: "mekanismgenerators:wind_generator"
-			x: 5.0d
-			y: 0.5d
+			x: 4.0d
+			y: 2.0d
 			shape: "gear"
 			subtitle: "{chapter.6.quest.7.subtitle}"
 			description: ["{chapter.6.quest.7.description.1}"]
-			dependencies: [
-				"25D1363D8890E7C3"
-				"376BAC497511F067"
-			]
+			dependencies: ["25D1363D8890E7C3"]
 			size: 2.0d
 			id: "162AB6F9257EB71E"
 			tasks: [{
@@ -320,11 +316,20 @@
 				type: "item"
 				item: "minecraft:cobblestone"
 			}]
-			rewards: [{
-				id: "42BD8A1CD2A9463A"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "42BD8A1CD2A9463A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "71551EF2B81AC2F4"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 2
+					random_bonus: 2
+				}
+			]
 		}
 		{
 			title: "{chapter.6.quest.9.title}"
@@ -358,6 +363,7 @@
 			x: -2.5d
 			y: -1.0d
 			subtitle: "{chapter.6.quest.10.subtitle}"
+			description: ["{chapter.6.quest.10.description.1}"]
 			dependencies: ["3F755A55B2043E5B"]
 			id: "35EF391AB5344094"
 			tasks: [{
@@ -384,6 +390,11 @@
 					auto: "disabled"
 					command: "/create ponder exnihilosequentia:wooden_hammer"
 					player_command: true
+				}
+				{
+					id: "413B6EC90CF35070"
+					type: "xp"
+					xp: 10
 				}
 			]
 		}
@@ -426,29 +437,63 @@
 					item: "exnihilosequentia:string_mesh"
 				}
 			]
-			rewards: [{
-				id: "58618640C6F97E8F"
-				type: "command"
-				title: "{chapter.6.quest.12.reward.1.title}"
-				auto: "disabled"
-				command: "/create ponder exnihilosequentia:oak_sieve"
-				player_command: true
-			}]
+			rewards: [
+				{
+					id: "58618640C6F97E8F"
+					type: "command"
+					title: "{chapter.6.quest.12.reward.1.title}"
+					auto: "disabled"
+					command: "/create ponder exnihilosequentia:oak_sieve"
+					player_command: true
+				}
+				{
+					id: "0AFCD30D6D409645"
+					type: "item"
+					item: "minecraft:string"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "5EBC2F4FBF5D334D"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
+			title: "{chapter.6.quest.13.title}"
 			x: -1.0d
 			y: -1.0d
+			subtitle: "{chapter.6.quest.13.subtitle}"
+			description: ["{chapter.6.quest.13.description.1}"]
 			dependencies: ["35EF391AB5344094"]
 			id: "11CE392E7A41785F"
 			tasks: [{
 				id: "7CF148153F47112C"
 				type: "item"
 				item: "minecraft:gravel"
+				count: 3L
 			}]
+			rewards: [
+				{
+					id: "29178773D4542884"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 3
+					random_bonus: 3
+				}
+				{
+					id: "0D467E78B5BF0F3E"
+					type: "xp"
+					xp: 10
+				}
+			]
 		}
 		{
 			x: -1.0d
 			y: 2.0d
+			subtitle: "{chapter.6.quest.14.subtitle}"
+			description: ["{chapter.6.quest.14.description.1}"]
 			dependencies: ["768F0E715B05D9E4"]
 			id: "2CF0EE5C0651F531"
 			tasks: [{
@@ -456,6 +501,20 @@
 				type: "item"
 				item: "exnihilosequentia:flint_mesh"
 			}]
+			rewards: [
+				{
+					id: "3BBCEC8BA7C6FEA8"
+					type: "item"
+					item: "minecraft:flint"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "42306161D2989FAA"
+					type: "xp"
+					xp: 10
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -467,6 +526,20 @@
 				type: "item"
 				item: "exnihilosequentia:iron_mesh"
 			}]
+			rewards: [
+				{
+					id: "2504062340997AE6"
+					type: "item"
+					item: "minecraft:raw_iron"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "4ABF3BE61FF6D926"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -478,6 +551,19 @@
 				type: "item"
 				item: "exnihilosequentia:diamond_mesh"
 			}]
+			rewards: [
+				{
+					id: "5AB9AFB741615CBB"
+					type: "item"
+					item: "minecraft:diamond"
+					random_bonus: 1
+				}
+				{
+					id: "4934893AC98D060B"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -489,6 +575,18 @@
 				type: "item"
 				item: "exnihilosequentia:emerald_mesh"
 			}]
+			rewards: [
+				{
+					id: "2404EB506A93223F"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "3DA16A54D8510583"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "{chapter.6.quest.18.title}"
@@ -501,10 +599,23 @@
 				type: "item"
 				item: "exnihilosequentia:netherite_mesh"
 			}]
+			rewards: [
+				{
+					id: "2B9E50121EA42974"
+					type: "item"
+					item: "minecraft:ancient_debris"
+				}
+				{
+					id: "27B6D076E3924965"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: -1.0d
 			y: -2.5d
+			subtitle: "{chapter.6.quest.19.subtitle}"
 			dependencies: ["11CE392E7A41785F"]
 			id: "36D0417745C747B1"
 			tasks: [{
@@ -512,10 +623,25 @@
 				type: "item"
 				item: "minecraft:sand"
 			}]
+			rewards: [
+				{
+					id: "08B2809A5CE520DF"
+					type: "item"
+					item: "minecraft:sand"
+					count: 3
+					random_bonus: 3
+				}
+				{
+					id: "7688E791AF524742"
+					type: "xp"
+					xp: 10
+				}
+			]
 		}
 		{
 			x: -1.0d
 			y: -4.0d
+			subtitle: "{chapter.6.quest.20.subtitle}"
 			dependencies: ["36D0417745C747B1"]
 			id: "70063949E831D49E"
 			tasks: [{
@@ -523,10 +649,26 @@
 				type: "item"
 				item: "exnihilosequentia:dust"
 			}]
+			rewards: [
+				{
+					id: "69AF9CD584A8CB13"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7F4CFC542D0EF29F"
+					type: "item"
+					item: "exnihilosequentia:dust"
+					count: 3
+					random_bonus: 3
+				}
+			]
 		}
 		{
+			title: "{chapter.6.quest.21.title}"
 			x: -4.0d
 			y: -2.5d
+			subtitle: "{chapter.6.quest.21.subtitle}"
 			description: ["{chapter.6.quest.21.description.1}"]
 			dependencies: ["3F755A55B2043E5B"]
 			id: "0C9B97D2048A1073"
@@ -544,15 +686,15 @@
 				{
 					id: "07F9D00A06EC29C2"
 					type: "item"
-					item: "allthecompressed:gravel_block_2x"
+					item: "allthecompressed:gravel_block_1x"
 				}
 			]
 		}
 		{
-			x: 1.0d
-			y: 0.5d
+			x: 0.5d
+			y: 2.0d
 			description: ["{chapter.6.quest.22.description.1}"]
-			dependencies: ["768F0E715B05D9E4"]
+			dependencies: ["2CF0EE5C0651F531"]
 			id: "231765C07B4A12B7"
 			tasks: [
 				{
@@ -604,18 +746,28 @@
 				type: "item"
 				item: "exnihilosequentia:oak_barrel"
 			}]
-			rewards: [{
-				id: "4E0EC78E48BE1525"
-				type: "command"
-				title: "{chapter.6.quest.24.reward.1.title}"
-				auto: "disabled"
-				command: "/create ponder exnihilosequentia:oak_barrel"
-				player_command: true
-			}]
+			rewards: [
+				{
+					id: "4E0EC78E48BE1525"
+					type: "command"
+					title: "{chapter.6.quest.24.reward.1.title}"
+					auto: "disabled"
+					command: "/create ponder exnihilosequentia:oak_barrel"
+					player_command: true
+				}
+				{
+					id: "0C7267A4262E0530"
+					type: "item"
+					item: "minecraft:oak_slab"
+					count: 2
+					random_bonus: 2
+				}
+			]
 		}
 		{
 			x: -2.5d
 			y: -4.0d
+			description: ["{chapter.6.quest.25.description.1}"]
 			dependencies: [
 				"42240BED17BA0948"
 				"70063949E831D49E"
@@ -626,16 +778,23 @@
 				type: "item"
 				item: "minecraft:clay"
 			}]
-			rewards: [{
-				id: "6390E1353E17C31A"
-				type: "item"
-				item: "minecraft:clay"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "6390E1353E17C31A"
+					type: "item"
+					item: "minecraft:clay"
+					count: 2
+				}
+				{
+					id: "6227989F62217507"
+					type: "xp"
+					xp: 10
+				}
+			]
 		}
 		{
 			title: "{chapter.6.quest.26.title}"
-			x: -1.0d
+			x: -2.5d
 			y: -5.5d
 			description: ["{chapter.6.quest.26.description.1}"]
 			dependencies: ["53F7B1EE005A696C"]
@@ -645,12 +804,29 @@
 				type: "item"
 				item: "exnihilosequentia:fired_crucible"
 			}]
+			rewards: [
+				{
+					id: "069858B24EDE82F4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0DC89925A9750713"
+					type: "item"
+					item: "minecraft:clay_ball"
+					count: 2
+					random_bonus: 2
+				}
+			]
 		}
 		{
+			title: "{chapter.6.quest.27.title}"
 			icon: "minecraft:lava_bucket"
 			x: -9.5d
-			y: -1.0d
+			y: -1.5d
+			subtitle: "{chapter.6.quest.27.subtitle}"
 			description: ["{chapter.6.quest.27.description.1}"]
+			optional: true
 			id: "2C134DDBF9283407"
 			tasks: [{
 				id: "1C50BB96A8128D96"
@@ -685,24 +861,38 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: 4.5d
+			title: "{chapter.6.quest.28.title}"
+			x: -1.0d
+			y: -5.5d
 			description: ["{chapter.6.quest.28.description.1}"]
+			dependencies: ["40A495FCD317A38D"]
 			id: "647E94E2156CB596"
 			tasks: [{
 				id: "57CFC222DFE5DEE7"
 				type: "item"
 				item: "cobblefordays:tier_1"
 			}]
-			rewards: [{
-				id: "52A535EB4294060E"
-				type: "loot"
-				table_id: 1340875193044128734L
-			}]
+			rewards: [
+				{
+					id: "62E9DFE0920058BA"
+					type: "item"
+					item: "allthecompressed:gravel_block_1x"
+				}
+				{
+					id: "37A0048FB1C89F00"
+					type: "item"
+					item: "allthecompressed:sand_block_1x"
+				}
+				{
+					id: "738CBD5AD343AB66"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
-			x: -3.5d
-			y: 4.5d
+			x: -1.0d
+			y: -7.0d
 			dependencies: ["647E94E2156CB596"]
 			id: "27187D13B58AC79C"
 			tasks: [{
@@ -712,8 +902,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 4.5d
+			x: 0.5d
+			y: -7.0d
 			dependencies: ["27187D13B58AC79C"]
 			id: "10B71AD29063471F"
 			tasks: [{
@@ -723,8 +913,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 4.5d
+			x: 2.0d
+			y: -7.0d
 			dependencies: ["10B71AD29063471F"]
 			id: "0F9EE68E5D61DC91"
 			tasks: [{
@@ -734,9 +924,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 4.5d
+			x: 4.0d
+			y: -7.0d
 			dependencies: ["0F9EE68E5D61DC91"]
+			size: 1.25d
 			id: "0FD620A455281A6D"
 			tasks: [{
 				id: "050F897BBD5226AF"
@@ -746,7 +937,7 @@
 		}
 		{
 			x: -2.5d
-			y: -5.5d
+			y: -7.0d
 			description: ["{chapter.6.quest.33.description.1}"]
 			dependencies: ["40A495FCD317A38D"]
 			id: "74D15276CA30D62F"
@@ -754,6 +945,19 @@
 				id: "7F1EEFBE68C82523"
 				type: "checkmark"
 				title: "{chapter.6.quest.33.task.1.title}"
+			}]
+		}
+		{
+			icon: "minecraft:oak_sapling"
+			x: -9.5d
+			y: -0.5d
+			description: ["{chapter.6.quest.34.description.1}"]
+			optional: true
+			id: "29F82373417B2006"
+			tasks: [{
+				id: "2019707AE4DAC703"
+				type: "checkmark"
+				title: "{chapter.6.quest.34.task.1.title}"
 			}]
 		}
 	]
