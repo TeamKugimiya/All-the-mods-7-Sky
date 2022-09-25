@@ -3,7 +3,7 @@
 	group: "6614EE2378B8AFB9"
 	order_index: 1
 	filename: "resourceful_ways"
-	title: "{chapter.11.title}"
+	title: "{chapter.12.title}"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
@@ -20,7 +20,7 @@
 	}]
 	quests: [
 		{
-			title: "{chapter.11.quest.1.title}"
+			title: "{chapter.12.quest.1.title}"
 			x: 5.0d
 			y: 1.5d
 			shape: "rsquare"
@@ -51,7 +51,7 @@
 			}]
 		}
 		{
-			title: "{chapter.11.quest.2.title}"
+			title: "{chapter.12.quest.2.title}"
 			x: 8.0d
 			y: -1.5d
 			shape: "diamond"
@@ -76,7 +76,7 @@
 			}]
 		}
 		{
-			title: "{chapter.11.quest.4.title}"
+			title: "{chapter.12.quest.4.title}"
 			x: 5.5d
 			y: 0.0d
 			shape: "circle"
@@ -173,11 +173,11 @@
 			}]
 		}
 		{
-			title: "{chapter.11.quest.12.title}"
+			title: "{chapter.12.quest.12.title}"
 			x: 6.0d
 			y: 1.5d
 			shape: "rsquare"
-			description: ["{chapter.11.quest.12.description.1}"]
+			description: ["{chapter.12.quest.12.description.1}"]
 			id: "75560045ED084900"
 			tasks: [
 				{
@@ -360,7 +360,7 @@
 			}]
 		}
 		{
-			title: "{chapter.11.quest.26.title}"
+			title: "{chapter.12.quest.26.title}"
 			x: 2.5d
 			y: 2.5d
 			shape: "rsquare"
@@ -385,7 +385,7 @@
 			}]
 		}
 		{
-			title: "{chapter.11.quest.28.title}"
+			title: "{chapter.12.quest.28.title}"
 			x: 3.5d
 			y: 2.5d
 			shape: "rsquare"
@@ -842,8 +842,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -2.5d
+			x: -4.0d
+			y: -2.0d
 			shape: "diamond"
 			dependencies: ["48BF71269DEA1AB1"]
 			id: "06A7A3FC8634D2DA"
@@ -854,10 +854,10 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -2.0d
+			x: -2.0d
+			y: -2.5d
 			shape: "diamond"
-			dependencies: ["48BF71269DEA1AB1"]
+			dependencies: ["5BC4250E4C9F803C"]
 			id: "4E7990AEBCCC3C95"
 			tasks: [{
 				id: "275EBE6C08104C69"
@@ -881,7 +881,7 @@
 			x: -6.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["{chapter.11.quest.69.description.1}"]
+			description: ["{chapter.12.quest.69.description.1}"]
 			dependencies: ["2FA6B8A1C8713DE0"]
 			id: "4A96A0456680837C"
 			tasks: [{
@@ -894,7 +894,7 @@
 			x: -7.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["{chapter.11.quest.70.description.1}"]
+			description: ["{chapter.12.quest.70.description.1}"]
 			dependencies: ["2FA6B8A1C8713DE0"]
 			id: "6AB1C7B6251FE9F5"
 			tasks: [{
@@ -943,7 +943,7 @@
 			x: 5.0d
 			y: 2.5d
 			shape: "rsquare"
-			description: ["{chapter.11.quest.74.description.1}"]
+			description: ["{chapter.12.quest.74.description.1}"]
 			id: "6A4C49AE72E98727"
 			tasks: [
 				{
@@ -962,7 +962,7 @@
 			x: 6.0d
 			y: 2.5d
 			shape: "octagon"
-			description: ["{chapter.11.quest.75.description.1}"]
+			description: ["{chapter.12.quest.75.description.1}"]
 			dependencies: ["6A4C49AE72E98727"]
 			id: "50E2B7E8DA12976B"
 			tasks: [{
@@ -974,7 +974,7 @@
 		{
 			x: 8.0d
 			y: 0.0d
-			description: ["{chapter.11.quest.76.description.1}"]
+			description: ["{chapter.12.quest.76.description.1}"]
 			id: "1CC4F8570A7A99EB"
 			tasks: [{
 				id: "667004CD0469493D"
@@ -985,7 +985,7 @@
 		{
 			x: 8.0d
 			y: 1.5d
-			description: ["{chapter.11.quest.77.description.1}"]
+			description: ["{chapter.12.quest.77.description.1}"]
 			dependencies: ["1CC4F8570A7A99EB"]
 			id: "05618FE80F2E0372"
 			tasks: [{
@@ -1003,7 +1003,7 @@
 		{
 			x: 8.0d
 			y: 3.0d
-			description: ["{chapter.11.quest.78.description.1}"]
+			description: ["{chapter.12.quest.78.description.1}"]
 			dependencies: ["05618FE80F2E0372"]
 			id: "24F4E46FFFB0C13F"
 			tasks: [{
@@ -1015,7 +1015,7 @@
 		{
 			x: 10.5d
 			y: 0.0d
-			description: ["{chapter.11.quest.79.description.1}"]
+			description: ["{chapter.12.quest.79.description.1}"]
 			dependencies: ["1CC4F8570A7A99EB"]
 			id: "4821419D44F8083F"
 			tasks: [{
@@ -1071,7 +1071,7 @@
 		{
 			x: 10.5d
 			y: -1.0d
-			description: ["{chapter.11.quest.84.description.1}"]
+			description: ["{chapter.12.quest.84.description.1}"]
 			dependencies: ["1CC4F8570A7A99EB"]
 			id: "62D04566426DD979"
 			tasks: [{
@@ -1162,7 +1162,7 @@
 		{
 			x: 10.5d
 			y: 1.0d
-			description: ["{chapter.11.quest.89.description.1}"]
+			description: ["{chapter.12.quest.89.description.1}"]
 			dependencies: ["1CC4F8570A7A99EB"]
 			id: "722B66145690D56B"
 			tasks: [{
@@ -1218,7 +1218,7 @@
 		{
 			x: 10.5d
 			y: 2.0d
-			description: ["{chapter.11.quest.94.description.1}"]
+			description: ["{chapter.12.quest.94.description.1}"]
 			dependencies: ["1CC4F8570A7A99EB"]
 			id: "1F88C697817A7680"
 			tasks: [{
@@ -1549,7 +1549,7 @@
 		{
 			x: -9.5d
 			y: 0.0d
-			description: ["{chapter.11.quest.105.description.1}"]
+			description: ["{chapter.12.quest.105.description.1}"]
 			dependencies: ["2FA6B8A1C8713DE0"]
 			id: "5DFA18E547CB4D5D"
 			tasks: [{
@@ -1562,7 +1562,7 @@
 			x: -6.5d
 			y: -2.0d
 			shape: "hexagon"
-			description: ["{chapter.11.quest.106.description.1}"]
+			description: ["{chapter.12.quest.106.description.1}"]
 			dependencies: ["4A96A0456680837C"]
 			id: "7BBCE618001884B1"
 			tasks: [{
@@ -1575,13 +1575,49 @@
 			x: -7.5d
 			y: -2.0d
 			shape: "hexagon"
-			description: ["{chapter.11.quest.107.description.1}"]
+			description: ["{chapter.12.quest.107.description.1}"]
 			dependencies: ["6AB1C7B6251FE9F5"]
 			id: "7B7504F386DABBDD"
 			tasks: [{
 				id: "725AA849F27E509F"
 				type: "item"
 				item: "mysticalagradditions:dragon_egg_crux"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["5BC4250E4C9F803C"]
+			id: "53536BDC9EBF5AC3"
+			tasks: [{
+				id: "028A1AD55D4CF2D8"
+				type: "item"
+				item: "mysticalagriculture:cobalt_seeds"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			shape: "diamond"
+			dependencies: ["576ABF43FCF886B7"]
+			id: "7E3CFCA1FA24035B"
+			tasks: [{
+				id: "2225914577A74566"
+				type: "item"
+				item: "mysticalagriculture:limestone_seeds"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["7DFF18CFEB0B8DBE"]
+			id: "2DA32E581C358329"
+			tasks: [{
+				id: "5C5704B545B046CD"
+				type: "item"
+				item: "mysticalagriculture:deepslate_seeds"
 			}]
 		}
 	]

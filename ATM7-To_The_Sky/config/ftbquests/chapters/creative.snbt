@@ -1,9 +1,9 @@
 {
 	id: "16956970FF49BB4D"
 	group: ""
-	order_index: 2
+	order_index: 3
 	filename: "creative"
-	title: "{chapter.3.title}"
+	title: "{chapter.4.title}"
 	icon: "allthetweaks:atm_star"
 	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false
@@ -71,7 +71,7 @@
 	]
 	quests: [
 		{
-			title: "{chapter.3.quest.1.title}"
+			title: "{chapter.4.quest.1.title}"
 			x: -1.5d
 			y: 4.5d
 			shape: "hexagon"
@@ -104,7 +104,7 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.2.title}"
+			title: "{chapter.4.quest.2.title}"
 			x: 0.5d
 			y: 1.5d
 			id: "314537C71B1B5741"
@@ -149,7 +149,7 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.3.title}"
+			title: "{chapter.4.quest.3.title}"
 			x: -2.0d
 			y: 0.0d
 			id: "088E6EA318D25659"
@@ -195,7 +195,7 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.4.title}"
+			title: "{chapter.4.quest.4.title}"
 			x: -0.5d
 			y: 1.5d
 			shape: "diamond"
@@ -231,7 +231,7 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.5.title}"
+			title: "{chapter.4.quest.5.title}"
 			x: 0.5d
 			y: -2.5d
 			id: "296E89E2DF857B25"
@@ -277,7 +277,7 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.6.title}"
+			title: "{chapter.4.quest.6.title}"
 			x: 2.0d
 			y: -1.0d
 			id: "794EC696A3B7DAC3"
@@ -323,12 +323,12 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.7.title}"
+			title: "{chapter.4.quest.7.title}"
 			x: 0.0d
 			y: -0.5d
 			shape: "octagon"
-			subtitle: "{chapter.3.quest.7.subtitle}"
-			description: ["{chapter.3.quest.7.description.1}"]
+			subtitle: "{chapter.4.quest.7.subtitle}"
+			description: ["{chapter.4.quest.7.description.1}"]
 			dependencies: [
 				"29FFA090ADB56195"
 				"4A629299C15E7E81"
@@ -378,7 +378,7 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.8.title}"
+			title: "{chapter.4.quest.8.title}"
 			x: 2.0d
 			y: 0.0d
 			id: "24CE3AF373180CC9"
@@ -424,7 +424,7 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.9.title}"
+			title: "{chapter.4.quest.9.title}"
 			x: 0.0d
 			y: -3.0d
 			shape: "diamond"
@@ -470,7 +470,7 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.10.title}"
+			title: "{chapter.4.quest.10.title}"
 			x: 0.0d
 			y: 2.0d
 			id: "4A629299C15E7E81"
@@ -506,7 +506,7 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.11.title}"
+			title: "{chapter.4.quest.11.title}"
 			x: -2.0d
 			y: -1.0d
 			id: "3615BAFD4F2AD479"
@@ -552,7 +552,7 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.12.title}"
+			title: "{chapter.4.quest.12.title}"
 			x: -0.5d
 			y: -2.5d
 			id: "5477FBAEBDE2D10B"
@@ -588,7 +588,7 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.13.title}"
+			title: "{chapter.4.quest.13.title}"
 			x: 1.5d
 			y: 4.5d
 			shape: "hexagon"
@@ -628,11 +628,11 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.14.title}"
+			title: "{chapter.4.quest.14.title}"
 			x: 0.0d
 			y: 4.5d
 			shape: "hexagon"
-			subtitle: "{chapter.3.quest.14.subtitle}"
+			subtitle: "{chapter.4.quest.14.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"2CF11A70229000AB"
@@ -649,7 +649,7 @@
 			}]
 		}
 		{
-			title: "{chapter.3.quest.15.title}"
+			title: "{chapter.4.quest.15.title}"
 			x: -2.5d
 			y: -0.5d
 			shape: "diamond"
@@ -696,7 +696,7 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.16.title}"
+			title: "{chapter.4.quest.16.title}"
 			x: 2.5d
 			y: -0.5d
 			id: "5E18FCD27271E6B3"
@@ -745,7 +745,7 @@
 			x: 4.0d
 			y: -0.5d
 			shape: "pentagon"
-			subtitle: "{chapter.3.quest.17.subtitle}"
+			subtitle: "{chapter.4.quest.17.subtitle}"
 			id: "7F3C377120EF35B8"
 			tasks: [{
 				id: "44051D66A5EF2F12"
@@ -763,7 +763,7 @@
 			x: -4.0d
 			y: -0.5d
 			shape: "pentagon"
-			subtitle: "{chapter.3.quest.18.subtitle}"
+			subtitle: "{chapter.4.quest.18.subtitle}"
 			id: "3047DB8DF8454D18"
 			tasks: [{
 				id: "15781E3FD52A7921"

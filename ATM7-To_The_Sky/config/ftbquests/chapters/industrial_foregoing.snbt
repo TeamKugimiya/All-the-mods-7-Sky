@@ -3,7 +3,7 @@
 	group: "2B51AC12041E3F89"
 	order_index: 2
 	filename: "industrial_foregoing"
-	title: "{chapter.14.title}"
+	title: "{chapter.16.title}"
 	icon: "industrialforegoing:common_black_hole_unit"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -21,7 +21,7 @@
 	}]
 	quests: [
 		{
-			title: "{chapter.14.quest.1.title}"
+			title: "{chapter.16.quest.1.title}"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -32,7 +32,7 @@
 			x: -3.5d
 			y: -3.0d
 			shape: "gear"
-			description: ["{chapter.14.quest.1.description.1}"]
+			description: ["{chapter.16.quest.1.description.1}"]
 			size: 1.5d
 			id: "55820773BDD5319D"
 			tasks: [{
@@ -48,7 +48,7 @@
 		{
 			x: -0.5d
 			y: -3.0d
-			description: ["{chapter.14.quest.2.description.1}"]
+			description: ["{chapter.16.quest.2.description.1}"]
 			dependencies: ["6E616DB197387C86"]
 			id: "0EC2053B191C55C6"
 			tasks: [{
@@ -114,7 +114,7 @@
 			}]
 		}
 		{
-			title: "{chapter.14.quest.6.title}"
+			title: "{chapter.16.quest.6.title}"
 			x: -2.0d
 			y: -1.5d
 			dependencies: ["6E616DB197387C86"]
@@ -261,7 +261,7 @@
 			}]
 		}
 		{
-			title: "{chapter.14.quest.10.title}"
+			title: "{chapter.16.quest.10.title}"
 			x: 6.0d
 			y: -4.5d
 			dependencies: ["690CFF61CE787D43"]
@@ -312,7 +312,7 @@
 			}]
 		}
 		{
-			title: "{chapter.14.quest.13.title}"
+			title: "{chapter.16.quest.13.title}"
 			x: 7.0d
 			y: -3.0d
 			shape: "rsquare"
@@ -405,7 +405,7 @@
 			}]
 		}
 		{
-			title: "{chapter.14.quest.15.title}"
+			title: "{chapter.16.quest.15.title}"
 			x: 6.300000000000001d
 			y: -1.7000000000000002d
 			dependencies: ["616CFD4078D67B51"]
@@ -430,7 +430,7 @@
 			}]
 		}
 		{
-			title: "{chapter.14.quest.16.title}"
+			title: "{chapter.16.quest.16.title}"
 			x: 5.300000000000001d
 			y: -0.7000000000000002d
 			dependencies: ["616CFD4078D67B51"]
@@ -471,7 +471,7 @@
 			}]
 		}
 		{
-			title: "{chapter.14.quest.17.title}"
+			title: "{chapter.16.quest.17.title}"
 			x: 5.5d
 			y: -5.5d
 			dependencies: ["690CFF61CE787D43"]
@@ -496,7 +496,7 @@
 			}]
 		}
 		{
-			title: "{chapter.14.quest.18.title}"
+			title: "{chapter.16.quest.18.title}"
 			x: 5.0d
 			y: -6.5d
 			dependencies: ["690CFF61CE787D43"]
@@ -521,7 +521,7 @@
 			}]
 		}
 		{
-			title: "{chapter.14.quest.19.title}"
+			title: "{chapter.16.quest.19.title}"
 			x: 2.5d
 			y: -5.5d
 			dependencies: ["690CFF61CE787D43"]
@@ -551,7 +551,7 @@
 			}]
 		}
 		{
-			title: "{chapter.14.quest.20.title}"
+			title: "{chapter.16.quest.20.title}"
 			x: 3.0d
 			y: -6.5d
 			dependencies: ["690CFF61CE787D43"]
@@ -576,7 +576,7 @@
 			}]
 		}
 		{
-			title: "{chapter.14.quest.21.title}"
+			title: "{chapter.16.quest.21.title}"
 			x: 2.0d
 			y: -4.5d
 			dependencies: ["690CFF61CE787D43"]
@@ -601,7 +601,7 @@
 			}]
 		}
 		{
-			title: "{chapter.14.quest.22.title}"
+			title: "{chapter.16.quest.22.title}"
 			x: 4.0d
 			y: -7.0d
 			dependencies: ["690CFF61CE787D43"]
@@ -745,7 +745,7 @@
 			}]
 		}
 		{
-			title: "{chapter.14.quest.32.title}"
+			title: "{chapter.16.quest.32.title}"
 			x: 2.0d
 			y: 1.0d
 			dependencies: ["3514E9C1A8C7400C"]
@@ -867,7 +867,7 @@
 		{
 			x: 7.0d
 			y: 3.0d
-			description: ["{chapter.14.quest.40.description.1}"]
+			description: ["{chapter.16.quest.40.description.1}"]
 			dependencies: [
 				"2E8E292ED596A104"
 				"418E57E34FFC19E1"

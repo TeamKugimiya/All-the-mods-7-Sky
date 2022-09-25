@@ -1,9 +1,9 @@
 {
 	id: "1BE666F01EFFC00D"
 	group: ""
-	order_index: 3
+	order_index: 4
 	filename: "tips_and_tricks"
-	title: "{chapter.4.title}"
+	title: "{chapter.5.title}"
 	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false
 	images: [
@@ -48,8 +48,8 @@
 		{
 			x: -3.5d
 			y: 2.0d
-			subtitle: "{chapter.4.quest.1.subtitle}"
-			description: ["{chapter.4.quest.1.description.1}"]
+			subtitle: "{chapter.5.quest.1.subtitle}"
+			description: ["{chapter.5.quest.1.description.1}"]
 			id: "722978AC0C1B2649"
 			tasks: [{
 				id: "6855AE257D62AA37"
@@ -73,8 +73,8 @@
 			x: -0.5d
 			y: 0.5d
 			shape: "diamond"
-			subtitle: "{chapter.4.quest.2.subtitle}"
-			description: ["{chapter.4.quest.2.description.1}"]
+			subtitle: "{chapter.5.quest.2.subtitle}"
+			description: ["{chapter.5.quest.2.description.1}"]
 			id: "7EC8814940C4C3D7"
 			tasks: [{
 				id: "30C938C85BED7956"
@@ -99,20 +99,30 @@
 			]
 		}
 		{
-			title: "{chapter.4.quest.3.title}"
+			title: "{chapter.5.quest.3.title}"
 			x: -1.0d
 			y: 1.0d
-			subtitle: "{chapter.4.quest.3.subtitle}"
-			description: ["{chapter.4.quest.3.description.1}"]
+			subtitle: "{chapter.5.quest.3.subtitle}"
+			description: ["{chapter.5.quest.3.description.1}"]
 			id: "3EE9F242794CD95F"
 			tasks: [{
-				id: "03F9DE34E4C766D8"
+				id: "15F5B24545C0D42F"
 				type: "item"
-				item: {
+				title: "{chapter.5.quest.3.task.1.title}"
+				icon: {
 					id: "minecraft:potion"
 					Count: 1b
 					tag: {
 						Potion: "potionsmaster:iron_sight"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							Potion: "potionsmaster:iron_sight"
+						}
 					}
 				}
 			}]
@@ -138,8 +148,8 @@
 		{
 			x: -6.0d
 			y: 0.0d
-			subtitle: "{chapter.4.quest.4.subtitle}"
-			description: ["{chapter.4.quest.4.description.1}"]
+			subtitle: "{chapter.5.quest.4.subtitle}"
+			description: ["{chapter.5.quest.4.description.1}"]
 			dependencies: ["73F91BF3D424B269"]
 			id: "594540768120A627"
 			tasks: [{
@@ -162,10 +172,10 @@
 			]
 		}
 		{
-			title: "{chapter.4.quest.5.title}"
+			title: "{chapter.5.quest.5.title}"
 			x: -6.0d
 			y: 1.0d
-			description: ["{chapter.4.quest.5.description.1}"]
+			description: ["{chapter.5.quest.5.description.1}"]
 			id: "73F91BF3D424B269"
 			tasks: [{
 				id: "3B227EED4B839733"
@@ -179,11 +189,11 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.6.title}"
+			title: "{chapter.5.quest.6.title}"
 			x: -5.5d
 			y: 0.5d
 			shape: "diamond"
-			description: ["{chapter.4.quest.6.description.1}"]
+			description: ["{chapter.5.quest.6.description.1}"]
 			id: "0F75D7B9F4FF2459"
 			tasks: [
 				{
@@ -257,10 +267,10 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.7.title}"
+			title: "{chapter.5.quest.7.title}"
 			x: -6.5d
 			y: 0.5d
-			description: ["{chapter.4.quest.7.description.1}"]
+			description: ["{chapter.5.quest.7.description.1}"]
 			id: "2A2E3D020B1F5126"
 			tasks: [{
 				id: "05D9E287D437CDDB"
@@ -281,11 +291,11 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.8.title}"
+			title: "{chapter.5.quest.8.title}"
 			x: -3.5d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "{chapter.4.quest.8.subtitle}"
+			subtitle: "{chapter.5.quest.8.subtitle}"
 			hide_dependency_lines: true
 			dependencies: [
 				"722978AC0C1B2649"
@@ -308,21 +318,32 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.9.title}"
+			title: "{chapter.5.quest.9.title}"
 			x: -1.0d
 			y: 0.0d
-			description: ["{chapter.4.quest.9.description.1}"]
+			description: ["{chapter.5.quest.9.description.1}"]
 			dependencies: ["3EE9F242794CD95F"]
 			id: "6396AA6918B47DDC"
 			tasks: [{
-				id: "3611DE52B33035E8"
+				id: "3F38B1E12C1ADEF1"
 				type: "item"
-				item: {
+				title: "{chapter.5.quest.9.task.1.title}"
+				icon: {
 					id: "apotheosis:potion_charm"
 					Count: 1b
 					tag: {
 						Damage: 0
 						Potion: "potionsmaster:iron_sight"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							Damage: 0
+							Potion: "potionsmaster:iron_sight"
+						}
 					}
 				}
 			}]
@@ -349,14 +370,14 @@
 			x: -3.5d
 			y: -2.0d
 			shape: "hexagon"
-			subtitle: "{chapter.4.quest.10.subtitle}"
-			description: ["{chapter.4.quest.10.description.1}"]
+			subtitle: "{chapter.5.quest.10.subtitle}"
+			description: ["{chapter.5.quest.10.description.1}"]
 			size: 2.0d
 			id: "0C856BBB1679A7DD"
 			tasks: [{
 				id: "3DC008A578A93CCF"
 				type: "checkmark"
-				title: "{chapter.4.quest.10.task.1.title}"
+				title: "{chapter.5.quest.10.task.1.title}"
 			}]
 			rewards: [{
 				id: "5FA6EA3609ABF6BE"
@@ -367,7 +388,7 @@
 		{
 			x: -1.5d
 			y: 0.5d
-			subtitle: "{chapter.4.quest.11.subtitle}"
+			subtitle: "{chapter.5.quest.11.subtitle}"
 			id: "3FC002E5A6C08DCC"
 			tasks: [{
 				id: "4112D6272EC400DE"
@@ -387,7 +408,7 @@
 		{
 			x: -3.5d
 			y: 3.0d
-			description: ["{chapter.4.quest.12.description.1}"]
+			description: ["{chapter.5.quest.12.description.1}"]
 			id: "25E585C8AE7430DC"
 			tasks: [
 				{

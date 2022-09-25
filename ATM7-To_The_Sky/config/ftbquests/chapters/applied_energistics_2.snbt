@@ -3,7 +3,7 @@
 	group: "1AC60211DE7427FC"
 	order_index: 1
 	filename: "applied_energistics_2"
-	title: "{chapter.9.title}"
+	title: "{chapter.10.title}"
 	icon: "ae2:controller"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
@@ -35,13 +35,13 @@
 	]
 	quests: [
 		{
-			title: "{chapter.9.quest.1.title}"
+			title: "{chapter.10.quest.1.title}"
 			icon: "ae2:certus_quartz_crystal"
 			x: -10.0d
 			y: 0.5d
 			shape: "hexagon"
-			subtitle: "{chapter.9.quest.1.subtitle}"
-			description: ["{chapter.9.quest.1.description.1}"]
+			subtitle: "{chapter.10.quest.1.subtitle}"
+			description: ["{chapter.10.quest.1.description.1}"]
 			size: 1.5d
 			id: "2893F483C10293E6"
 			tasks: [
@@ -96,11 +96,11 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.2.title}"
+			title: "{chapter.10.quest.2.title}"
 			x: -8.0d
 			y: 0.5d
-			subtitle: "{chapter.9.quest.2.subtitle}"
-			description: ["{chapter.9.quest.2.description.1}"]
+			subtitle: "{chapter.10.quest.2.subtitle}"
+			description: ["{chapter.10.quest.2.description.1}"]
 			dependencies: ["2893F483C10293E6"]
 			id: "68B0B3DAF1145191"
 			tasks: [
@@ -129,12 +129,12 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.3.title}"
+			title: "{chapter.10.quest.3.title}"
 			icon: "ae2:sky_compass"
 			x: -6.0d
 			y: 0.5d
-			subtitle: "{chapter.9.quest.3.subtitle}"
-			description: ["{chapter.9.quest.3.description.1}"]
+			subtitle: "{chapter.10.quest.3.subtitle}"
+			description: ["{chapter.10.quest.3.description.1}"]
 			dependencies: ["68B0B3DAF1145191"]
 			id: "51236544BFEF487B"
 			tasks: [
@@ -181,8 +181,8 @@
 		{
 			x: -7.0d
 			y: -0.5d
-			subtitle: "{chapter.9.quest.4.subtitle}"
-			description: ["{chapter.9.quest.4.description.1}"]
+			subtitle: "{chapter.10.quest.4.subtitle}"
+			description: ["{chapter.10.quest.4.description.1}"]
 			dependencies: ["68B0B3DAF1145191"]
 			id: "00611844AFD5C31E"
 			tasks: [{
@@ -206,7 +206,7 @@
 		{
 			x: -5.0d
 			y: -0.5d
-			description: ["{chapter.9.quest.5.description.1}"]
+			description: ["{chapter.10.quest.5.description.1}"]
 			dependencies: ["00611844AFD5C31E"]
 			id: "037488EF1F3581CE"
 			tasks: [
@@ -246,7 +246,7 @@
 			x: -3.0d
 			y: -0.5d
 			shape: "circle"
-			description: ["{chapter.9.quest.6.description.1}"]
+			description: ["{chapter.10.quest.6.description.1}"]
 			dependencies: ["037488EF1F3581CE"]
 			id: "6D54B45CDA70FEAB"
 			tasks: [{
@@ -268,10 +268,10 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.7.title}"
+			title: "{chapter.10.quest.7.title}"
 			x: -4.0d
 			y: 0.5d
-			description: ["{chapter.9.quest.7.description.1}"]
+			description: ["{chapter.10.quest.7.description.1}"]
 			dependencies: ["51236544BFEF487B"]
 			id: "15564C11744D6AA0"
 			tasks: [
@@ -305,11 +305,11 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.8.title}"
+			title: "{chapter.10.quest.8.title}"
 			icon: "ae2:fluix_crystal"
 			x: -7.0d
 			y: 1.5d
-			description: ["{chapter.9.quest.8.description.1}"]
+			description: ["{chapter.10.quest.8.description.1}"]
 			dependencies: ["68B0B3DAF1145191"]
 			id: "4BF0BB763BFFACF0"
 			tasks: [
@@ -344,17 +344,17 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.9.title}"
+			title: "{chapter.10.quest.9.title}"
 			x: -5.0d
 			y: 1.5d
-			description: ["{chapter.9.quest.9.description.1}"]
+			description: ["{chapter.10.quest.9.description.1}"]
 			dependencies: ["4BF0BB763BFFACF0"]
 			id: "5C22E3103544B120"
 			tasks: [
 				{
 					id: "40A7CC56DACC2623"
 					type: "item"
-					title: "{chapter.9.quest.9.task.1.title}"
+					title: "{chapter.10.quest.9.task.1.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -366,7 +366,7 @@
 				{
 					id: "64EAD3DE84E94F02"
 					type: "item"
-					title: "{chapter.9.quest.9.task.2.title}"
+					title: "{chapter.10.quest.9.task.2.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -378,7 +378,7 @@
 				{
 					id: "14DEFFB80CC96BC1"
 					type: "item"
-					title: "{chapter.9.quest.9.task.3.title}"
+					title: "{chapter.10.quest.9.task.3.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -402,19 +402,19 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.10.title}"
+			title: "{chapter.10.quest.10.title}"
 			x: -5.0d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "{chapter.9.quest.10.subtitle}"
-			description: ["{chapter.9.quest.10.description.1}"]
+			subtitle: "{chapter.10.quest.10.subtitle}"
+			description: ["{chapter.10.quest.10.description.1}"]
 			dependencies: ["5C22E3103544B120"]
 			id: "5233A447BAA4593C"
 			tasks: [
 				{
 					id: "7FC3DAA1BD5016A0"
 					type: "item"
-					title: "{chapter.9.quest.10.task.1.title}"
+					title: "{chapter.10.quest.10.task.1.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -426,7 +426,7 @@
 				{
 					id: "38E290AC5E011888"
 					type: "item"
-					title: "{chapter.9.quest.10.task.2.title}"
+					title: "{chapter.10.quest.10.task.2.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -456,11 +456,11 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.11.title}"
+			title: "{chapter.10.quest.11.title}"
 			x: -2.0d
 			y: 0.5d
-			subtitle: "{chapter.9.quest.11.subtitle}"
-			description: ["{chapter.9.quest.11.description.1}"]
+			subtitle: "{chapter.10.quest.11.subtitle}"
+			description: ["{chapter.10.quest.11.description.1}"]
 			dependencies: ["15564C11744D6AA0"]
 			id: "22C4318523A43B49"
 			tasks: [
@@ -479,7 +479,7 @@
 				{
 					id: "6D1EBB1DBB711A5A"
 					type: "random"
-					title: "{chapter.9.quest.11.reward.1.title}"
+					title: "{chapter.10.quest.11.reward.1.title}"
 					table_id: 5871764666515020368L
 				}
 				{
@@ -490,12 +490,12 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.12.title}"
+			title: "{chapter.10.quest.12.title}"
 			x: 1.0d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "{chapter.9.quest.12.subtitle}"
-			description: ["{chapter.9.quest.12.description.1}"]
+			subtitle: "{chapter.10.quest.12.subtitle}"
+			description: ["{chapter.10.quest.12.description.1}"]
 			dependencies: [
 				"40A7CC56DACC2623"
 				"2F16B6A173525277"
@@ -528,20 +528,20 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.13.title}"
+			title: "{chapter.10.quest.13.title}"
 			icon: "ae2:interface"
 			x: 13.5d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "{chapter.9.quest.13.subtitle}"
-			description: ["{chapter.9.quest.13.description.1}"]
+			subtitle: "{chapter.10.quest.13.subtitle}"
+			description: ["{chapter.10.quest.13.description.1}"]
 			dependencies: ["40A7CC56DACC2623"]
 			size: 1.5d
 			id: "74FC0DDDB91DB172"
 			tasks: [{
 				id: "7241918F270CA402"
 				type: "item"
-				title: "{chapter.9.quest.13.task.1.title}"
+				title: "{chapter.10.quest.13.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -564,13 +564,13 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.14.title}"
+			title: "{chapter.10.quest.14.title}"
 			icon: "ae2:pattern_provider"
 			x: 3.0d
 			y: -2.5d
 			shape: "gear"
-			subtitle: "{chapter.9.quest.14.subtitle}"
-			description: ["{chapter.9.quest.14.description.1}"]
+			subtitle: "{chapter.10.quest.14.subtitle}"
+			description: ["{chapter.10.quest.14.description.1}"]
 			dependencies: ["40A7CC56DACC2623"]
 			size: 1.5d
 			id: "51DE3157DE3E57B8"
@@ -578,7 +578,7 @@
 				{
 					id: "338A6DA0D711B7DC"
 					type: "item"
-					title: "{chapter.9.quest.14.task.1.title}"
+					title: "{chapter.10.quest.14.task.1.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -609,7 +609,7 @@
 		{
 			x: -1.0d
 			y: 1.5d
-			description: ["{chapter.9.quest.15.description.1}"]
+			description: ["{chapter.10.quest.15.description.1}"]
 			dependencies: [
 				"22C4318523A43B49"
 				"78311531069807DE"
@@ -637,14 +637,14 @@
 			x: -9.0d
 			y: 1.5d
 			shape: "circle"
-			subtitle: "{chapter.9.quest.16.subtitle}"
-			description: ["{chapter.9.quest.16.description.1}"]
+			subtitle: "{chapter.10.quest.16.subtitle}"
+			description: ["{chapter.10.quest.16.description.1}"]
 			dependencies: ["2893F483C10293E6"]
 			id: "1B686954D34A0F23"
 			tasks: [{
 				id: "1076BC82EECB73F5"
 				type: "item"
-				title: "{chapter.9.quest.16.task.1.title}"
+				title: "{chapter.10.quest.16.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -662,7 +662,7 @@
 		{
 			x: -1.0d
 			y: -0.5d
-			description: ["{chapter.9.quest.17.description.1}"]
+			description: ["{chapter.10.quest.17.description.1}"]
 			dependencies: [
 				"22C4318523A43B49"
 				"1076BC82EECB73F5"
@@ -675,12 +675,12 @@
 			}]
 		}
 		{
-			title: "{chapter.9.quest.18.title}"
+			title: "{chapter.10.quest.18.title}"
 			x: 4.0d
 			y: 1.5d
 			shape: "diamond"
-			subtitle: "{chapter.9.quest.18.subtitle}"
-			description: ["{chapter.9.quest.18.description.1}"]
+			subtitle: "{chapter.10.quest.18.subtitle}"
+			description: ["{chapter.10.quest.18.description.1}"]
 			dependencies: ["4E8A05C3BFA80540"]
 			id: "2FB231069D2E4E77"
 			tasks: [{
@@ -702,12 +702,12 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.19.title}"
+			title: "{chapter.10.quest.19.title}"
 			x: 5.0d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "{chapter.9.quest.19.subtitle}"
-			description: ["{chapter.9.quest.19.description.1}"]
+			subtitle: "{chapter.10.quest.19.subtitle}"
+			description: ["{chapter.10.quest.19.description.1}"]
 			dependencies: [
 				"64CCF1FB42AA41CE"
 				"2FB231069D2E4E77"
@@ -732,12 +732,12 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.20.title}"
+			title: "{chapter.10.quest.20.title}"
 			x: 4.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "{chapter.9.quest.20.subtitle}"
-			description: ["{chapter.9.quest.20.description.1}"]
+			subtitle: "{chapter.10.quest.20.subtitle}"
+			description: ["{chapter.10.quest.20.description.1}"]
 			dependencies: [
 				"066F1BBF3D0863C5"
 				"3B42CCC19D23EC6D"
@@ -762,12 +762,12 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.21.title}"
+			title: "{chapter.10.quest.21.title}"
 			x: 5.0d
 			y: 3.5d
 			shape: "diamond"
-			subtitle: "{chapter.9.quest.21.subtitle}"
-			description: ["{chapter.9.quest.21.description.1}"]
+			subtitle: "{chapter.10.quest.21.subtitle}"
+			description: ["{chapter.10.quest.21.description.1}"]
 			dependencies: [
 				"076237ECA6D5DE58"
 				"219932CB19258C16"
@@ -792,12 +792,12 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.22.title}"
+			title: "{chapter.10.quest.22.title}"
 			x: 5.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "{chapter.9.quest.22.subtitle}"
-			description: ["{chapter.9.quest.22.description.1}"]
+			subtitle: "{chapter.10.quest.22.subtitle}"
+			description: ["{chapter.10.quest.22.description.1}"]
 			dependencies: [
 				"32FFC36DEEA7792D"
 				"523853C1C4E688BA"
@@ -822,17 +822,17 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.23.title}"
+			title: "{chapter.10.quest.23.title}"
 			x: 6.5d
 			y: 1.5d
 			shape: "rsquare"
-			description: ["{chapter.9.quest.23.description.1}"]
+			description: ["{chapter.10.quest.23.description.1}"]
 			dependencies: ["2FB231069D2E4E77"]
 			id: "361CCBD353D6FF34"
 			tasks: [{
 				id: "52521FCD58B2FEF0"
 				type: "item"
-				title: "{chapter.9.quest.23.task.1.title}"
+				title: "{chapter.10.quest.23.task.1.title}"
 				item: {
 					id: "ae2:item_storage_cell_1k"
 					Count: 1b
@@ -858,17 +858,17 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.24.title}"
+			title: "{chapter.10.quest.24.title}"
 			x: 8.5d
 			y: 1.5d
 			shape: "rsquare"
-			description: ["{chapter.9.quest.24.description.1}"]
+			description: ["{chapter.10.quest.24.description.1}"]
 			dependencies: ["361CCBD353D6FF34"]
 			id: "5E24012A3D9B72A1"
 			tasks: [{
 				id: "61D93B13D496547D"
 				type: "item"
-				title: "{chapter.9.quest.24.task.1.title}"
+				title: "{chapter.10.quest.24.task.1.title}"
 				item: {
 					id: "itemfilters:id_regex"
 					Count: 1b
@@ -891,17 +891,17 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.25.title}"
+			title: "{chapter.10.quest.25.title}"
 			x: 10.5d
 			y: 1.5d
 			shape: "rsquare"
-			description: ["{chapter.9.quest.25.description.1}"]
+			description: ["{chapter.10.quest.25.description.1}"]
 			dependencies: ["5E24012A3D9B72A1"]
 			id: "397165BB305A887E"
 			tasks: [{
 				id: "773E8781B09CA753"
 				type: "item"
-				title: "{chapter.9.quest.25.task.1.title}"
+				title: "{chapter.10.quest.25.task.1.title}"
 				item: {
 					id: "itemfilters:id_regex"
 					Count: 1b
@@ -927,7 +927,7 @@
 			x: 2.0d
 			y: 2.5d
 			shape: "rsquare"
-			description: ["{chapter.9.quest.26.description.1}"]
+			description: ["{chapter.10.quest.26.description.1}"]
 			dependencies: ["4E8A05C3BFA80540"]
 			id: "2F556E7919582D2D"
 			tasks: [{
@@ -952,8 +952,8 @@
 			x: 2.0d
 			y: 0.5d
 			shape: "rsquare"
-			subtitle: "{chapter.9.quest.27.subtitle}"
-			description: ["{chapter.9.quest.27.description.1}"]
+			subtitle: "{chapter.10.quest.27.subtitle}"
+			description: ["{chapter.10.quest.27.description.1}"]
 			dependencies: ["4E8A05C3BFA80540"]
 			id: "7B7D1F0CB326B28F"
 			tasks: [{
@@ -978,8 +978,8 @@
 			x: 12.5d
 			y: 0.5d
 			shape: "rsquare"
-			subtitle: "{chapter.9.quest.28.subtitle}"
-			description: ["{chapter.9.quest.28.description.1}"]
+			subtitle: "{chapter.10.quest.28.subtitle}"
+			description: ["{chapter.10.quest.28.description.1}"]
 			dependencies: ["74FC0DDDB91DB172"]
 			id: "5E7E35CCAF1C88EE"
 			tasks: [{
@@ -1004,8 +1004,8 @@
 			x: 14.5d
 			y: 0.5d
 			shape: "rsquare"
-			subtitle: "{chapter.9.quest.29.subtitle}"
-			description: ["{chapter.9.quest.29.description.1}"]
+			subtitle: "{chapter.10.quest.29.subtitle}"
+			description: ["{chapter.10.quest.29.description.1}"]
 			dependencies: ["74FC0DDDB91DB172"]
 			id: "083D458032F0325C"
 			tasks: [{
@@ -1030,8 +1030,8 @@
 			x: 12.5d
 			y: -1.5d
 			shape: "rsquare"
-			subtitle: "{chapter.9.quest.30.subtitle}"
-			description: ["{chapter.9.quest.30.description.1}"]
+			subtitle: "{chapter.10.quest.30.subtitle}"
+			description: ["{chapter.10.quest.30.description.1}"]
 			dependencies: ["5E7E35CCAF1C88EE"]
 			id: "140DE53DC0FCD9F4"
 			tasks: [{
@@ -1056,8 +1056,8 @@
 			x: 14.5d
 			y: -1.5d
 			shape: "rsquare"
-			subtitle: "{chapter.9.quest.31.subtitle}"
-			description: ["{chapter.9.quest.31.description.1}"]
+			subtitle: "{chapter.10.quest.31.subtitle}"
+			description: ["{chapter.10.quest.31.description.1}"]
 			dependencies: ["083D458032F0325C"]
 			id: "525F25F4ADE45B50"
 			tasks: [{
@@ -1079,12 +1079,12 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.32.title}"
+			title: "{chapter.10.quest.32.title}"
 			x: 15.5d
 			y: 1.5d
 			shape: "rsquare"
-			subtitle: "{chapter.9.quest.32.subtitle}"
-			description: ["{chapter.9.quest.32.description.1}"]
+			subtitle: "{chapter.10.quest.32.subtitle}"
+			description: ["{chapter.10.quest.32.description.1}"]
 			dependencies: ["74FC0DDDB91DB172"]
 			id: "1710B3D05215A71E"
 			tasks: [{
@@ -1109,8 +1109,8 @@
 			x: 13.5d
 			y: -0.5d
 			shape: "rsquare"
-			subtitle: "{chapter.9.quest.33.subtitle}"
-			description: ["{chapter.9.quest.33.description.1}"]
+			subtitle: "{chapter.10.quest.33.subtitle}"
+			description: ["{chapter.10.quest.33.description.1}"]
 			dependencies: ["74FC0DDDB91DB172"]
 			id: "7EFBAF3E281D2EBE"
 			tasks: [{
@@ -1135,13 +1135,13 @@
 			x: 15.5d
 			y: -0.5d
 			shape: "circle"
-			description: ["{chapter.9.quest.34.description.1}"]
+			description: ["{chapter.10.quest.34.description.1}"]
 			dependencies: ["1710B3D05215A71E"]
 			id: "55186B8602689B66"
 			tasks: [{
 				id: "2D19A4EF2E4B7A55"
 				type: "item"
-				title: "{chapter.9.quest.34.task.1.title}"
+				title: "{chapter.10.quest.34.task.1.title}"
 				item: {
 					id: "ae2:memory_card"
 					Count: 1b
@@ -1165,8 +1165,8 @@
 			x: 2.0d
 			y: 3.5d
 			shape: "circle"
-			subtitle: "{chapter.9.quest.35.subtitle}"
-			description: ["{chapter.9.quest.35.description.1}"]
+			subtitle: "{chapter.10.quest.35.subtitle}"
+			description: ["{chapter.10.quest.35.description.1}"]
 			dependencies: ["2F556E7919582D2D"]
 			id: "3195A7AA874163CD"
 			tasks: [{
@@ -1191,7 +1191,7 @@
 			x: 3.0d
 			y: 2.5d
 			shape: "circle"
-			description: ["{chapter.9.quest.36.description.1}"]
+			description: ["{chapter.10.quest.36.description.1}"]
 			dependencies: ["2F556E7919582D2D"]
 			id: "33ADE41526C39AFD"
 			tasks: [{
@@ -1215,13 +1215,13 @@
 		{
 			x: 7.5d
 			y: 2.5d
-			description: ["{chapter.9.quest.37.description.1}"]
+			description: ["{chapter.10.quest.37.description.1}"]
 			dependencies: ["361CCBD353D6FF34"]
 			id: "77C9EE701F72586D"
 			tasks: [{
 				id: "65C439FD14C5EEB9"
 				type: "item"
-				title: "{chapter.9.quest.37.task.1.title}"
+				title: "{chapter.10.quest.37.task.1.title}"
 				item: {
 					id: "itemfilters:id_regex"
 					Count: 1b
@@ -1247,7 +1247,7 @@
 			x: 13.5d
 			y: -2.5d
 			shape: "circle"
-			description: ["{chapter.9.quest.38.description.1}"]
+			description: ["{chapter.10.quest.38.description.1}"]
 			dependencies: ["7EFBAF3E281D2EBE"]
 			id: "371A382CF1DDF2B2"
 			tasks: [{
@@ -1269,12 +1269,12 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.39.title}"
+			title: "{chapter.10.quest.39.title}"
 			x: -9.0d
 			y: -0.5d
 			shape: "circle"
-			subtitle: "{chapter.9.quest.39.subtitle}"
-			description: ["{chapter.9.quest.39.description.1}"]
+			subtitle: "{chapter.10.quest.39.subtitle}"
+			description: ["{chapter.10.quest.39.description.1}"]
 			dependencies: ["2893F483C10293E6"]
 			id: "23DB492528A25B25"
 			tasks: [{
@@ -1296,12 +1296,12 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.40.title}"
+			title: "{chapter.10.quest.40.title}"
 			x: 14.5d
 			y: 2.5d
 			shape: "rsquare"
-			subtitle: "{chapter.9.quest.40.subtitle}"
-			description: ["{chapter.9.quest.40.description.1}"]
+			subtitle: "{chapter.10.quest.40.subtitle}"
+			description: ["{chapter.10.quest.40.description.1}"]
 			dependencies: ["74FC0DDDB91DB172"]
 			id: "2077D64428E9C067"
 			tasks: [{
@@ -1323,12 +1323,12 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.41.title}"
+			title: "{chapter.10.quest.41.title}"
 			icon: "ae2:blank_pattern"
 			x: 4.0d
 			y: -3.5d
 			shape: "rsquare"
-			description: ["{chapter.9.quest.41.description.1}"]
+			description: ["{chapter.10.quest.41.description.1}"]
 			dependencies: ["51DE3157DE3E57B8"]
 			id: "2C04B3BA507D5673"
 			tasks: [
@@ -1366,7 +1366,7 @@
 			x: 6.0d
 			y: -3.5d
 			shape: "rsquare"
-			description: ["{chapter.9.quest.42.description.1}"]
+			description: ["{chapter.10.quest.42.description.1}"]
 			dependencies: ["2C04B3BA507D5673"]
 			id: "4597D3B3BDC2BED5"
 			tasks: [{
@@ -1391,7 +1391,7 @@
 			x: 5.0d
 			y: -2.5d
 			shape: "rsquare"
-			description: ["{chapter.9.quest.43.description.1}"]
+			description: ["{chapter.10.quest.43.description.1}"]
 			dependencies: ["51DE3157DE3E57B8"]
 			id: "3DDB0DDA7571B2C1"
 			tasks: [{
@@ -1413,11 +1413,11 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.44.title}"
+			title: "{chapter.10.quest.44.title}"
 			x: 7.0d
 			y: -2.5d
 			shape: "circle"
-			description: ["{chapter.9.quest.44.description.1}"]
+			description: ["{chapter.10.quest.44.description.1}"]
 			dependencies: ["3DDB0DDA7571B2C1"]
 			id: "1AAF0B31B47AF23D"
 			tasks: [
@@ -1449,8 +1449,8 @@
 			x: 9.0d
 			y: -2.5d
 			shape: "circle"
-			subtitle: "{chapter.9.quest.45.subtitle}"
-			description: ["{chapter.9.quest.45.description.1}"]
+			subtitle: "{chapter.10.quest.45.subtitle}"
+			description: ["{chapter.10.quest.45.description.1}"]
 			dependencies: ["1AAF0B31B47AF23D"]
 			id: "5E6585F7627247E3"
 			tasks: [{
@@ -1474,7 +1474,7 @@
 		{
 			x: 2.0d
 			y: -3.5d
-			description: ["{chapter.9.quest.46.description.1}"]
+			description: ["{chapter.10.quest.46.description.1}"]
 			dependencies: ["51DE3157DE3E57B8"]
 			id: "5AA3E5DFECB4AC4D"
 			tasks: [{
@@ -1499,8 +1499,8 @@
 			x: 3.0d
 			y: -4.5d
 			shape: "rsquare"
-			subtitle: "{chapter.9.quest.47.subtitle}"
-			description: ["{chapter.9.quest.47.description.1}"]
+			subtitle: "{chapter.10.quest.47.subtitle}"
+			description: ["{chapter.10.quest.47.description.1}"]
 			dependencies: ["51DE3157DE3E57B8"]
 			id: "7234D2F9FCB968C4"
 			tasks: [{
@@ -1524,7 +1524,7 @@
 		{
 			x: 2.0d
 			y: -1.5d
-			description: ["{chapter.9.quest.48.description.1}"]
+			description: ["{chapter.10.quest.48.description.1}"]
 			dependencies: ["51DE3157DE3E57B8"]
 			id: "4DEACC65B5FA57FC"
 			tasks: [{
@@ -1548,7 +1548,7 @@
 		{
 			x: 1.0d
 			y: -2.5d
-			description: ["{chapter.9.quest.49.description.1}"]
+			description: ["{chapter.10.quest.49.description.1}"]
 			dependencies: ["5AA3E5DFECB4AC4D"]
 			id: "77EE3FF184FB6417"
 			tasks: [{
@@ -1570,18 +1570,18 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.50.title}"
+			title: "{chapter.10.quest.50.title}"
 			x: 7.5d
 			y: 0.5d
 			shape: "rsquare"
-			subtitle: "{chapter.9.quest.50.subtitle}"
-			description: ["{chapter.9.quest.50.description.1}"]
+			subtitle: "{chapter.10.quest.50.subtitle}"
+			description: ["{chapter.10.quest.50.description.1}"]
 			dependencies: ["361CCBD353D6FF34"]
 			id: "17F29706CE9A846E"
 			tasks: [{
 				id: "5A4954089684B71A"
 				type: "item"
-				title: "{chapter.9.quest.50.task.1.title}"
+				title: "{chapter.10.quest.50.task.1.title}"
 				item: {
 					id: "itemfilters:id_regex"
 					Count: 1b
@@ -1607,7 +1607,7 @@
 			x: 5.0d
 			y: -4.5d
 			shape: "rsquare"
-			description: ["{chapter.9.quest.51.description.1}"]
+			description: ["{chapter.10.quest.51.description.1}"]
 			dependencies: ["7234D2F9FCB968C4"]
 			id: "24D70F20329B965B"
 			tasks: [{
@@ -1632,7 +1632,7 @@
 			x: 7.0d
 			y: -4.5d
 			shape: "rsquare"
-			description: ["{chapter.9.quest.52.description.1}"]
+			description: ["{chapter.10.quest.52.description.1}"]
 			dependencies: ["24D70F20329B965B"]
 			id: "570C5B9BCBFBA26F"
 			tasks: [{
@@ -1657,8 +1657,8 @@
 			x: 10.5d
 			y: -3.5d
 			shape: "rsquare"
-			subtitle: "{chapter.9.quest.53.subtitle}"
-			description: ["{chapter.9.quest.53.description.1}"]
+			subtitle: "{chapter.10.quest.53.subtitle}"
+			description: ["{chapter.10.quest.53.description.1}"]
 			dependencies: ["67F41B121639F942"]
 			id: "3EC23876395F1E73"
 			tasks: [{
@@ -1680,11 +1680,11 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.54.title}"
+			title: "{chapter.10.quest.54.title}"
 			x: 9.0d
 			y: -4.5d
 			shape: "rsquare"
-			description: ["{chapter.9.quest.54.description.1}"]
+			description: ["{chapter.10.quest.54.description.1}"]
 			dependencies: ["570C5B9BCBFBA26F"]
 			id: "67F41B121639F942"
 			tasks: [
@@ -1721,7 +1721,7 @@
 			x: 8.0d
 			y: -3.5d
 			shape: "circle"
-			description: ["{chapter.9.quest.55.description.1}"]
+			description: ["{chapter.10.quest.55.description.1}"]
 			dependencies: ["4597D3B3BDC2BED5"]
 			id: "1F7DFA5AA65F2812"
 			tasks: [{
@@ -1743,11 +1743,11 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.56.title}"
+			title: "{chapter.10.quest.56.title}"
 			x: 11.799999999999997d
 			y: 4.050000000000001d
 			shape: "gear"
-			description: ["{chapter.9.quest.56.description.1}"]
+			description: ["{chapter.10.quest.56.description.1}"]
 			dependencies: ["40A7CC56DACC2623"]
 			size: 1.5d
 			id: "01F3F0C25BA72BDA"
@@ -1770,16 +1770,16 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.57.title}"
+			title: "{chapter.10.quest.57.title}"
 			x: 10.0d
 			y: 6.0d
-			description: ["{chapter.9.quest.57.description.1}"]
+			description: ["{chapter.10.quest.57.description.1}"]
 			dependencies: ["01F3F0C25BA72BDA"]
 			id: "18DFB25DC48D8BF7"
 			tasks: [{
 				id: "4E0C5E3A98293C08"
 				type: "item"
-				title: "{chapter.9.quest.57.task.1.title}"
+				title: "{chapter.10.quest.57.task.1.title}"
 				item: "ae2:spatial_pylon"
 			}]
 			rewards: [
@@ -1798,7 +1798,7 @@
 		{
 			x: 12.0d
 			y: 6.0d
-			description: ["{chapter.9.quest.58.description.1}"]
+			description: ["{chapter.10.quest.58.description.1}"]
 			dependencies: ["18DFB25DC48D8BF7"]
 			id: "2897FA291E5A38D8"
 			tasks: [{
@@ -1822,13 +1822,13 @@
 		{
 			x: 8.0d
 			y: 6.0d
-			description: ["{chapter.9.quest.59.description.1}"]
+			description: ["{chapter.10.quest.59.description.1}"]
 			dependencies: ["18DFB25DC48D8BF7"]
 			id: "6F3D0A248B5A9CA2"
 			tasks: [{
 				id: "75924053D6F5B242"
 				type: "item"
-				title: "{chapter.9.quest.59.task.1.title}"
+				title: "{chapter.10.quest.59.task.1.title}"
 				item: {
 					id: "itemfilters:id_regex"
 					Count: 1b
@@ -1854,14 +1854,14 @@
 			x: 4.0d
 			y: -1.5d
 			shape: "rsquare"
-			subtitle: "{chapter.9.quest.60.subtitle}"
-			description: ["{chapter.9.quest.60.description.1}"]
+			subtitle: "{chapter.10.quest.60.subtitle}"
+			description: ["{chapter.10.quest.60.description.1}"]
 			dependencies: ["51DE3157DE3E57B8"]
 			id: "30E853CE699E669B"
 			tasks: [{
 				id: "08DA73B1AC17E5F5"
 				type: "item"
-				title: "{chapter.9.quest.60.task.1.title}"
+				title: "{chapter.10.quest.60.task.1.title}"
 				item: {
 					id: "itemfilters:id_regex"
 					Count: 1b
@@ -1887,14 +1887,14 @@
 			x: 6.0d
 			y: -1.5d
 			shape: "rsquare"
-			subtitle: "{chapter.9.quest.61.subtitle}"
-			description: ["{chapter.9.quest.61.description.1}"]
+			subtitle: "{chapter.10.quest.61.subtitle}"
+			description: ["{chapter.10.quest.61.description.1}"]
 			dependencies: ["30E853CE699E669B"]
 			id: "69B7DE2283B4EE6C"
 			tasks: [{
 				id: "5EC8D891031E34EF"
 				type: "item"
-				title: "{chapter.9.quest.61.task.1.title}"
+				title: "{chapter.10.quest.61.task.1.title}"
 				item: {
 					id: "itemfilters:id_regex"
 					Count: 1b
@@ -1920,14 +1920,14 @@
 			x: 8.0d
 			y: -1.5d
 			shape: "rsquare"
-			subtitle: "{chapter.9.quest.62.subtitle}"
-			description: ["{chapter.9.quest.62.description.1}"]
+			subtitle: "{chapter.10.quest.62.subtitle}"
+			description: ["{chapter.10.quest.62.description.1}"]
 			dependencies: ["69B7DE2283B4EE6C"]
 			id: "1348995F64A94396"
 			tasks: [{
 				id: "2D386EFC23C45581"
 				type: "item"
-				title: "{chapter.9.quest.62.task.1.title}"
+				title: "{chapter.10.quest.62.task.1.title}"
 				item: {
 					id: "itemfilters:id_regex"
 					Count: 1b
@@ -1950,20 +1950,20 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.63.title}"
+			title: "{chapter.10.quest.63.title}"
 			icon: "ae2:cable_anchor"
 			x: -5.5d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "{chapter.9.quest.63.subtitle}"
-			description: ["{chapter.9.quest.63.description.1}"]
+			subtitle: "{chapter.10.quest.63.subtitle}"
+			description: ["{chapter.10.quest.63.description.1}"]
 			dependencies: ["5C22E3103544B120"]
 			id: "6144202A97C6CD1C"
 			tasks: [
 				{
 					id: "23D186249A999B8C"
 					type: "item"
-					title: "{chapter.9.quest.63.task.1.title}"
+					title: "{chapter.10.quest.63.task.1.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -2001,11 +2001,11 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.64.title}"
+			title: "{chapter.10.quest.64.title}"
 			x: -4.5d
 			y: 2.5d
 			shape: "diamond"
-			description: ["{chapter.9.quest.64.description.1}"]
+			description: ["{chapter.10.quest.64.description.1}"]
 			dependencies: [
 				"066F1BBF3D0863C5"
 				"19CE95EDCB04AA89"
@@ -2035,12 +2035,12 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.65.title}"
+			title: "{chapter.10.quest.65.title}"
 			x: 5.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "{chapter.9.quest.65.subtitle}"
-			description: ["{chapter.9.quest.65.description.1}"]
+			subtitle: "{chapter.10.quest.65.subtitle}"
+			description: ["{chapter.10.quest.65.description.1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40A7CC56DACC2623"
@@ -2082,13 +2082,13 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.66.title}"
+			title: "{chapter.10.quest.66.title}"
 			icon: "ae2:security_station"
 			x: -2.049999999999999d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "{chapter.9.quest.66.subtitle}"
-			description: ["{chapter.9.quest.66.description.1}"]
+			subtitle: "{chapter.10.quest.66.subtitle}"
+			description: ["{chapter.10.quest.66.description.1}"]
 			dependencies: ["40A7CC56DACC2623"]
 			size: 1.5d
 			id: "4D846582D408479D"
@@ -2121,7 +2121,7 @@
 			x: -0.5d
 			y: 6.0d
 			shape: "rsquare"
-			description: ["{chapter.9.quest.67.description.1}"]
+			description: ["{chapter.10.quest.67.description.1}"]
 			dependencies: ["4D846582D408479D"]
 			id: "2B31E6C1707D8195"
 			tasks: [
@@ -2150,11 +2150,11 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.68.title}"
+			title: "{chapter.10.quest.68.title}"
 			x: -4.0d
 			y: 4.5d
 			shape: "rsquare"
-			description: ["{chapter.9.quest.68.description.1}"]
+			description: ["{chapter.10.quest.68.description.1}"]
 			dependencies: ["4D846582D408479D"]
 			id: "5BB887411B8B38FA"
 			tasks: [
@@ -2186,8 +2186,8 @@
 			x: 2.0d
 			y: 6.0d
 			shape: "rsquare"
-			subtitle: "{chapter.9.quest.69.subtitle}"
-			description: ["{chapter.9.quest.69.description.1}"]
+			subtitle: "{chapter.10.quest.69.subtitle}"
+			description: ["{chapter.10.quest.69.description.1}"]
 			dependencies: ["2B31E6C1707D8195"]
 			id: "16299B9AE87257DC"
 			tasks: [
@@ -2216,11 +2216,11 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.70.title}"
+			title: "{chapter.10.quest.70.title}"
 			x: 4.5d
 			y: 6.0d
-			subtitle: "{chapter.9.quest.70.subtitle}"
-			description: ["{chapter.9.quest.70.description.1}"]
+			subtitle: "{chapter.10.quest.70.subtitle}"
+			description: ["{chapter.10.quest.70.description.1}"]
 			dependencies: ["16299B9AE87257DC"]
 			id: "234DC1702333EB18"
 			tasks: [
@@ -2249,13 +2249,13 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.71.title}"
+			title: "{chapter.10.quest.71.title}"
 			icon: "ae2:singularity"
 			x: -6.0d
 			y: 4.5d
 			shape: "rsquare"
-			subtitle: "{chapter.9.quest.71.subtitle}"
-			description: ["{chapter.9.quest.71.description.1}"]
+			subtitle: "{chapter.10.quest.71.subtitle}"
+			description: ["{chapter.10.quest.71.description.1}"]
 			dependencies: ["5BB887411B8B38FA"]
 			id: "3E3DF8E967D95DB0"
 			tasks: [
@@ -2289,12 +2289,12 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.72.title}"
+			title: "{chapter.10.quest.72.title}"
 			x: 15.5d
 			y: -2.5d
 			shape: "circle"
-			subtitle: "{chapter.9.quest.72.subtitle}"
-			description: ["{chapter.9.quest.72.description.1}"]
+			subtitle: "{chapter.10.quest.72.subtitle}"
+			description: ["{chapter.10.quest.72.description.1}"]
 			dependencies: ["371A382CF1DDF2B2"]
 			id: "6E15447FC3D678E0"
 			tasks: [
@@ -2323,11 +2323,11 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.73.title}"
+			title: "{chapter.10.quest.73.title}"
 			x: -8.0d
 			y: 4.5d
 			shape: "rsquare"
-			description: ["{chapter.9.quest.73.description.1}"]
+			description: ["{chapter.10.quest.73.description.1}"]
 			dependencies: ["3E3DF8E967D95DB0"]
 			id: "0B218DD73FE8D985"
 			tasks: [
@@ -2364,11 +2364,11 @@
 			]
 		}
 		{
-			title: "{chapter.9.quest.74.title}"
+			title: "{chapter.10.quest.74.title}"
 			x: -3.0d
 			y: 1.5d
 			shape: "rsquare"
-			description: ["{chapter.9.quest.74.description.1}"]
+			description: ["{chapter.10.quest.74.description.1}"]
 			dependencies: ["5C22E3103544B120"]
 			id: "78311531069807DE"
 			tasks: [{

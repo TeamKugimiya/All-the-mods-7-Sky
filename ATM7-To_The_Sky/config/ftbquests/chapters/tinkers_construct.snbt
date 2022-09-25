@@ -1,0 +1,2199 @@
+{
+	id: "4F91F43F3651DB74"
+	group: "470D66B33874E150"
+	order_index: 0
+	filename: "tinkers_construct"
+	title: "{chapter.22.title}"
+	icon: {
+		id: "tconstruct:tinker_station"
+		Count: 1b
+		tag: {
+			texture: "minecraft:oak_planks"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -9.0d
+			y: -0.5d
+			shape: "octagon"
+			subtitle: "{chapter.22.quest.1.subtitle}"
+			description: ["{chapter.22.quest.1.description.1}"]
+			size: 1.5d
+			id: "681E777B4C8E19CF"
+			tasks: [{
+				id: "34CAB10421425B7F"
+				type: "checkmark"
+				title: "{chapter.22.quest.1.task.1.title}"
+			}]
+			rewards: [{
+				id: "280EE4ECA87B53D1"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "{chapter.22.quest.2.title}"
+			x: -7.0d
+			y: -0.5d
+			subtitle: "{chapter.22.quest.2.subtitle}"
+			description: ["{chapter.22.quest.2.description.1}"]
+			dependencies: ["681E777B4C8E19CF"]
+			id: "63318C8E26E28F58"
+			tasks: [{
+				id: "6E6A9B43E5936FD1"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 6L
+			}]
+			rewards: [
+				{
+					id: "127C1F9B87DBB586"
+					type: "item"
+					item: "tconstruct:pattern"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "40458073C2223A37"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			description: ["{chapter.22.quest.3.description.1}"]
+			dependencies: ["4E3BAD0EE3974503"]
+			id: "4E0F952F75FBC1C9"
+			tasks: [
+				{
+					id: "621FAD19ED0FD894"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "1060C73CDE482FE7"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7272A308B3B605FB"
+					type: "item"
+					item: "tconstruct:pattern"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "7A1D6C2D78607250"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			subtitle: "{chapter.22.quest.4.subtitle}"
+			description: ["{chapter.22.quest.4.description.1}"]
+			dependencies: ["4E0F952F75FBC1C9"]
+			optional: true
+			id: "6C934DA835ECBAB6"
+			tasks: [{
+				id: "3FB0279E97A1C58E"
+				type: "item"
+				item: "tconstruct:part_chest"
+			}]
+			rewards: [
+				{
+					id: "5A65C81A3B2505D0"
+					type: "item"
+					item: "tconstruct:pattern"
+					count: 2
+				}
+				{
+					id: "4FDD45D8D8C2A4E1"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			subtitle: "{chapter.22.quest.5.subtitle}"
+			description: ["{chapter.22.quest.5.description.1}"]
+			dependencies: ["4E0F952F75FBC1C9"]
+			optional: true
+			id: "6ECF405B1017AE53"
+			tasks: [{
+				id: "79E701B8D1414E05"
+				type: "item"
+				item: "tconstruct:tinkers_chest"
+			}]
+			rewards: [
+				{
+					id: "55761C8D2DADADA7"
+					type: "item"
+					item: "tconstruct:pattern"
+					count: 2
+				}
+				{
+					id: "2A993492F447F860"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.6.title}"
+			x: -1.0d
+			y: -0.5d
+			description: ["{chapter.22.quest.6.description.1}"]
+			dependencies: ["4E0F952F75FBC1C9"]
+			id: "66FB4821105A417E"
+			tasks: [
+				{
+					id: "3EDC127CFEF9C0A8"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rock"
+						}
+					}
+				}
+				{
+					id: "77B21F897E0868CA"
+					type: "item"
+					item: {
+						id: "tconstruct:pick_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rock"
+						}
+					}
+				}
+				{
+					id: "2632875F3AC02196"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rock"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "08827DBF3EF84DB9"
+					type: "item"
+					item: "minecraft:stone"
+					count: 4
+				}
+				{
+					id: "637ECF48A8F402FB"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.7.title}"
+			x: 1.0d
+			y: -0.5d
+			description: ["{chapter.22.quest.7.description.1}"]
+			dependencies: ["66FB4821105A417E"]
+			id: "4D580C89653F69AA"
+			tasks: [{
+				id: "050E9115DF330AF7"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 4.2f
+							"tconstruct:attack_damage": 1.0f
+							"tconstruct:harvest_tier": "minecraft:stone"
+							"tconstruct:durability": 116.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+							{
+								name: "tconstruct:stonebound"
+								level: 3s
+							}
+						]
+						tic_materials: [
+							"tconstruct:rock"
+							"tconstruct:rock"
+							"tconstruct:rock"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "30C69F1D2B71A028"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 8
+				}
+				{
+					id: "794018E99B1225DD"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			shape: "square"
+			description: ["{chapter.22.quest.8.description.1}"]
+			hide_dependency_lines: true
+			dependencies: ["3E9618EEC90169C3"]
+			hide: true
+			id: "3AC751D62C90AB7D"
+			tasks: [{
+				id: "1CC0640DDA90F52A"
+				type: "item"
+				item: {
+					id: "tconstruct:travelers_helmet"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 110.0f
+							"tconstruct:armor": 1.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "095E0A3C02B9BA87"
+					type: "item"
+					item: "minecraft:leather"
+					count: 2
+				}
+				{
+					id: "13F490A55ADA297D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			shape: "square"
+			description: ["{chapter.22.quest.9.description.1}"]
+			hide_dependency_lines: true
+			dependencies: ["3E9618EEC90169C3"]
+			hide: true
+			id: "1D29F9AF07663111"
+			tasks: [{
+				id: "709A1A9D3AABFAE0"
+				type: "item"
+				item: {
+					id: "tconstruct:travelers_chestplate"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 160.0f
+							"tconstruct:armor": 5.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0B1B97E1843E5057"
+					type: "item"
+					item: "minecraft:leather"
+					count: 2
+				}
+				{
+					id: "688770CB82181A2B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			shape: "square"
+			description: ["{chapter.22.quest.10.description.1}"]
+			hide_dependency_lines: true
+			dependencies: ["3E9618EEC90169C3"]
+			hide: true
+			id: "0DA42F096583C13C"
+			tasks: [{
+				id: "700AC57D0ACF1FCE"
+				type: "item"
+				item: {
+					id: "tconstruct:travelers_leggings"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 150.0f
+							"tconstruct:armor": 4.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7CCAE98342347C8A"
+					type: "item"
+					item: "minecraft:leather"
+					count: 2
+				}
+				{
+					id: "3DCE5B86E9A8AC10"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			shape: "square"
+			description: ["{chapter.22.quest.11.description.1}"]
+			hide_dependency_lines: true
+			dependencies: ["3E9618EEC90169C3"]
+			hide: true
+			id: "6D8D7E0A97E14F2B"
+			tasks: [{
+				id: "74F9810054D8EB4B"
+				type: "item"
+				item: {
+					id: "tconstruct:travelers_boots"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 130.0f
+							"tconstruct:armor": 1.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "273779C45A2214AC"
+					type: "item"
+					item: "minecraft:leather"
+					count: 2
+				}
+				{
+					id: "30CDBB4E2EFB493C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			shape: "diamond"
+			description: ["{chapter.22.quest.12.description.1}"]
+			dependencies: ["4D580C89653F69AA"]
+			size: 1.5d
+			id: "317872EB7FB600F4"
+			tasks: [{
+				id: "536A0DA9D3833EB2"
+				type: "checkmark"
+				title: "{chapter.22.quest.12.task.1.title}"
+			}]
+			rewards: [{
+				id: "541FF53B6B620C4B"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			shape: "diamond"
+			description: ["{chapter.22.quest.13.description.1}"]
+			dependencies: ["317872EB7FB600F4"]
+			id: "4D31658BCB3234D5"
+			tasks: [{
+				id: "11B59B175364E355"
+				type: "checkmark"
+				title: "{chapter.22.quest.13.task.1.title}"
+			}]
+			rewards: [{
+				id: "39851B1532A36866"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			shape: "diamond"
+			description: ["{chapter.22.quest.14.description.1}"]
+			dependencies: ["317872EB7FB600F4"]
+			id: "24535A5965EB8324"
+			tasks: [{
+				id: "10B656EADDAAD5BC"
+				type: "checkmark"
+				title: "{chapter.22.quest.14.task.1.title}"
+			}]
+			rewards: [{
+				id: "64D7777877CA749C"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "{chapter.22.quest.15.title}"
+			x: 1.0d
+			y: -4.0d
+			shape: "diamond"
+			description: ["{chapter.22.quest.15.description.1}"]
+			dependencies: ["317872EB7FB600F4"]
+			id: "7240E64810E9D832"
+			tasks: [{
+				id: "15D2B52AD79FCF54"
+				type: "checkmark"
+				title: "{chapter.22.quest.15.task.1.title}"
+			}]
+			rewards: [{
+				id: "5D7262C6E05329A0"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			shape: "diamond"
+			description: ["{chapter.22.quest.16.description.1}"]
+			dependencies: ["317872EB7FB600F4"]
+			id: "2948ECD7FB504F05"
+			tasks: [{
+				id: "0322FB95614F8672"
+				type: "checkmark"
+				title: "{chapter.22.quest.16.task.1.title}"
+			}]
+			rewards: [{
+				id: "4CD8C7A3B34B766F"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			shape: "diamond"
+			description: ["{chapter.22.quest.17.description.1}"]
+			dependencies: ["317872EB7FB600F4"]
+			id: "3E12B682BA858D79"
+			tasks: [{
+				id: "3EB37CED2BD3684A"
+				type: "checkmark"
+				title: "{chapter.22.quest.17.task.1.title}"
+			}]
+			rewards: [{
+				id: "3E6D66FE68D5CA8D"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "{chapter.22.quest.18.title}"
+			x: 3.0d
+			y: -0.5d
+			subtitle: "{chapter.22.quest.18.subtitle}"
+			description: ["{chapter.22.quest.18.description.1}"]
+			dependencies: ["4D580C89653F69AA"]
+			id: "5D4F82496A6D1228"
+			tasks: [{
+				id: "487B22C8735A2ECF"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "26F2490E60E67CFA"
+					type: "item"
+					item: "tconstruct:grout"
+					count: 8
+				}
+				{
+					id: "443C1FE5DFF3CD42"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			subtitle: "{chapter.22.quest.19.subtitle}"
+			description: ["{chapter.22.quest.19.description.1}"]
+			dependencies: ["63318C8E26E28F58"]
+			id: "4E3BAD0EE3974503"
+			tasks: [{
+				id: "3470A9B8D6C75484"
+				type: "item"
+				item: "tconstruct:materials_and_you"
+			}]
+			rewards: [
+				{
+					id: "3842E31DE5C28EAC"
+					type: "item"
+					item: "tconstruct:materials_and_you"
+				}
+				{
+					id: "01175E9DECA5B0DC"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			description: ["{chapter.22.quest.20.description.1}"]
+			dependencies: ["5D4F82496A6D1228"]
+			optional: true
+			id: "202C1C3E4F32BC62"
+			tasks: [{
+				id: "5B872818EE37EE6E"
+				type: "item"
+				item: "tconstruct:puny_smelting"
+			}]
+			rewards: [{
+				id: "73313AB1ED590B7F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{chapter.22.quest.21.title}"
+			x: 5.0d
+			y: 1.0d
+			description: ["{chapter.22.quest.21.description.1}"]
+			dependencies: ["5D4F82496A6D1228"]
+			id: "20F30F5FFD3D669D"
+			tasks: [{
+				id: "4ECA340F0B13246E"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "45A3DDD7E9EE6C41"
+					type: "item"
+					item: "tconstruct:seared_brick"
+					count: 8
+				}
+				{
+					id: "210EFE8836D5C96F"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.22.title}"
+			icon: "tconstruct:seared_melter"
+			x: 7.0d
+			y: 1.0d
+			description: [
+				"{chapter.22.quest.22.description.1}"
+				"{image:atm:textures/basic_melter.png width:200 height:150 align:1}"
+			]
+			dependencies: ["20F30F5FFD3D669D"]
+			id: "6DB1A9EDAAE6D12F"
+			tasks: [
+				{
+					id: "3DE5F08F9FD9261E"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 3L
+				}
+				{
+					id: "198F70795D1D162D"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "415D563EFA54D0B4"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "57759004B7A593B3"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "72EF56B5BF01B7A7"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "6DCFE80D576A51B4"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "78DEE685B1297282"
+					type: "item"
+					item: "tconstruct:seared_brick"
+					count: 16
+				}
+				{
+					id: "089CED85E7BE296A"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "70B9B5045ED1E393"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.23.title}"
+			x: 6.5d
+			y: -0.5d
+			description: ["{chapter.22.quest.23.description.1}"]
+			dependencies: ["6DB1A9EDAAE6D12F"]
+			optional: true
+			id: "7A49EC84CABC8B5F"
+			tasks: [{
+				id: "7835ABA7AED1C995"
+				type: "item"
+				item: "tconstruct:blank_sand_cast"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "3C23865CD6B19F75"
+					type: "item"
+					item: "tconstruct:blank_sand_cast"
+					count: 2
+				}
+				{
+					id: "27890A00132013B1"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.24.title}"
+			x: 7.5d
+			y: -0.5d
+			description: ["{chapter.22.quest.24.description.1}"]
+			dependencies: ["6DB1A9EDAAE6D12F"]
+			id: "5D1661EB762777E3"
+			tasks: [{
+				id: "356977F9A6FC2A45"
+				type: "item"
+				item: "tconstruct:ingot_cast"
+			}]
+			rewards: [
+				{
+					id: "432855073A576998"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+				{
+					id: "0C0DF2A27C56D01F"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.25.title}"
+			x: 11.0d
+			y: -0.5d
+			description: ["{chapter.22.quest.25.description.1}"]
+			dependencies: ["61EB8322B3E68C50"]
+			id: "506049B1F127462A"
+			tasks: [
+				{
+					id: "40ADC273F5D44DCA"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+				}
+				{
+					id: "08C4B1DE3B6D2EF2"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+			]
+			rewards: [
+				{
+					id: "70097EBD5FD3999C"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "036AA5EE1D7109FF"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.26.title}"
+			x: 11.0d
+			y: -3.0d
+			shape: "square"
+			description: [
+				"{chapter.22.quest.26.description.1}"
+				"{image:atm:textures/basic_smeltery2.png width:200 height:100 align:1}"
+			]
+			dependencies: ["506049B1F127462A"]
+			size: 1.5d
+			id: "71409AA6F3C56CCC"
+			tasks: [
+				{
+					id: "4EEE29D9B449D303"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 18L
+				}
+				{
+					id: "1998C202C2C79D45"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+			]
+			rewards: [
+				{
+					id: "53DE1D55ABAB5FE7"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 8
+				}
+				{
+					id: "3585CA56CD4C38A7"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "0DFD9AB2C6951D7F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			subtitle: "{chapter.22.quest.27.subtitle}"
+			description: ["{chapter.22.quest.27.description.1}"]
+			dependencies: ["6DB1A9EDAAE6D12F"]
+			id: "61EB8322B3E68C50"
+			tasks: [{
+				id: "47CED3C0AADE17AC"
+				type: "item"
+				item: "tconstruct:mighty_smelting"
+			}]
+			rewards: [{
+				id: "1555EB8AABC53C5E"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "{chapter.22.quest.28.title}"
+			x: 10.5d
+			y: -5.0d
+			shape: "diamond"
+			description: ["{chapter.22.quest.28.description.1}"]
+			dependencies: ["71409AA6F3C56CCC"]
+			optional: true
+			id: "740EE68B4E779115"
+			tasks: [
+				{
+					id: "0B71EE4D0F307829"
+					type: "item"
+					item: "tconstruct:seared_ladder"
+				}
+				{
+					id: "50C1E4D079FBE02E"
+					type: "item"
+					item: "tconstruct:seared_glass"
+				}
+			]
+			rewards: [
+				{
+					id: "06ADC89063647698"
+					type: "item"
+					item: "tconstruct:seared_brick"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "1358BF38F880072D"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.29.title}"
+			x: 11.5d
+			y: -5.0d
+			shape: "diamond"
+			description: ["{chapter.22.quest.29.description.1}"]
+			dependencies: ["71409AA6F3C56CCC"]
+			id: "2AD7445095E1822A"
+			tasks: [
+				{
+					id: "28F6D40B8B5A2D39"
+					type: "item"
+					item: "tconstruct:seared_duct"
+				}
+				{
+					id: "066CDE3E5A1C8AEB"
+					type: "item"
+					item: "tconstruct:seared_chute"
+				}
+			]
+			rewards: [
+				{
+					id: "6EA16F3E5DA49AF9"
+					type: "item"
+					item: "tconstruct:seared_brick"
+					count: 4
+				}
+				{
+					id: "69854B849BDE9C3B"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.30.title}"
+			x: 13.0d
+			y: -3.0d
+			description: ["{chapter.22.quest.30.description.1}"]
+			dependencies: ["71409AA6F3C56CCC"]
+			id: "63A17D740F3718F1"
+			tasks: [{
+				id: "14270AD6B80B4628"
+				type: "item"
+				item: "alltheores:bronze_block"
+			}]
+			rewards: [
+				{
+					id: "00CD9D44BCB705FB"
+					type: "item"
+					item: "alltheores:bronze_ingot"
+					count: 3
+					random_bonus: 3
+				}
+				{
+					id: "2DB76C89B9437FD7"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: -3.0d
+			shape: "rsquare"
+			subtitle: "{chapter.22.quest.31.subtitle}"
+			description: ["{chapter.22.quest.31.description.1}"]
+			dependencies: ["63A17D740F3718F1"]
+			id: "1E35D97AF9B2A0C8"
+			tasks: [{
+				id: "534231B9986B7876"
+				type: "item"
+				item: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: {
+						texture: "alltheores:bronze_block"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1BEC5A38A1C8159A"
+					type: "item"
+					item: {
+						id: "tconstruct:broad_blade"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:bronze"
+						}
+					}
+				}
+				{
+					id: "179970C0AF023F3C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.32.title}"
+			x: 11.0d
+			y: -5.5d
+			shape: "diamond"
+			subtitle: "{chapter.22.quest.32.subtitle}"
+			description: ["{chapter.22.quest.32.description.1}"]
+			dependencies: ["71409AA6F3C56CCC"]
+			id: "79FEF7F610F0DB64"
+			tasks: [{
+				id: "18B1E0EC9C938915"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+				count: 12L
+			}]
+			rewards: [
+				{
+					id: "1A41759A80120C0E"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 4
+				}
+				{
+					id: "4D290773F5C0A967"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			icon: "tconstruct:smeltery_controller"
+			x: 7.0d
+			y: 2.5d
+			description: ["{chapter.22.quest.33.description.1}"]
+			dependencies: ["6DB1A9EDAAE6D12F"]
+			optional: true
+			id: "01A303E16F56A744"
+			tasks: [{
+				id: "23353CA86237AE30"
+				type: "checkmark"
+				title: "{chapter.22.quest.33.task.1.title}"
+			}]
+			rewards: [{
+				id: "127FF1A55308259A"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			icon: "tconstruct:seared_basin"
+			x: 6.5d
+			y: 3.5d
+			shape: "diamond"
+			description: ["{chapter.22.quest.34.description.1}"]
+			dependencies: ["01A303E16F56A744"]
+			optional: true
+			id: "3341EC0F88729061"
+			tasks: [{
+				id: "0738C23F6D0FFADB"
+				type: "checkmark"
+				title: "{chapter.22.quest.34.task.1.title}"
+			}]
+			rewards: [{
+				id: "1BA529454AD71699"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			icon: "tconstruct:seared_faucet"
+			x: 7.5d
+			y: 3.5d
+			shape: "diamond"
+			description: ["{chapter.22.quest.35.description.1}"]
+			dependencies: ["01A303E16F56A744"]
+			optional: true
+			id: "3D4D2D0B160E22B5"
+			tasks: [{
+				id: "2562C1A8B4DB2EBB"
+				type: "checkmark"
+				title: "{chapter.22.quest.35.task.1.title}"
+			}]
+		}
+		{
+			icon: "tconstruct:seared_fuel_tank"
+			x: 7.0d
+			y: 4.0d
+			shape: "diamond"
+			description: ["{chapter.22.quest.36.description.1}"]
+			dependencies: ["01A303E16F56A744"]
+			optional: true
+			id: "05BC6BF2AAA43091"
+			tasks: [{
+				id: "282F6F2D6CC2E09D"
+				type: "checkmark"
+				title: "{chapter.22.quest.36.task.1.title}"
+			}]
+			rewards: [{
+				id: "00290449960DE450"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "{chapter.22.quest.37.title}"
+			x: 9.0d
+			y: -3.5d
+			shape: "hexagon"
+			subtitle: "{chapter.22.quest.37.subtitle}"
+			description: ["{chapter.22.quest.37.description.1}"]
+			dependencies: ["71409AA6F3C56CCC"]
+			optional: true
+			id: "00CB0F26B3751D32"
+			tasks: [{
+				id: "16789775F365204D"
+				type: "item"
+				item: "tconstruct:blood_slime_ball"
+			}]
+			rewards: [{
+				id: "58E07A76F21CD10B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "{chapter.22.quest.38.subtitle}"
+			description: ["{chapter.22.quest.38.description.1}"]
+			dependencies: ["71409AA6F3C56CCC"]
+			optional: true
+			id: "3CEC4B07D209B7AD"
+			tasks: [{
+				id: "377B7F651B40C0F6"
+				type: "item"
+				item: "tconstruct:encyclopedia"
+			}]
+			rewards: [{
+				id: "39F210080C2C6FDC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{chapter.22.quest.39.title}"
+			x: 15.0d
+			y: -0.5d
+			subtitle: "{chapter.22.quest.39.subtitle}"
+			description: ["{chapter.22.quest.39.description.1}"]
+			dependencies: ["1E35D97AF9B2A0C8"]
+			id: "085239E88B85820C"
+			tasks: [{
+				id: "7E9F548868BEB2FA"
+				type: "item"
+				item: "tconstruct:nether_grout"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "26561404443098F2"
+					type: "item"
+					item: "tconstruct:nether_grout"
+					count: 6
+					random_bonus: 6
+				}
+				{
+					id: "6C21856552B78399"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: -0.5d
+			subtitle: "{chapter.22.quest.40.subtitle}"
+			description: ["{chapter.22.quest.40.description.1}"]
+			dependencies: ["085239E88B85820C"]
+			optional: true
+			id: "7675F195F6D5F8B4"
+			tasks: [{
+				id: "42232A516F1FD4F6"
+				type: "item"
+				item: "tconstruct:fantastic_foundry"
+			}]
+			rewards: [{
+				id: "7C58D43BD65FE70F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{chapter.22.quest.41.title}"
+			icon: "tconstruct:scorched_bricks"
+			x: 15.0d
+			y: 2.5d
+			description: ["{chapter.22.quest.41.description.1}"]
+			dependencies: ["5F6D253B5D900724"]
+			id: "5FAFAEC103BE62DD"
+			tasks: [
+				{
+					id: "78B14C96E2FCE9BA"
+					type: "item"
+					item: "tconstruct:scorched_bricks"
+				}
+				{
+					id: "636F5BF28DB30A27"
+					type: "item"
+					item: "minecraft:obsidian"
+				}
+				{
+					id: "4FC9AD1C3A09F27F"
+					type: "item"
+					item: "tconstruct:foundry_controller"
+				}
+			]
+			rewards: [
+				{
+					id: "3648F56E2A4CBED5"
+					type: "item"
+					item: "tconstruct:scorched_bricks"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "5AC46217F06A5C61"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.42.title}"
+			x: 15.0d
+			y: 1.0d
+			description: ["{chapter.22.quest.42.description.1}"]
+			dependencies: ["085239E88B85820C"]
+			id: "5F6D253B5D900724"
+			tasks: [{
+				id: "319C6349A20B7C7A"
+				type: "item"
+				item: "tconstruct:scorched_brick"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "56A8465D58C6D65F"
+					type: "item"
+					item: "tconstruct:scorched_brick"
+					count: 8
+					random_bonus: 8
+				}
+				{
+					id: "67758A26C5EF748E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.43.title}"
+			icon: "tconstruct:foundry_controller"
+			x: 15.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"{chapter.22.quest.43.description.1}"
+				"{image:atm:textures/basic_foundry.png width:200 height:150 align:1}"
+			]
+			dependencies: ["5FAFAEC103BE62DD"]
+			size: 1.5d
+			id: "073B3F17C6110A73"
+			tasks: [
+				{
+					id: "0D85D26357A4519B"
+					type: "item"
+					item: "tconstruct:scorched_bricks"
+					count: 16L
+				}
+				{
+					id: "135F9155412A324E"
+					type: "item"
+					item: "tconstruct:scorched_fuel_tank"
+				}
+				{
+					id: "4F6FEC6577607A4B"
+					type: "item"
+					item: "tconstruct:scorched_drain"
+				}
+				{
+					id: "04A2A3EAF99526E3"
+					type: "item"
+					item: "tconstruct:scorched_table"
+				}
+				{
+					id: "4CF07DE3D1810B0A"
+					type: "item"
+					item: "tconstruct:scorched_basin"
+				}
+				{
+					id: "2D5888945AE1A6DE"
+					type: "item"
+					item: "tconstruct:scorched_faucet"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "0007AA5AED9C0FD1"
+					type: "item"
+					item: "tconstruct:scorched_bricks"
+					count: 8
+					random_bonus: 8
+				}
+				{
+					id: "0C5D7E4308EFBBA0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.44.title}"
+			x: 13.0d
+			y: 4.5d
+			description: ["{chapter.22.quest.44.description.1}"]
+			dependencies: ["073B3F17C6110A73"]
+			optional: true
+			id: "2FCE10E2126AB563"
+			tasks: [
+				{
+					id: "780AADB9124502A9"
+					type: "item"
+					item: "tconstruct:scorched_glass"
+				}
+				{
+					id: "78D90B46E670817A"
+					type: "item"
+					item: "tconstruct:scorched_duct"
+				}
+				{
+					id: "739B99391BF1C2CB"
+					type: "item"
+					item: "tconstruct:scorched_chute"
+				}
+			]
+			rewards: [
+				{
+					id: "25923BD4F23BEE66"
+					type: "item"
+					item: "tconstruct:scorched_bricks"
+					count: 4
+				}
+				{
+					id: "3D04A5A554AD9D55"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 6.5d
+			subtitle: "{chapter.22.quest.45.subtitle}"
+			description: [
+				"{chapter.22.quest.45.description.1}"
+				"{image:atm:textures/basic_alloyer.png width:200 height:125 align:1}"
+			]
+			dependencies: ["073B3F17C6110A73"]
+			optional: true
+			id: "7AA0E88863D30B5D"
+			tasks: [
+				{
+					id: "7EF6A858AEB29DA8"
+					type: "item"
+					item: "tconstruct:scorched_alloyer"
+				}
+				{
+					id: "0CDC73E8DBA50FA7"
+					type: "item"
+					item: "tconstruct:scorched_ingot_tank"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "570DFB8FD01BEA9A"
+					type: "item"
+					item: "tconstruct:scorched_bricks"
+					count: 16
+				}
+				{
+					id: "027996FB738F9863"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.46.title}"
+			x: 17.0d
+			y: 4.5d
+			subtitle: "{chapter.22.quest.46.subtitle}"
+			description: ["{chapter.22.quest.46.description.1}"]
+			dependencies: ["073B3F17C6110A73"]
+			id: "2B7EFB6A2605BEFD"
+			tasks: [{
+				id: "46420D96D907C511"
+				type: "item"
+				item: "tconstruct:blaze_head"
+			}]
+			rewards: [
+				{
+					id: "177560D67E95D1DD"
+					type: "item"
+					item: "tconstruct:blazing_blood_bucket"
+				}
+				{
+					id: "4EA2AF67FEA31605"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.47.title}"
+			x: 17.0d
+			y: 6.5d
+			description: ["{chapter.22.quest.47.description.1}"]
+			dependencies: ["2B7EFB6A2605BEFD"]
+			optional: true
+			id: "729B02AE3CDD52AD"
+			tasks: [
+				{
+					id: "6CBF02F660781BEB"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 2L
+				}
+				{
+					id: "3EF210DD4581E94F"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "1DE67536C429D4EF"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "6BCA350317D8DB4B"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+			]
+			rewards: [
+				{
+					id: "18A7AB1B620B2E07"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1015DAE6FDD73726"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 2
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -1.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["7D87F961B76246CA"]
+			id: "47036143F1C1ACBF"
+			tasks: [{
+				id: "54D194010E11D42A"
+				type: "item"
+				item: {
+					id: "tconstruct:plate_helmet"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:armor_toughness": 2.0f
+							"tconstruct:knockback_resistance": 0.1f
+							"tconstruct:durability": 330.0f
+							"tconstruct:armor": 2.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 4
+							upgrades: 1
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "79A447E0D666AAE3"
+					type: "item"
+					item: "tconstruct:cobalt_ingot"
+					count: 2
+				}
+				{
+					id: "3435D8453EDE3FF6"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -0.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["7D87F961B76246CA"]
+			id: "1A1FC33BF6FA46D0"
+			tasks: [{
+				id: "09F3B5DFA9F04C81"
+				type: "item"
+				item: {
+					id: "tconstruct:plate_chestplate"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:armor_toughness": 2.0f
+							"tconstruct:knockback_resistance": 0.1f
+							"tconstruct:durability": 480.0f
+							"tconstruct:armor": 7.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 4
+							upgrades: 1
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0F91754ABCE08DC6"
+					type: "item"
+					item: "tconstruct:cobalt_ingot"
+					count: 2
+				}
+				{
+					id: "7E02FA1499953328"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 1.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["7D87F961B76246CA"]
+			id: "7A915BE0EB750D10"
+			tasks: [{
+				id: "3252DBE061633FAE"
+				type: "item"
+				item: {
+					id: "tconstruct:plate_leggings"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:armor_toughness": 2.0f
+							"tconstruct:knockback_resistance": 0.1f
+							"tconstruct:durability": 450.0f
+							"tconstruct:armor": 5.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 4
+							upgrades: 1
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "349787C18996CE25"
+					type: "item"
+					item: "tconstruct:cobalt_ingot"
+					count: 2
+				}
+				{
+					id: "419C93B2BDA259FB"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 2.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["7D87F961B76246CA"]
+			id: "3AA240330D9BCC13"
+			tasks: [{
+				id: "4B146B86BEE3404C"
+				type: "item"
+				item: {
+					id: "tconstruct:plate_boots"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:armor_toughness": 2.0f
+							"tconstruct:knockback_resistance": 0.1f
+							"tconstruct:durability": 390.0f
+							"tconstruct:armor": 2.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 4
+							upgrades: 1
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "67A0C096209E5691"
+					type: "item"
+					item: "tconstruct:cobalt_ingot"
+					count: 2
+				}
+				{
+					id: "3480693D24A93EE7"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.52.title}"
+			x: 15.0d
+			y: -5.0d
+			shape: "diamond"
+			subtitle: "{chapter.22.quest.52.subtitle}"
+			description: ["{chapter.22.quest.52.description.1}"]
+			dependencies: ["1E35D97AF9B2A0C8"]
+			optional: true
+			id: "4284DC447ED43032"
+			tasks: [{
+				id: "5F6A0DAD14C22789"
+				type: "item"
+				item: {
+					id: "tconstruct:cleaver"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.25f
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:durability": 3.5f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 1.0f
+							"tconstruct:mining_speed": 1.5f
+							"tconstruct:attack_damage": 7.5f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:durability": 1540.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:severing"
+								level: 2s
+							}
+							{
+								name: "tconstruct:sturdy"
+								level: 4s
+							}
+							{
+								name: "tconstruct:silky_aoe_shears"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "70EC3A03C84168B3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{chapter.22.quest.53.title}"
+			x: 14.5d
+			y: -5.5d
+			shape: "diamond"
+			subtitle: "{chapter.22.quest.53.subtitle}"
+			dependencies: ["1E35D97AF9B2A0C8"]
+			optional: true
+			id: "7FF7E8F009D21285"
+			tasks: [{
+				id: "55CD41E6BCDD8924"
+				type: "item"
+				item: {
+					id: "tconstruct:excavator"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 1.2f
+							"tconstruct:durability": 3.75f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 1.0f
+							"tconstruct:mining_speed": 1.8000001f
+							"tconstruct:attack_damage": 4.2000003f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:durability": 1650.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:knockback"
+								level: 2s
+							}
+							{
+								name: "tconstruct:sturdy"
+								level: 4s
+							}
+							{
+								name: "tconstruct:shovel_flatten"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D7BECFB14E67900"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{chapter.22.quest.54.title}"
+			x: 15.0d
+			y: -6.0d
+			shape: "diamond"
+			subtitle: "{chapter.22.quest.54.subtitle}"
+			dependencies: ["1E35D97AF9B2A0C8"]
+			optional: true
+			id: "7C518B3A86E4869F"
+			tasks: [{
+				id: "7F17C4A012A6EF0D"
+				type: "item"
+				item: {
+					id: "tconstruct:vein_hammer"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 1.25f
+							"tconstruct:durability": 5.0f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.85f
+							"tconstruct:mining_speed": 1.8000001f
+							"tconstruct:attack_damage": 5.0f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:durability": 2200.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:piercing"
+								level: 2s
+							}
+							{
+								name: "tconstruct:sturdy"
+								level: 4s
+							}
+						]
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2019775866C688BC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{chapter.22.quest.55.title}"
+			x: 14.0d
+			y: -5.0d
+			shape: "diamond"
+			subtitle: "{chapter.22.quest.55.subtitle}"
+			dependencies: ["1E35D97AF9B2A0C8"]
+			optional: true
+			id: "35BA7E1421AADE3A"
+			tasks: [{
+				id: "467762FC002733D1"
+				type: "item"
+				item: {
+					id: "tconstruct:sledge_hammer"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.4f
+							"tconstruct:attack_damage": 1.35f
+							"tconstruct:durability": 4.0f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.75f
+							"tconstruct:mining_speed": 2.4f
+							"tconstruct:attack_damage": 6.75f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:durability": 1760.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:smite"
+								level: 2s
+							}
+							{
+								name: "tconstruct:sturdy"
+								level: 4s
+							}
+						]
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C6008A3A2A8FEE1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 16.0d
+			y: -5.0d
+			shape: "diamond"
+			subtitle: "{chapter.22.quest.56.subtitle}"
+			dependencies: ["1E35D97AF9B2A0C8"]
+			optional: true
+			id: "2E73CA4D82AB10E0"
+			tasks: [{
+				id: "3BB4A6D3ADBB14F2"
+				type: "item"
+				item: {
+					id: "tconstruct:broad_axe"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 1.65f
+							"tconstruct:durability": 4.25f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.6f
+							"tconstruct:mining_speed": 1.8000001f
+							"tconstruct:attack_damage": 11.55f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:durability": 1870.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:sturdy"
+								level: 4s
+							}
+							{
+								name: "tconstruct:axe_strip"
+								level: 1s
+							}
+							{
+								name: "tconstruct:axe_scrape"
+								level: 1s
+							}
+							{
+								name: "tconstruct:axe_wax_off"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "110F2DDD5639ED99"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 15.5d
+			y: -5.5d
+			shape: "diamond"
+			subtitle: "{chapter.22.quest.57.subtitle}"
+			dependencies: ["1E35D97AF9B2A0C8"]
+			optional: true
+			id: "0A2BC58800819C15"
+			tasks: [{
+				id: "155A9D8D5E9E5589"
+				type: "item"
+				item: {
+					id: "tconstruct:scythe"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.45f
+							"tconstruct:durability": 2.5f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.7f
+							"tconstruct:mining_speed": 2.6999998f
+							"tconstruct:attack_damage": 3.0f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:durability": 1100.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:sturdy"
+								level: 4s
+							}
+							{
+								name: "tconstruct:silky_aoe_shears"
+								level: 1s
+							}
+							{
+								name: "tconstruct:harvest"
+								level: 1s
+							}
+							{
+								name: "tconstruct:hoe_till"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E164BAE30AD659F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "tconstruct:pick_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+			x: 1.0d
+			y: 1.0d
+			shape: "diamond"
+			description: ["{chapter.22.quest.58.description.1}"]
+			dependencies: ["4D580C89653F69AA"]
+			optional: true
+			id: "748F70BEEAAE2AF9"
+			tasks: [{
+				id: "13CA35CA6EC15987"
+				type: "checkmark"
+				title: "{chapter.22.quest.58.task.1.title}"
+			}]
+			rewards: [{
+				id: "2BABD291D5576987"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "{chapter.22.quest.59.title}"
+			x: 18.5d
+			y: 4.5d
+			subtitle: "{chapter.22.quest.59.subtitle}"
+			description: [
+				"{chapter.22.quest.59.description.1}"
+				"{image:atm:textures/soul_lava.png width:200 height:175 align:1}"
+			]
+			dependencies: ["2B7EFB6A2605BEFD"]
+			id: "0858E8E6363138B8"
+			tasks: [{
+				id: "77A52F974A768434"
+				type: "item"
+				item: "allthemodium:soul_lava_bucket"
+			}]
+			rewards: [
+				{
+					id: "4C016BEDE92D8EDC"
+					type: "item"
+					item: "allthemodium:raw_allthemodium"
+					random_bonus: 1
+				}
+				{
+					id: "0D563339CE61E1B2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.60.title}"
+			x: 21.0d
+			y: 4.5d
+			shape: "octagon"
+			description: ["{chapter.22.quest.60.description.1}"]
+			dependencies: ["0858E8E6363138B8"]
+			size: 2.0d
+			id: "09E556E4EDDCDD2E"
+			tasks: [
+				{
+					id: "2791A85BEB9EA266"
+					type: "item"
+					item: "allthemodium:unobtainium_allthemodium_alloy_ingot"
+				}
+				{
+					id: "5F1462947C125699"
+					type: "item"
+					item: "allthemodium:unobtainium_vibranium_alloy_ingot"
+				}
+				{
+					id: "3E0AE3F55767AFEE"
+					type: "item"
+					item: "allthemodium:vibranium_allthemodium_alloy_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "5A32B340365ACC24"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6C2507450A16E07D"
+					type: "item"
+					item: "allthemodium:raw_allthemodium"
+				}
+				{
+					id: "0367196F6814D84C"
+					type: "item"
+					item: "allthemodium:raw_unobtainium"
+				}
+				{
+					id: "6950E9DCCBEE0806"
+					type: "item"
+					item: "allthemodium:raw_vibranium"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			description: ["{chapter.22.quest.61.description.1}"]
+			hide_dependency_lines: true
+			dependencies: ["681E777B4C8E19CF"]
+			id: "3E9618EEC90169C3"
+			tasks: [{
+				id: "428B3A5FD5E4796F"
+				type: "checkmark"
+				title: "{chapter.22.quest.61.task.1.title}"
+			}]
+			rewards: [
+				{
+					id: "34A717C853280A3B"
+					type: "item"
+					item: "minecraft:leather"
+					count: 2
+				}
+				{
+					id: "672A5B8298F1871E"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 0.5d
+			description: ["{chapter.22.quest.62.description.1}"]
+			id: "7D87F961B76246CA"
+			tasks: [{
+				id: "58647E9ACAD9FDB9"
+				type: "checkmark"
+				title: "{chapter.22.quest.62.task.1.title}"
+			}]
+			rewards: [{
+				id: "6FC67A906BE61358"
+				type: "xp"
+				xp: 10
+			}]
+		}
+	]
+}

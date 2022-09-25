@@ -3,7 +3,7 @@
 	group: "1AC60211DE7427FC"
 	order_index: 0
 	filename: "storage"
-	title: "{chapter.8.title}"
+	title: "{chapter.9.title}"
 	icon: "minecraft:chest"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -49,7 +49,7 @@
 		{
 			x: -3.9499999999999993d
 			y: -1.0d
-			subtitle: "{chapter.8.quest.1.subtitle}"
+			subtitle: "{chapter.9.quest.1.subtitle}"
 			id: "4C0BDD483CCB40C4"
 			tasks: [{
 				id: "00ED02255105A973"
@@ -63,18 +63,18 @@
 			}]
 		}
 		{
-			title: "{chapter.8.quest.2.title}"
+			title: "{chapter.9.quest.2.title}"
 			icon: "functionalstorage:oak_1"
 			x: -1.75d
 			y: -3.0d
-			subtitle: "{chapter.8.quest.2.subtitle}"
-			description: ["{chapter.8.quest.2.description.1}"]
+			subtitle: "{chapter.9.quest.2.subtitle}"
+			description: ["{chapter.9.quest.2.description.1}"]
 			dependencies: ["0682DC1F2417DAEB"]
 			id: "2746575C929B6C50"
 			tasks: [{
 				id: "79EC3CF180A5A940"
 				type: "item"
-				title: "{chapter.8.quest.2.task.1.title}"
+				title: "{chapter.9.quest.2.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -100,8 +100,8 @@
 			x: 2.75d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "{chapter.8.quest.3.subtitle}"
-			description: ["{chapter.8.quest.3.description.1}"]
+			subtitle: "{chapter.9.quest.3.subtitle}"
+			description: ["{chapter.9.quest.3.description.1}"]
 			dependencies: ["072FBEB0F6F1BC48"]
 			dependency_requirement: "one_started"
 			id: "2B422B7E0CE3590D"
@@ -127,8 +127,8 @@
 			x: 2.25d
 			y: -3.5d
 			shape: "diamond"
-			subtitle: "{chapter.8.quest.4.subtitle}"
-			description: ["{chapter.8.quest.4.description.1}"]
+			subtitle: "{chapter.9.quest.4.subtitle}"
+			description: ["{chapter.9.quest.4.description.1}"]
 			dependencies: ["072FBEB0F6F1BC48"]
 			dependency_requirement: "one_started"
 			id: "6FBAE89EE782DABA"
@@ -152,10 +152,10 @@
 			]
 		}
 		{
-			title: "{chapter.8.quest.5.title}"
+			title: "{chapter.9.quest.5.title}"
 			x: 5.5d
 			y: -1.0d
-			description: ["{chapter.8.quest.5.description.1}"]
+			description: ["{chapter.9.quest.5.description.1}"]
 			hide_dependency_lines: true
 			id: "3247179F0F0252A2"
 			tasks: [
@@ -177,11 +177,11 @@
 			}]
 		}
 		{
-			title: "{chapter.8.quest.6.title}"
+			title: "{chapter.9.quest.6.title}"
 			x: 5.5d
 			y: -3.0d
-			subtitle: "{chapter.8.quest.6.subtitle}"
-			description: ["{chapter.8.quest.6.description.1}"]
+			subtitle: "{chapter.9.quest.6.subtitle}"
+			description: ["{chapter.9.quest.6.description.1}"]
 			hide_dependency_lines: true
 			id: "17DC77F7F8C68AE6"
 			tasks: [
@@ -215,7 +215,7 @@
 			]
 		}
 		{
-			title: "{chapter.8.quest.7.title}"
+			title: "{chapter.9.quest.7.title}"
 			x: 6.5d
 			y: -3.0d
 			hide_dependency_lines: true
@@ -242,7 +242,7 @@
 		{
 			x: 6.5d
 			y: -1.0d
-			description: ["{chapter.8.quest.8.description.1}"]
+			description: ["{chapter.9.quest.8.description.1}"]
 			hide_dependency_lines: true
 			id: "73F94E2FECDD1DD5"
 			tasks: [{
@@ -265,12 +265,12 @@
 			]
 		}
 		{
-			title: "{chapter.8.quest.9.title}"
+			title: "{chapter.9.quest.9.title}"
 			x: 2.25d
 			y: -2.5d
 			shape: "diamond"
-			subtitle: "{chapter.8.quest.9.subtitle}"
-			description: ["{chapter.8.quest.9.description.1}"]
+			subtitle: "{chapter.9.quest.9.subtitle}"
+			description: ["{chapter.9.quest.9.description.1}"]
 			dependencies: ["072FBEB0F6F1BC48"]
 			id: "1A4B1CA7EC15348E"
 			tasks: [{
@@ -292,19 +292,19 @@
 			]
 		}
 		{
-			title: "{chapter.8.quest.10.title}"
+			title: "{chapter.9.quest.10.title}"
 			icon: "functionalstorage:storage_controller"
 			x: -4.0d
 			y: -3.0d
 			shape: "square"
-			subtitle: "{chapter.8.quest.10.subtitle}"
-			description: ["{chapter.8.quest.10.description.1}"]
+			subtitle: "{chapter.9.quest.10.subtitle}"
+			description: ["{chapter.9.quest.10.description.1}"]
 			size: 1.5d
 			id: "0682DC1F2417DAEB"
 			tasks: [{
 				id: "4B299AC7F0233132"
 				type: "checkmark"
-				title: "{chapter.8.quest.10.task.1.title}"
+				title: "{chapter.9.quest.10.task.1.title}"
 			}]
 			rewards: [{
 				id: "6E8586BE04F26897"
@@ -316,8 +316,8 @@
 			x: -4.0d
 			y: 1.0d
 			shape: "square"
-			subtitle: "{chapter.8.quest.11.subtitle}"
-			description: ["{chapter.8.quest.11.description.1}"]
+			subtitle: "{chapter.9.quest.11.subtitle}"
+			description: ["{chapter.9.quest.11.description.1}"]
 			size: 1.5d
 			id: "6A2B2C5E2ADCE366"
 			tasks: [{
@@ -334,7 +334,7 @@
 		{
 			x: -1.85d
 			y: 1.0d
-			subtitle: "{chapter.8.quest.12.subtitle}"
+			subtitle: "{chapter.9.quest.12.subtitle}"
 			dependencies: ["6A2B2C5E2ADCE366"]
 			id: "0E057B7F76401421"
 			tasks: [{
@@ -359,8 +359,8 @@
 		{
 			x: -1.85d
 			y: 2.5d
-			subtitle: "{chapter.8.quest.13.subtitle}"
-			description: ["{chapter.8.quest.13.description.1}"]
+			subtitle: "{chapter.9.quest.13.subtitle}"
+			description: ["{chapter.9.quest.13.description.1}"]
 			dependencies: ["6A2B2C5E2ADCE366"]
 			id: "1FE052F643401232"
 			tasks: [{
@@ -386,7 +386,7 @@
 			x: -2.0d
 			y: 6.0d
 			shape: "circle"
-			subtitle: "{chapter.8.quest.14.subtitle}"
+			subtitle: "{chapter.9.quest.14.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -406,7 +406,7 @@
 		{
 			x: -1.0d
 			y: 6.0d
-			subtitle: "{chapter.8.quest.15.subtitle}"
+			subtitle: "{chapter.9.quest.15.subtitle}"
 			dependencies: ["0E0CAA31480EC0A1"]
 			hide: true
 			optional: true
@@ -425,7 +425,7 @@
 		{
 			x: 0.5d
 			y: 6.0d
-			subtitle: "{chapter.8.quest.16.subtitle}"
+			subtitle: "{chapter.9.quest.16.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -463,7 +463,7 @@
 		{
 			x: 6.5d
 			y: 1.0d
-			subtitle: "{chapter.8.quest.18.subtitle}"
+			subtitle: "{chapter.9.quest.18.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -501,7 +501,7 @@
 		{
 			x: 5.5d
 			y: 3.5d
-			subtitle: "{chapter.8.quest.20.subtitle}"
+			subtitle: "{chapter.9.quest.20.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -539,7 +539,7 @@
 		{
 			x: 6.5d
 			y: 3.5d
-			subtitle: "{chapter.8.quest.22.subtitle}"
+			subtitle: "{chapter.9.quest.22.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -577,8 +577,8 @@
 		{
 			x: 5.5d
 			y: 1.0d
-			subtitle: "{chapter.8.quest.24.subtitle}"
-			description: ["{chapter.8.quest.24.description.1}"]
+			subtitle: "{chapter.9.quest.24.subtitle}"
+			description: ["{chapter.9.quest.24.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -616,8 +616,8 @@
 		{
 			x: 3.0d
 			y: 6.0d
-			subtitle: "{chapter.8.quest.26.subtitle}"
-			description: ["{chapter.8.quest.26.description.1}"]
+			subtitle: "{chapter.9.quest.26.subtitle}"
+			description: ["{chapter.9.quest.26.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -655,7 +655,7 @@
 		{
 			x: 4.25d
 			y: 3.5d
-			subtitle: "{chapter.8.quest.28.subtitle}"
+			subtitle: "{chapter.9.quest.28.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -675,7 +675,7 @@
 		{
 			x: 4.25d
 			y: 4.5d
-			subtitle: "{chapter.8.quest.29.subtitle}"
+			subtitle: "{chapter.9.quest.29.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -695,7 +695,7 @@
 		{
 			x: 5.5d
 			y: 6.0d
-			subtitle: "{chapter.8.quest.30.subtitle}"
+			subtitle: "{chapter.9.quest.30.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -715,7 +715,7 @@
 		{
 			x: 6.5d
 			y: 6.0d
-			subtitle: "{chapter.8.quest.31.subtitle}"
+			subtitle: "{chapter.9.quest.31.subtitle}"
 			dependencies: ["668C313FF46B6005"]
 			hide: true
 			optional: true
@@ -734,7 +734,7 @@
 		{
 			x: -4.0d
 			y: 5.0d
-			subtitle: "{chapter.8.quest.32.subtitle}"
+			subtitle: "{chapter.9.quest.32.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -772,7 +772,7 @@
 		{
 			x: -4.0d
 			y: 2.5d
-			subtitle: "{chapter.8.quest.34.subtitle}"
+			subtitle: "{chapter.9.quest.34.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -810,7 +810,7 @@
 		{
 			x: 4.25d
 			y: 2.5d
-			subtitle: "{chapter.8.quest.36.subtitle}"
+			subtitle: "{chapter.9.quest.36.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -830,7 +830,7 @@
 		{
 			x: 1.25d
 			y: 3.5d
-			subtitle: "{chapter.8.quest.37.subtitle}"
+			subtitle: "{chapter.9.quest.37.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -850,7 +850,7 @@
 		{
 			x: -1.85d
 			y: 4.5d
-			subtitle: "{chapter.8.quest.38.subtitle}"
+			subtitle: "{chapter.9.quest.38.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -924,7 +924,7 @@
 		{
 			x: 2.75d
 			y: 3.5d
-			subtitle: "{chapter.8.quest.42.subtitle}"
+			subtitle: "{chapter.9.quest.42.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -944,7 +944,7 @@
 		{
 			x: -1.85d
 			y: 3.5d
-			subtitle: "{chapter.8.quest.43.subtitle}"
+			subtitle: "{chapter.9.quest.43.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -964,7 +964,7 @@
 		{
 			x: -0.25d
 			y: 3.5d
-			subtitle: "{chapter.8.quest.44.subtitle}"
+			subtitle: "{chapter.9.quest.44.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -984,7 +984,7 @@
 		{
 			x: -0.25d
 			y: 2.5d
-			subtitle: "{chapter.8.quest.45.subtitle}"
+			subtitle: "{chapter.9.quest.45.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: false
@@ -1129,7 +1129,7 @@
 			x: 0.25d
 			y: -3.0d
 			shape: "circle"
-			description: ["{chapter.8.quest.51.description.1}"]
+			description: ["{chapter.9.quest.51.description.1}"]
 			dependencies: ["2746575C929B6C50"]
 			id: "072FBEB0F6F1BC48"
 			tasks: [{
@@ -1158,7 +1158,7 @@
 			tasks: [{
 				id: "6E16486D04B63395"
 				type: "checkmark"
-				title: "{chapter.8.quest.52.task.1.title}"
+				title: "{chapter.9.quest.52.task.1.title}"
 			}]
 			rewards: [{
 				id: "78B984A7128F5AB2"
@@ -1170,7 +1170,7 @@
 			x: -2.25d
 			y: -6.0d
 			shape: "diamond"
-			subtitle: "{chapter.8.quest.53.subtitle}"
+			subtitle: "{chapter.9.quest.53.subtitle}"
 			dependencies: ["009A4AA36AA30F7D"]
 			id: "485D5664A17E16DF"
 			tasks: [{
@@ -1196,7 +1196,7 @@
 			x: -2.75d
 			y: -6.5d
 			shape: "diamond"
-			subtitle: "{chapter.8.quest.54.subtitle}"
+			subtitle: "{chapter.9.quest.54.subtitle}"
 			dependencies: ["485D5664A17E16DF"]
 			id: "3B570B3DB5F6D2CB"
 			tasks: [{
@@ -1222,7 +1222,7 @@
 			x: -2.25d
 			y: -7.0d
 			shape: "diamond"
-			subtitle: "{chapter.8.quest.55.subtitle}"
+			subtitle: "{chapter.9.quest.55.subtitle}"
 			dependencies: ["3B570B3DB5F6D2CB"]
 			id: "1B72E95569B07E18"
 			tasks: [{
@@ -1248,7 +1248,7 @@
 			x: -1.75d
 			y: -7.5d
 			shape: "diamond"
-			subtitle: "{chapter.8.quest.56.subtitle}"
+			subtitle: "{chapter.9.quest.56.subtitle}"
 			dependencies: ["1B72E95569B07E18"]
 			id: "0E5AE195158CF344"
 			tasks: [{
@@ -1273,7 +1273,7 @@
 			x: -1.25d
 			y: -6.0d
 			shape: "diamond"
-			subtitle: "{chapter.8.quest.57.subtitle}"
+			subtitle: "{chapter.9.quest.57.subtitle}"
 			dependencies: ["009A4AA36AA30F7D"]
 			id: "045C75EF49BB315B"
 			tasks: [{
@@ -1297,7 +1297,7 @@
 			x: -0.75d
 			y: -6.5d
 			shape: "diamond"
-			subtitle: "{chapter.8.quest.58.subtitle}"
+			subtitle: "{chapter.9.quest.58.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["009A4AA36AA30F7D"]
 			id: "3AF1F2E096C10240"
@@ -1322,7 +1322,7 @@
 			x: -1.25d
 			y: -7.0d
 			shape: "diamond"
-			subtitle: "{chapter.8.quest.59.subtitle}"
+			subtitle: "{chapter.9.quest.59.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["009A4AA36AA30F7D"]
 			id: "793D2C7E49B67C39"

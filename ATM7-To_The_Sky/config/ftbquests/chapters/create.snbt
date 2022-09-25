@@ -3,7 +3,7 @@
 	group: "2B51AC12041E3F89"
 	order_index: 1
 	filename: "create"
-	title: "{chapter.13.title}"
+	title: "{chapter.15.title}"
 	icon: "create:large_cogwheel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -24,13 +24,13 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "hexagon"
-			description: ["{chapter.13.quest.1.description.1}"]
+			description: ["{chapter.15.quest.1.description.1}"]
 			size: 1.5d
 			id: "57A7A5C79389A96A"
 			tasks: [{
 				id: "695A0E0BC4B78AEC"
 				type: "checkmark"
-				title: "{chapter.13.quest.1.task.1.title}"
+				title: "{chapter.15.quest.1.task.1.title}"
 				icon: "create:wrench"
 			}]
 			rewards: [{
@@ -42,7 +42,7 @@
 		{
 			x: 0.0d
 			y: -3.5d
-			description: ["{chapter.13.quest.2.description.1}"]
+			description: ["{chapter.15.quest.2.description.1}"]
 			dependencies: ["57A7A5C79389A96A"]
 			id: "0F16498769DFB3B0"
 			tasks: [{
@@ -61,7 +61,7 @@
 		{
 			x: -1.0d
 			y: -5.5d
-			description: ["{chapter.13.quest.3.description.1}"]
+			description: ["{chapter.15.quest.3.description.1}"]
 			dependencies: ["0F16498769DFB3B0"]
 			id: "5B36DE3826F26963"
 			tasks: [{
@@ -74,7 +74,7 @@
 		{
 			x: 1.0d
 			y: -5.5d
-			description: ["{chapter.13.quest.4.description.1}"]
+			description: ["{chapter.15.quest.4.description.1}"]
 			dependencies: ["0F16498769DFB3B0"]
 			id: "3E5E0C768038CDF4"
 			tasks: [{
@@ -93,7 +93,7 @@
 		{
 			x: 0.0d
 			y: -6.0d
-			description: ["{chapter.13.quest.5.description.1}"]
+			description: ["{chapter.15.quest.5.description.1}"]
 			dependencies: ["0F16498769DFB3B0"]
 			id: "23A9617F183C4EB1"
 			tasks: [{
@@ -112,7 +112,7 @@
 		{
 			x: 0.0d
 			y: -7.5d
-			description: ["{chapter.13.quest.6.description.1}"]
+			description: ["{chapter.15.quest.6.description.1}"]
 			dependencies: ["23A9617F183C4EB1"]
 			id: "1AC0B7934F275EDE"
 			tasks: [{
@@ -130,7 +130,7 @@
 		{
 			x: 7.0d
 			y: 1.5d
-			description: ["{chapter.13.quest.7.description.1}"]
+			description: ["{chapter.15.quest.7.description.1}"]
 			dependencies: ["17885C2DE986F1BD"]
 			id: "1E9B2D814F50A265"
 			tasks: [{
@@ -142,7 +142,7 @@
 		{
 			x: 6.5d
 			y: 2.5d
-			description: ["{chapter.13.quest.8.description.1}"]
+			description: ["{chapter.15.quest.8.description.1}"]
 			dependencies: ["17885C2DE986F1BD"]
 			id: "4285510271B5223D"
 			tasks: [{
@@ -154,7 +154,7 @@
 		{
 			x: 6.0d
 			y: 3.5d
-			description: ["{chapter.13.quest.9.description.1}"]
+			description: ["{chapter.15.quest.9.description.1}"]
 			dependencies: ["17885C2DE986F1BD"]
 			id: "2BB3DB19D5EFC7E2"
 			tasks: [{
@@ -166,7 +166,7 @@
 		{
 			x: 5.5d
 			y: 4.5d
-			description: ["{chapter.13.quest.10.description.1}"]
+			description: ["{chapter.15.quest.10.description.1}"]
 			dependencies: ["17885C2DE986F1BD"]
 			id: "67A46ED73E488CEE"
 			tasks: [{
@@ -178,7 +178,7 @@
 		{
 			x: 4.5d
 			y: 5.0d
-			description: ["{chapter.13.quest.11.description.1}"]
+			description: ["{chapter.15.quest.11.description.1}"]
 			dependencies: ["17885C2DE986F1BD"]
 			id: "7F8E50FA436DB4E6"
 			tasks: [{
@@ -190,7 +190,7 @@
 		{
 			x: 4.5d
 			y: 6.0d
-			description: ["{chapter.13.quest.12.description.1}"]
+			description: ["{chapter.15.quest.12.description.1}"]
 			dependencies: ["7F8E50FA436DB4E6"]
 			id: "54EC1C7FC1DA9107"
 			tasks: [{
@@ -202,7 +202,7 @@
 		{
 			x: 9.5d
 			y: 0.0d
-			description: ["{chapter.13.quest.13.description.1}"]
+			description: ["{chapter.15.quest.13.description.1}"]
 			dependencies: ["17885C2DE986F1BD"]
 			id: "2D41B04C75FA02BC"
 			tasks: [{
@@ -214,7 +214,7 @@
 		{
 			x: 10.0d
 			y: 1.5d
-			description: ["{chapter.13.quest.14.description.1}"]
+			description: ["{chapter.15.quest.14.description.1}"]
 			dependencies: ["2D41B04C75FA02BC"]
 			id: "5DC892BA79EB52EC"
 			tasks: [{
@@ -226,7 +226,7 @@
 		{
 			x: 2.5d
 			y: -3.5d
-			description: ["{chapter.13.quest.15.description.1}"]
+			description: ["{chapter.15.quest.15.description.1}"]
 			dependencies: ["0F16498769DFB3B0"]
 			id: "75CBB5BD8C1DFEA1"
 			tasks: [{
@@ -238,7 +238,7 @@
 		{
 			x: 8.0d
 			y: 1.5d
-			description: ["{chapter.13.quest.16.description.1}"]
+			description: ["{chapter.15.quest.16.description.1}"]
 			dependencies: ["2D41B04C75FA02BC"]
 			id: "1B182A30604655E2"
 			tasks: [{
@@ -250,7 +250,7 @@
 		{
 			x: 3.5d
 			y: -1.0d
-			description: ["{chapter.13.quest.17.description.1}"]
+			description: ["{chapter.15.quest.17.description.1}"]
 			dependencies: ["17885C2DE986F1BD"]
 			id: "45EC31812FB9934D"
 			tasks: [{
@@ -262,7 +262,7 @@
 		{
 			x: -0.5d
 			y: 3.5d
-			description: ["{chapter.13.quest.18.description.1}"]
+			description: ["{chapter.15.quest.18.description.1}"]
 			dependencies: ["4F95F00ED78FBAB9"]
 			id: "29917E6196649F5D"
 			tasks: [{
@@ -274,7 +274,7 @@
 		{
 			x: 0.5d
 			y: 3.5d
-			description: ["{chapter.13.quest.19.description.1}"]
+			description: ["{chapter.15.quest.19.description.1}"]
 			dependencies: ["4F95F00ED78FBAB9"]
 			id: "48BE7DAC5082044D"
 			tasks: [{
@@ -286,7 +286,7 @@
 		{
 			x: -2.5d
 			y: -3.5d
-			description: ["{chapter.13.quest.20.description.1}"]
+			description: ["{chapter.15.quest.20.description.1}"]
 			dependencies: ["0F16498769DFB3B0"]
 			id: "09936F8FCEA72C5C"
 			tasks: [{
@@ -298,7 +298,7 @@
 		{
 			x: 1.0d
 			y: -1.5d
-			description: ["{chapter.13.quest.21.description.1}"]
+			description: ["{chapter.15.quest.21.description.1}"]
 			dependencies: ["0F16498769DFB3B0"]
 			id: "51EA6B1452883AB2"
 			tasks: [{
@@ -310,7 +310,7 @@
 		{
 			x: -1.0d
 			y: -1.5d
-			description: ["{chapter.13.quest.22.description.1}"]
+			description: ["{chapter.15.quest.22.description.1}"]
 			dependencies: ["0F16498769DFB3B0"]
 			id: "459BA85E48B343AE"
 			tasks: [{
@@ -322,7 +322,7 @@
 		{
 			x: 2.0d
 			y: -4.5d
-			description: ["{chapter.13.quest.23.description.1}"]
+			description: ["{chapter.15.quest.23.description.1}"]
 			dependencies: ["0F16498769DFB3B0"]
 			id: "76CBFA38D021AC95"
 			tasks: [{
@@ -334,7 +334,7 @@
 		{
 			x: 3.0d
 			y: 3.5d
-			description: ["{chapter.13.quest.24.description.1}"]
+			description: ["{chapter.15.quest.24.description.1}"]
 			dependencies: ["17885C2DE986F1BD"]
 			id: "3029E1E133B91ED8"
 			tasks: [{
@@ -346,7 +346,7 @@
 		{
 			x: 2.5d
 			y: 2.5d
-			description: ["{chapter.13.quest.25.description.1}"]
+			description: ["{chapter.15.quest.25.description.1}"]
 			dependencies: ["17885C2DE986F1BD"]
 			id: "72DCE154E1714890"
 			tasks: [{
@@ -358,7 +358,7 @@
 		{
 			x: 3.5d
 			y: 4.5d
-			description: ["{chapter.13.quest.26.description.1}"]
+			description: ["{chapter.15.quest.26.description.1}"]
 			dependencies: ["17885C2DE986F1BD"]
 			id: "3314FBC4FEAE1D08"
 			tasks: [{
@@ -370,7 +370,7 @@
 		{
 			x: 10.0d
 			y: 5.5d
-			description: ["{chapter.13.quest.27.description.1}"]
+			description: ["{chapter.15.quest.27.description.1}"]
 			dependencies: ["48EA6D9923E38B71"]
 			id: "134BC365E77C6DB8"
 			tasks: [{
@@ -382,7 +382,7 @@
 		{
 			x: 1.5d
 			y: 0.5d
-			description: ["{chapter.13.quest.28.description.1}"]
+			description: ["{chapter.15.quest.28.description.1}"]
 			dependencies: ["17885C2DE986F1BD"]
 			id: "4C31649D721F76B5"
 			tasks: [{
@@ -394,7 +394,7 @@
 		{
 			x: 2.0d
 			y: 1.5d
-			description: ["{chapter.13.quest.29.description.1}"]
+			description: ["{chapter.15.quest.29.description.1}"]
 			dependencies: ["17885C2DE986F1BD"]
 			id: "0759CA52EECF3B49"
 			tasks: [{
@@ -406,7 +406,7 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			description: ["{chapter.13.quest.30.description.1}"]
+			description: ["{chapter.15.quest.30.description.1}"]
 			dependencies: ["57A7A5C79389A96A"]
 			id: "17885C2DE986F1BD"
 			tasks: [{
@@ -418,7 +418,7 @@
 		{
 			x: 10.5d
 			y: 4.5d
-			description: ["{chapter.13.quest.31.description.1}"]
+			description: ["{chapter.15.quest.31.description.1}"]
 			dependencies: ["1DA6B8B2DCC97809"]
 			id: "48EA6D9923E38B71"
 			tasks: [{
@@ -430,7 +430,7 @@
 		{
 			x: 11.0d
 			y: 0.0d
-			description: ["{chapter.13.quest.32.description.1}"]
+			description: ["{chapter.15.quest.32.description.1}"]
 			dependencies: ["2D41B04C75FA02BC"]
 			id: "3F663416E824720C"
 			tasks: [{
@@ -453,7 +453,7 @@
 		{
 			x: 13.5d
 			y: 2.5d
-			description: ["{chapter.13.quest.34.description.1}"]
+			description: ["{chapter.15.quest.34.description.1}"]
 			dependencies: ["4194397DFD0199C2"]
 			id: "3F2C1A81C17D2D67"
 			tasks: [{
@@ -465,7 +465,7 @@
 		{
 			x: 2.0d
 			y: -2.5d
-			description: ["{chapter.13.quest.35.description.1}"]
+			description: ["{chapter.15.quest.35.description.1}"]
 			dependencies: ["0F16498769DFB3B0"]
 			id: "47A6769B6BF1A46D"
 			tasks: [{
@@ -477,7 +477,7 @@
 		{
 			x: 9.0d
 			y: 2.5d
-			description: ["{chapter.13.quest.36.description.1}"]
+			description: ["{chapter.15.quest.36.description.1}"]
 			dependencies: ["1DA6B8B2DCC97809"]
 			id: "495B0CC178B4CFA9"
 			tasks: [{
@@ -489,7 +489,7 @@
 		{
 			x: -2.0d
 			y: -2.5d
-			description: ["{chapter.13.quest.37.description.1}"]
+			description: ["{chapter.15.quest.37.description.1}"]
 			dependencies: ["0F16498769DFB3B0"]
 			id: "7C8CDD259495A31A"
 			tasks: [{
@@ -501,7 +501,7 @@
 		{
 			x: 9.0d
 			y: 4.0d
-			description: ["{chapter.13.quest.38.description.1}"]
+			description: ["{chapter.15.quest.38.description.1}"]
 			dependencies: ["1DA6B8B2DCC97809"]
 			id: "78656C89EEE80DB5"
 			tasks: [{
@@ -513,7 +513,7 @@
 		{
 			x: 5.5d
 			y: -1.0d
-			description: ["{chapter.13.quest.39.description.1}"]
+			description: ["{chapter.15.quest.39.description.1}"]
 			dependencies: ["17885C2DE986F1BD"]
 			id: "7F0D59EC1573FDC0"
 			tasks: [{
@@ -525,7 +525,7 @@
 		{
 			x: 9.5d
 			y: -1.5d
-			description: ["{chapter.13.quest.40.description.1}"]
+			description: ["{chapter.15.quest.40.description.1}"]
 			dependencies: ["2D41B04C75FA02BC"]
 			id: "3D2A03EB2B91E9C1"
 			tasks: [{
@@ -537,7 +537,7 @@
 		{
 			x: 0.0d
 			y: 2.0d
-			description: ["{chapter.13.quest.41.description.1}"]
+			description: ["{chapter.15.quest.41.description.1}"]
 			dependencies: ["57A7A5C79389A96A"]
 			id: "4F95F00ED78FBAB9"
 			tasks: [{
@@ -549,7 +549,7 @@
 		{
 			x: -2.5d
 			y: 0.0d
-			description: ["{chapter.13.quest.42.description.1}"]
+			description: ["{chapter.15.quest.42.description.1}"]
 			dependencies: ["57A7A5C79389A96A"]
 			id: "610DEC4FC4FBB63E"
 			tasks: [{
@@ -573,7 +573,7 @@
 		{
 			x: 14.0d
 			y: 0.0d
-			description: ["{chapter.13.quest.43.description.1}"]
+			description: ["{chapter.15.quest.43.description.1}"]
 			dependencies: ["1C2309DB4B890E71"]
 			id: "4C77ABCD41383F32"
 			tasks: [{
@@ -585,7 +585,7 @@
 		{
 			x: 12.0d
 			y: 2.5d
-			description: ["{chapter.13.quest.44.description.1}"]
+			description: ["{chapter.15.quest.44.description.1}"]
 			dependencies: ["1DA6B8B2DCC97809"]
 			id: "4194397DFD0199C2"
 			tasks: [{
@@ -597,7 +597,7 @@
 		{
 			x: 7.5d
 			y: 0.5d
-			description: ["{chapter.13.quest.45.description.1}"]
+			description: ["{chapter.15.quest.45.description.1}"]
 			dependencies: ["17885C2DE986F1BD"]
 			id: "75B14A09FE39EDDA"
 			tasks: [{
@@ -609,7 +609,7 @@
 		{
 			x: 5.5d
 			y: -2.0d
-			description: ["{chapter.13.quest.46.description.1}"]
+			description: ["{chapter.15.quest.46.description.1}"]
 			dependencies: ["7F0D59EC1573FDC0"]
 			id: "4EA4EDD5A7923F98"
 			tasks: [{
@@ -621,7 +621,7 @@
 		{
 			x: 9.5d
 			y: -3.0d
-			description: ["{chapter.13.quest.47.description.1}"]
+			description: ["{chapter.15.quest.47.description.1}"]
 			dependencies: ["3D2A03EB2B91E9C1"]
 			id: "7EEEEDD5FF31ACD3"
 			tasks: [{
@@ -633,7 +633,7 @@
 		{
 			x: -1.5d
 			y: 1.5d
-			description: ["{chapter.13.quest.48.description.1}"]
+			description: ["{chapter.15.quest.48.description.1}"]
 			dependencies: ["57A7A5C79389A96A"]
 			id: "0CF69DBA9573A7B3"
 			tasks: [{
@@ -650,7 +650,7 @@
 		{
 			x: -2.5d
 			y: 2.5d
-			description: ["{chapter.13.quest.49.description.1}"]
+			description: ["{chapter.15.quest.49.description.1}"]
 			dependencies: ["0CF69DBA9573A7B3"]
 			id: "7D67058592EE5958"
 			tasks: [{
@@ -662,7 +662,7 @@
 		{
 			x: 4.5d
 			y: -1.5d
-			description: ["{chapter.13.quest.50.description.1}"]
+			description: ["{chapter.15.quest.50.description.1}"]
 			dependencies: ["17885C2DE986F1BD"]
 			id: "24E658BA47367A44"
 			tasks: [{
@@ -674,7 +674,7 @@
 		{
 			x: 12.5d
 			y: 0.0d
-			description: ["{chapter.13.quest.51.description.1}"]
+			description: ["{chapter.15.quest.51.description.1}"]
 			dependencies: ["3F663416E824720C"]
 			id: "1C2309DB4B890E71"
 			tasks: [{
@@ -686,7 +686,7 @@
 		{
 			x: 12.0d
 			y: 1.0d
-			description: ["{chapter.13.quest.52.description.1}"]
+			description: ["{chapter.15.quest.52.description.1}"]
 			dependencies: ["3F663416E824720C"]
 			id: "77382D4114E901CB"
 			tasks: [{
@@ -720,7 +720,7 @@
 		{
 			x: 12.0d
 			y: -1.0d
-			description: ["{chapter.13.quest.55.description.1}"]
+			description: ["{chapter.15.quest.55.description.1}"]
 			dependencies: ["3F663416E824720C"]
 			id: "71B1B53A03A16296"
 			tasks: [{
@@ -730,7 +730,7 @@
 			}]
 		}
 		{
-			title: "{chapter.13.quest.56.title}"
+			title: "{chapter.15.quest.56.title}"
 			x: 10.5d
 			y: 3.0d
 			dependencies: ["5DC892BA79EB52EC"]
@@ -738,7 +738,7 @@
 			tasks: [{
 				id: "07896B715ED0E04F"
 				type: "item"
-				title: "{chapter.13.quest.56.task.1.title}"
+				title: "{chapter.15.quest.56.task.1.title}"
 				icon: "create:brass_ingot"
 				item: {
 					id: "itemfilters:tag"
@@ -752,7 +752,7 @@
 		{
 			x: 8.0d
 			y: -1.5d
-			description: ["{chapter.13.quest.57.description.1}"]
+			description: ["{chapter.15.quest.57.description.1}"]
 			dependencies: ["2D41B04C75FA02BC"]
 			id: "1F58AA51814C7568"
 			tasks: [{
@@ -770,7 +770,7 @@
 		{
 			x: -2.0d
 			y: -4.5d
-			description: ["{chapter.13.quest.58.description.1}"]
+			description: ["{chapter.15.quest.58.description.1}"]
 			dependencies: ["0F16498769DFB3B0"]
 			id: "13AEBC331F29BC3D"
 			tasks: [{
