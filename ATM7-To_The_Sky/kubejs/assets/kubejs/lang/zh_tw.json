@@ -1728,11 +1728,11 @@
   "chapter.9.quest.9.subtitle": "跨維度抽屜… 如果你想要的話。",
   "chapter.9.quest.9.title": "終界抽屜！",
   "chapter.9.title": "基本儲存",
-  "loot_table.1": "Botania Flowers",
-  "loot_table.2": "Mana Materials",
-  "loot_table.3": "Refined Storage Parts",
-  "loot_table.4": "Refined Storage Base Materials",
-  "loot_table.5": "Mekanism: Basic Rewards",
-  "loot_table.6": "AE2 Medium Reward Bag",
-  "loot_table.7": "AE2 Basic Rewards"
+  "loot_table.1": "植物魔法花朵",
+  "loot_table.2": "魔力材料",
+  "loot_table.3": "精緻儲存部件",
+  "loot_table.4": "精緻儲存基礎材料",
+  "loot_table.5": "通用機械：基礎獎勵",
+  "loot_table.6": "應用能源2：中等獎勵包",
+  "loot_table.7": "應用能源2：基礎獎勵包"
 }
