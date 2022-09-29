@@ -43,6 +43,7 @@
 				{
 					id: "68F7528035D608FD"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "5A4F77DF194D0405"
@@ -71,6 +72,7 @@
 				{
 					id: "294D038C9C2F7E82"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "363F911808E2F53D"
@@ -95,6 +97,7 @@
 				{
 					id: "5E430461F78BFD1C"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "12374B641E9A7691"
@@ -1009,6 +1012,7 @@
 				{
 					id: "564F8945E4B9F524"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "5EB6CCBB2035E0FA"
@@ -1038,6 +1042,7 @@
 				{
 					id: "1617B24A2DCDAC77"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "022ACB5F5D02A2DE"
@@ -1067,6 +1072,7 @@
 				{
 					id: "61775370F5F9FAD6"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "327F73A38CFE7FA3"
@@ -1096,6 +1102,7 @@
 				{
 					id: "63F45CFFE1FEAF56"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "7437897D09F956C6"
@@ -1125,6 +1132,7 @@
 				{
 					id: "16E6EF534CDAE4E4"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "0E819AEE8B03A3F5"
@@ -1154,6 +1162,7 @@
 				{
 					id: "7AD8D168C8813810"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "6F3AE3C1C37E6F0E"
@@ -1183,6 +1192,7 @@
 				{
 					id: "2354C6D515122451"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "1F6F732221C54DF9"
@@ -1212,6 +1222,7 @@
 				{
 					id: "16EABDD646C14787"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "0AAACF09CA07B114"
@@ -1241,6 +1252,7 @@
 				{
 					id: "58A6E4692065563C"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "58F3C493DB474D3F"
@@ -1270,6 +1282,7 @@
 				{
 					id: "307AC2B7285C2F41"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "62CD4EA497A17D7F"
@@ -1299,6 +1312,7 @@
 				{
 					id: "32444B30962362E6"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "0E7E9714DB9C633A"
@@ -1328,6 +1342,7 @@
 				{
 					id: "1E2E27EBAF94288A"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "1D964A5E64BE33BC"
@@ -1494,6 +1509,7 @@
 			rewards: [{
 				id: "6A3427733B3CA02B"
 				type: "random"
+				table_id: 4108383404435779231L
 			}]
 		}
 		{
@@ -1515,6 +1531,7 @@
 			rewards: [{
 				id: "7FE30F0CBBB358D5"
 				type: "random"
+				table_id: 4108383404435779231L
 			}]
 		}
 		{
@@ -1622,6 +1639,7 @@
 				{
 					id: "02DFF1375006F31E"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -1645,6 +1663,7 @@
 				{
 					id: "1A45B284FC5E9279"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -1668,6 +1687,7 @@
 				{
 					id: "4FD793AF9D24AD31"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -1691,6 +1711,7 @@
 				{
 					id: "3EEBA418A6C79336"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -1714,6 +1735,7 @@
 				{
 					id: "6E2984E70D8C21B6"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -1737,6 +1759,7 @@
 				{
 					id: "599B537B8344A8DF"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -1760,6 +1783,7 @@
 				{
 					id: "1334CD795D6859AF"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -1783,6 +1807,7 @@
 				{
 					id: "328F118F11490AA8"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -1806,6 +1831,7 @@
 				{
 					id: "49C80B385AA16CA2"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -1829,6 +1855,7 @@
 				{
 					id: "405990A0A9663657"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -1851,6 +1878,7 @@
 					id: "090A541FA98CD1FD"
 					type: "random"
 					title: "{chapter.19.quest.92.reward.1.title}"
+					table_id: 7708276966210401484L
 				}
 				{
 					id: "4E42BB4E02799D87"
@@ -1875,6 +1903,7 @@
 				{
 					id: "01E441FF9CA844EC"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "22F6119959883273"
@@ -1930,6 +1959,7 @@
 					id: "26AA78496AAD568F"
 					type: "random"
 					title: "{chapter.19.quest.95.reward.1.title}"
+					table_id: 7708276966210401484L
 				}
 				{
 					id: "0BC389F7E63D4F9F"
@@ -1958,6 +1988,7 @@
 				{
 					id: "1B7F1D53028BFD7B"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -1977,6 +2008,7 @@
 			rewards: [{
 				id: "2AB084ECE2D92D7D"
 				type: "random"
+				table_id: 4108383404435779231L
 			}]
 		}
 		{
@@ -1996,6 +2028,7 @@
 				{
 					id: "4002396BC72C5C53"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "57D993FC63FEFE77"
@@ -2109,6 +2142,7 @@
 				{
 					id: "30A9AFEA9B6FA23A"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -2128,6 +2162,7 @@
 				{
 					id: "4AB7B7452988BB23"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "2A2837CD356DA8D3"
@@ -2140,6 +2175,7 @@
 			x: 9.5d
 			y: -3.0d
 			shape: "diamond"
+			description: ["{chapter.19.quest.103.description.1}"]
 			dependencies: ["1D86B2E553503E53"]
 			optional: true
 			id: "6CEAA86EEAAC1203"
@@ -2152,6 +2188,7 @@
 				{
 					id: "249952B8A10FEFA6"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "7763E6AF7FF43DB7"
@@ -2256,6 +2293,7 @@
 				{
 					id: "1CF532B01107172F"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "770A6318647CD783"
@@ -2285,6 +2323,7 @@
 			rewards: [{
 				id: "777EC7631583DFC2"
 				type: "random"
+				table_id: 4108383404435779231L
 			}]
 		}
 		{
@@ -2307,6 +2346,7 @@
 				{
 					id: "6BDC9AF06660CCF2"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -2330,6 +2370,7 @@
 				{
 					id: "2FDCBDE7D0558817"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -2353,6 +2394,7 @@
 				{
 					id: "4E86C27147A3FF58"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -2376,6 +2418,7 @@
 				{
 					id: "4CD77E3340D32ACD"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -2399,6 +2442,7 @@
 				{
 					id: "44FEA64D48FB7451"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -2665,6 +2709,7 @@
 				{
 					id: "505A6922560E5299"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 			]
 		}
@@ -2709,6 +2754,7 @@
 				{
 					id: "6E70639DCCE07AE1"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "42C6A17CF858CF08"
@@ -2734,6 +2780,7 @@
 				{
 					id: "0E2CF3992570D242"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "5D9B8AC5306D8C48"
@@ -2759,6 +2806,7 @@
 				{
 					id: "4B9B01B0DE50366F"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "5A7B1F43A9CF4B29"
@@ -2784,6 +2832,7 @@
 				{
 					id: "1670F143BF0992F9"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "5FFE6FE428A53B3F"
@@ -2810,6 +2859,7 @@
 				{
 					id: "08FBB04A40CEDD25"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "7F5D2F36132692EC"
@@ -2868,6 +2918,7 @@
 				{
 					id: "378CD52D133440FF"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "0B37B52A6282A975"
@@ -2898,6 +2949,7 @@
 				{
 					id: "5996E283CD21E12C"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "2BD5532974AC8144"
@@ -2928,6 +2980,7 @@
 				{
 					id: "37FB2F6CC88AA427"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "41D97F7955037DCD"
@@ -2956,6 +3009,7 @@
 				{
 					id: "11761C4A55BE341D"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "70B40C2275C05E53"
@@ -2984,6 +3038,7 @@
 				{
 					id: "04E1087632270DB0"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "685A6C60DD894FDE"
@@ -3015,6 +3070,7 @@
 				{
 					id: "324036A9BE7E242E"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "3B2C1E6EB58BA313"
@@ -3046,6 +3102,7 @@
 				{
 					id: "0681FEB4E91A6F1D"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "17A1C1ED868C265F"
@@ -3070,6 +3127,7 @@
 				{
 					id: "7FAFCABED4EBB110"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "77A632E3CC0DA81D"
@@ -3094,6 +3152,7 @@
 				{
 					id: "7BA1913458F0B94F"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "41F8D938A9DDFA38"
@@ -3126,6 +3185,7 @@
 				{
 					id: "3CF12A6C8FE16707"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "79DE6BDAB6F800F6"
@@ -3154,6 +3214,7 @@
 				{
 					id: "02C8DAADC4EB0A90"
 					type: "random"
+					table_id: 4108383404435779231L
 				}
 				{
 					id: "60BB52FF66A48FA2"

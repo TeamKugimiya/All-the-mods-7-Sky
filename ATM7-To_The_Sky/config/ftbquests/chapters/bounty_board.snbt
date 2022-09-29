@@ -1,9 +1,9 @@
 {
 	id: "18A429E7F56AF5A9"
 	group: ""
-	order_index: 5
+	order_index: 4
 	filename: "bounty_board"
-	title: "{chapter.6.title}"
+	title: "{chapter.5.title}"
 	icon: "minecraft:zombie_head"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -47,15 +47,15 @@
 	]
 	quests: [
 		{
-			title: "{chapter.6.quest.1.title}"
+			title: "{chapter.5.quest.1.title}"
 			x: -6.5d
 			y: 0.5d
-			subtitle: "{chapter.6.quest.1.subtitle}"
+			subtitle: "{chapter.5.quest.1.subtitle}"
 			id: "2B05A29C62676EB2"
 			tasks: [{
 				id: "5457CD8C1ABA0B9E"
 				type: "kill"
-				title: "{chapter.6.quest.1.task.1.title}"
+				title: "{chapter.5.quest.1.task.1.title}"
 				icon: "minecraft:zombie_head"
 				entity: "minecraft:zombie"
 				value: 5L
@@ -82,7 +82,7 @@
 			tasks: [{
 				id: "3AD10C31CB6BA4C2"
 				type: "kill"
-				title: "{chapter.6.quest.2.task.1.title}"
+				title: "{chapter.5.quest.2.task.1.title}"
 				icon: "minecraft:zombie_head"
 				entity: "minecraft:zombie"
 				value: 10L
@@ -109,7 +109,7 @@
 			tasks: [{
 				id: "51471254BFEBDAA7"
 				type: "kill"
-				title: "{chapter.6.quest.3.task.1.title}"
+				title: "{chapter.5.quest.3.task.1.title}"
 				icon: "minecraft:zombie_head"
 				entity: "minecraft:zombie"
 				value: 50L
@@ -138,7 +138,7 @@
 			tasks: [{
 				id: "5056DC37AEF523E5"
 				type: "kill"
-				title: "{chapter.6.quest.4.task.1.title}"
+				title: "{chapter.5.quest.4.task.1.title}"
 				icon: "minecraft:zombie_head"
 				entity: "minecraft:zombie"
 				value: 100L
@@ -170,15 +170,15 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.5.title}"
+			title: "{chapter.5.quest.5.title}"
 			x: -4.5d
 			y: 0.5d
-			subtitle: "{chapter.6.quest.5.subtitle}"
+			subtitle: "{chapter.5.quest.5.subtitle}"
 			id: "42822B1E8A53D051"
 			tasks: [{
 				id: "5B35720DF93CE2DB"
 				type: "kill"
-				title: "{chapter.6.quest.5.task.1.title}"
+				title: "{chapter.5.quest.5.task.1.title}"
 				icon: "minecraft:skeleton_skull"
 				entity: "minecraft:skeleton"
 				value: 5L
@@ -205,7 +205,7 @@
 			tasks: [{
 				id: "015CB0D172D0712A"
 				type: "kill"
-				title: "{chapter.6.quest.6.task.1.title}"
+				title: "{chapter.5.quest.6.task.1.title}"
 				icon: "minecraft:skeleton_skull"
 				entity: "minecraft:skeleton"
 				value: 10L
@@ -232,7 +232,7 @@
 			tasks: [{
 				id: "2E17443A1BF2A0DA"
 				type: "kill"
-				title: "{chapter.6.quest.7.task.1.title}"
+				title: "{chapter.5.quest.7.task.1.title}"
 				icon: "minecraft:skeleton_skull"
 				entity: "minecraft:skeleton"
 				value: 50L
@@ -261,7 +261,7 @@
 			tasks: [{
 				id: "00655AC734444E54"
 				type: "kill"
-				title: "{chapter.6.quest.8.task.1.title}"
+				title: "{chapter.5.quest.8.task.1.title}"
 				icon: "minecraft:skeleton_skull"
 				entity: "minecraft:skeleton"
 				value: 100L
@@ -293,15 +293,15 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.9.title}"
+			title: "{chapter.5.quest.9.title}"
 			x: -2.5d
 			y: 0.5d
-			subtitle: "{chapter.6.quest.9.subtitle}"
+			subtitle: "{chapter.5.quest.9.subtitle}"
 			id: "77FC692AC94D2EEF"
 			tasks: [{
 				id: "423AF6C6647B1626"
 				type: "kill"
-				title: "{chapter.6.quest.9.task.1.title}"
+				title: "{chapter.5.quest.9.task.1.title}"
 				icon: "minecraft:creeper_head"
 				entity: "minecraft:creeper"
 				value: 5L
@@ -328,7 +328,7 @@
 			tasks: [{
 				id: "1AB92CF7F0246D21"
 				type: "kill"
-				title: "{chapter.6.quest.10.task.1.title}"
+				title: "{chapter.5.quest.10.task.1.title}"
 				icon: "minecraft:creeper_head"
 				entity: "minecraft:creeper"
 				value: 10L
@@ -355,7 +355,7 @@
 			tasks: [{
 				id: "24BA89BD9898759B"
 				type: "kill"
-				title: "{chapter.6.quest.11.task.1.title}"
+				title: "{chapter.5.quest.11.task.1.title}"
 				icon: "minecraft:creeper_head"
 				entity: "minecraft:creeper"
 				value: 50L
@@ -384,7 +384,7 @@
 			tasks: [{
 				id: "045D1087A2692360"
 				type: "kill"
-				title: "{chapter.6.quest.12.task.1.title}"
+				title: "{chapter.5.quest.12.task.1.title}"
 				icon: "minecraft:creeper_head"
 				entity: "minecraft:creeper"
 				value: 100L
@@ -416,11 +416,11 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.13.title}"
+			title: "{chapter.5.quest.13.title}"
 			x: 0.5d
 			y: 3.0d
-			subtitle: "{chapter.6.quest.13.subtitle}"
-			description: ["{chapter.6.quest.13.description.1}"]
+			subtitle: "{chapter.5.quest.13.subtitle}"
+			description: ["{chapter.5.quest.13.description.1}"]
 			size: 2.0d
 			id: "41C0948CD9D50322"
 			tasks: [{
@@ -463,7 +463,7 @@
 			tasks: [{
 				id: "1809F1F9A3043683"
 				type: "kill"
-				title: "{chapter.6.quest.14.task.1.title}"
+				title: "{chapter.5.quest.14.task.1.title}"
 				icon: "minecraft:dragon_head"
 				entity: "minecraft:ender_dragon"
 				value: 1L
@@ -482,7 +482,7 @@
 			tasks: [{
 				id: "171FD27057746E80"
 				type: "kill"
-				title: "{chapter.6.quest.15.task.1.title}"
+				title: "{chapter.5.quest.15.task.1.title}"
 				icon: "minecraft:wither_skeleton_skull"
 				entity: "minecraft:wither"
 				value: 1L
@@ -501,7 +501,7 @@
 			tasks: [{
 				id: "2F28B803C75DA3B2"
 				type: "kill"
-				title: "{chapter.6.quest.16.task.1.title}"
+				title: "{chapter.5.quest.16.task.1.title}"
 				icon: "minecraft:elder_guardian_spawn_egg"
 				entity: "minecraft:elder_guardian"
 				value: 1L
@@ -515,13 +515,13 @@
 		{
 			x: 2.0500000000000007d
 			y: 7.0d
-			subtitle: "{chapter.6.quest.17.subtitle}"
+			subtitle: "{chapter.5.quest.17.subtitle}"
 			size: 1.5d
 			id: "56DA46DC82F6665D"
 			tasks: [{
 				id: "452B65E139D9E12D"
 				type: "kill"
-				title: "{chapter.6.quest.17.task.1.title}"
+				title: "{chapter.5.quest.17.task.1.title}"
 				icon: "ars_nouveau:wilden_tribute"
 				entity: "ars_nouveau:wilden_boss"
 				value: 1L
@@ -543,13 +543,13 @@
 		{
 			x: -0.9499999999999993d
 			y: 7.0d
-			subtitle: "{chapter.6.quest.18.subtitle}"
+			subtitle: "{chapter.5.quest.18.subtitle}"
 			size: 1.5d
 			id: "5825492F8B874CF2"
 			tasks: [{
 				id: "615EF9B587C0E4F6"
 				type: "kill"
-				title: "{chapter.6.quest.18.task.1.title}"
+				title: "{chapter.5.quest.18.task.1.title}"
 				icon: "botania:gaia_head"
 				entity: "botania:doppleganger"
 				value: 1L
@@ -568,10 +568,10 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.19.title}"
+			title: "{chapter.5.quest.19.title}"
 			x: 0.5500000000000007d
 			y: 7.0d
-			subtitle: "{chapter.6.quest.19.subtitle}"
+			subtitle: "{chapter.5.quest.19.subtitle}"
 			size: 1.5d
 			optional: true
 			id: "0F55D0B4D5094EDB"
@@ -579,7 +579,7 @@
 				{
 					id: "596ABB45C0612AAF"
 					type: "kill"
-					title: "{chapter.6.quest.19.task.1.title}"
+					title: "{chapter.5.quest.19.task.1.title}"
 					icon: "minecraft:trader_llama_spawn_egg"
 					entity: "minecraft:wandering_trader"
 					value: 1L
@@ -587,7 +587,7 @@
 				{
 					id: "1D136D138EF82DA9"
 					type: "kill"
-					title: "{chapter.6.quest.19.task.2.title}"
+					title: "{chapter.5.quest.19.task.2.title}"
 					icon: "minecraft:trader_llama_spawn_egg"
 					entity: "minecraft:trader_llama"
 					value: 2L
@@ -625,12 +625,12 @@
 			icon: "tconstruct:enderman_head"
 			x: 7.5d
 			y: 0.5d
-			subtitle: "{chapter.6.quest.20.subtitle}"
+			subtitle: "{chapter.5.quest.20.subtitle}"
 			id: "17F3AC15ADCFB175"
 			tasks: [{
 				id: "0EA4B08DAAFA4287"
 				type: "kill"
-				title: "{chapter.6.quest.20.task.1.title}"
+				title: "{chapter.5.quest.20.task.1.title}"
 				icon: "tconstruct:enderman_head"
 				entity: "minecraft:enderman"
 				value: 5L
@@ -658,7 +658,7 @@
 			tasks: [{
 				id: "58BF5D3267CF02F8"
 				type: "kill"
-				title: "{chapter.6.quest.21.task.1.title}"
+				title: "{chapter.5.quest.21.task.1.title}"
 				icon: "tconstruct:enderman_head"
 				entity: "minecraft:enderman"
 				value: 10L
@@ -685,7 +685,7 @@
 			tasks: [{
 				id: "6BA6847A172C8DD7"
 				type: "kill"
-				title: "{chapter.6.quest.22.task.1.title}"
+				title: "{chapter.5.quest.22.task.1.title}"
 				icon: "tconstruct:enderman_head"
 				entity: "minecraft:enderman"
 				value: 50L
@@ -714,7 +714,7 @@
 			tasks: [{
 				id: "53C23DB8B4D1CEE2"
 				type: "kill"
-				title: "{chapter.6.quest.23.task.1.title}"
+				title: "{chapter.5.quest.23.task.1.title}"
 				icon: "tconstruct:enderman_head"
 				entity: "minecraft:enderman"
 				value: 100L
@@ -746,11 +746,11 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.24.title}"
+			title: "{chapter.5.quest.24.title}"
 			icon: "minecraft:spider_eye"
 			x: -0.5d
 			y: 0.5d
-			subtitle: "{chapter.6.quest.24.subtitle}"
+			subtitle: "{chapter.5.quest.24.subtitle}"
 			id: "1F18B64C84C8809D"
 			tasks: [{
 				id: "18644A08B73A4B12"
@@ -781,7 +781,7 @@
 			tasks: [{
 				id: "5801AF8000768808"
 				type: "kill"
-				title: "{chapter.6.quest.25.task.1.title}"
+				title: "{chapter.5.quest.25.task.1.title}"
 				icon: "minecraft:spider_eye"
 				entity: "minecraft:spider"
 				value: 10L
@@ -808,7 +808,7 @@
 			tasks: [{
 				id: "0F94F7427F99DAFE"
 				type: "kill"
-				title: "{chapter.6.quest.26.task.1.title}"
+				title: "{chapter.5.quest.26.task.1.title}"
 				icon: "minecraft:spider_eye"
 				entity: "minecraft:spider"
 				value: 50L
@@ -837,7 +837,7 @@
 			tasks: [{
 				id: "0F8ACB07CFA8CB33"
 				type: "kill"
-				title: "{chapter.6.quest.27.task.1.title}"
+				title: "{chapter.5.quest.27.task.1.title}"
 				icon: "minecraft:spider_eye"
 				entity: "minecraft:spider"
 				value: 100L
@@ -872,12 +872,12 @@
 			icon: "tconstruct:blaze_head"
 			x: 3.5d
 			y: 0.5d
-			subtitle: "{chapter.6.quest.28.subtitle}"
+			subtitle: "{chapter.5.quest.28.subtitle}"
 			id: "6141DE779232C8AA"
 			tasks: [{
 				id: "1718CA0F8978181C"
 				type: "kill"
-				title: "{chapter.6.quest.28.task.1.title}"
+				title: "{chapter.5.quest.28.task.1.title}"
 				icon: "tconstruct:blaze_head"
 				entity: "minecraft:blaze"
 				value: 5L
@@ -904,7 +904,7 @@
 			tasks: [{
 				id: "00445193DEB7EAA0"
 				type: "kill"
-				title: "{chapter.6.quest.29.task.1.title}"
+				title: "{chapter.5.quest.29.task.1.title}"
 				icon: "tconstruct:blaze_head"
 				entity: "minecraft:blaze"
 				value: 10L
@@ -931,7 +931,7 @@
 			tasks: [{
 				id: "404D3420276BD963"
 				type: "kill"
-				title: "{chapter.6.quest.30.task.1.title}"
+				title: "{chapter.5.quest.30.task.1.title}"
 				icon: "tconstruct:blaze_head"
 				entity: "minecraft:blaze"
 				value: 50L
@@ -960,7 +960,7 @@
 			tasks: [{
 				id: "2038156A13C07BFC"
 				type: "kill"
-				title: "{chapter.6.quest.31.task.1.title}"
+				title: "{chapter.5.quest.31.task.1.title}"
 				icon: "tconstruct:blaze_head"
 				entity: "minecraft:blaze"
 				value: 100L
@@ -994,12 +994,12 @@
 		{
 			x: 1.5d
 			y: 0.5d
-			subtitle: "{chapter.6.quest.32.subtitle}"
+			subtitle: "{chapter.5.quest.32.subtitle}"
 			id: "5AC497F76A086A5C"
 			tasks: [{
 				id: "7BAB5E17D2DE4E3E"
 				type: "kill"
-				title: "{chapter.6.quest.32.task.1.title}"
+				title: "{chapter.5.quest.32.task.1.title}"
 				icon: "reliquary:witch_hat"
 				entity: "minecraft:witch"
 				value: 5L
@@ -1026,7 +1026,7 @@
 			tasks: [{
 				id: "7127A76DEB4D1696"
 				type: "kill"
-				title: "{chapter.6.quest.33.task.1.title}"
+				title: "{chapter.5.quest.33.task.1.title}"
 				icon: "reliquary:witch_hat"
 				entity: "minecraft:witch"
 				value: 10L
@@ -1057,7 +1057,7 @@
 			tasks: [{
 				id: "3CF48F4AEE9557C8"
 				type: "kill"
-				title: "{chapter.6.quest.34.task.1.title}"
+				title: "{chapter.5.quest.34.task.1.title}"
 				icon: "reliquary:witch_hat"
 				entity: "minecraft:witch"
 				value: 50L
@@ -1105,7 +1105,7 @@
 			tasks: [{
 				id: "5A3D6416BA0C7A20"
 				type: "kill"
-				title: "{chapter.6.quest.35.task.1.title}"
+				title: "{chapter.5.quest.35.task.1.title}"
 				icon: "reliquary:witch_hat"
 				entity: "minecraft:witch"
 				value: 100L
@@ -1133,12 +1133,12 @@
 		{
 			x: 5.5d
 			y: 0.5d
-			subtitle: "{chapter.6.quest.36.subtitle}"
+			subtitle: "{chapter.5.quest.36.subtitle}"
 			id: "3371F9248D403664"
 			tasks: [{
 				id: "1016033CBB003413"
 				type: "kill"
-				title: "{chapter.6.quest.36.task.1.title}"
+				title: "{chapter.5.quest.36.task.1.title}"
 				icon: "minecraft:wither_skeleton_skull"
 				entity: "minecraft:wither_skeleton"
 				value: 5L
@@ -1165,7 +1165,7 @@
 			tasks: [{
 				id: "33107949548BC22D"
 				type: "kill"
-				title: "{chapter.6.quest.37.task.1.title}"
+				title: "{chapter.5.quest.37.task.1.title}"
 				icon: "minecraft:wither_skeleton_skull"
 				entity: "minecraft:wither_skeleton"
 				value: 10L
@@ -1192,7 +1192,7 @@
 			tasks: [{
 				id: "29A605F8B896F3B9"
 				type: "kill"
-				title: "{chapter.6.quest.38.task.1.title}"
+				title: "{chapter.5.quest.38.task.1.title}"
 				icon: "minecraft:wither_skeleton_skull"
 				entity: "minecraft:wither_skeleton"
 				value: 50L
@@ -1227,7 +1227,7 @@
 			tasks: [{
 				id: "727813FFC599C36D"
 				type: "kill"
-				title: "{chapter.6.quest.39.task.1.title}"
+				title: "{chapter.5.quest.39.task.1.title}"
 				icon: "minecraft:wither_skeleton_skull"
 				entity: "minecraft:wither_skeleton"
 				value: 100L

@@ -3,7 +3,7 @@
 	group: "470D66B33874E150"
 	order_index: 0
 	filename: "tinkers_construct"
-	title: "{chapter.22.title}"
+	title: "{chapter.8.title}"
 	icon: {
 		id: "tconstruct:tinker_station"
 		Count: 1b
@@ -18,14 +18,14 @@
 			x: -9.0d
 			y: -0.5d
 			shape: "octagon"
-			subtitle: "{chapter.22.quest.1.subtitle}"
-			description: ["{chapter.22.quest.1.description.1}"]
+			subtitle: "{chapter.8.quest.1.subtitle}"
+			description: ["{chapter.8.quest.1.description.1}"]
 			size: 1.5d
 			id: "681E777B4C8E19CF"
 			tasks: [{
 				id: "34CAB10421425B7F"
 				type: "checkmark"
-				title: "{chapter.22.quest.1.task.1.title}"
+				title: "{chapter.8.quest.1.task.1.title}"
 			}]
 			rewards: [{
 				id: "280EE4ECA87B53D1"
@@ -34,11 +34,11 @@
 			}]
 		}
 		{
-			title: "{chapter.22.quest.2.title}"
+			title: "{chapter.8.quest.2.title}"
 			x: -7.0d
 			y: -0.5d
-			subtitle: "{chapter.22.quest.2.subtitle}"
-			description: ["{chapter.22.quest.2.description.1}"]
+			subtitle: "{chapter.8.quest.2.subtitle}"
+			description: ["{chapter.8.quest.2.description.1}"]
 			dependencies: ["681E777B4C8E19CF"]
 			id: "63318C8E26E28F58"
 			tasks: [{
@@ -65,7 +65,7 @@
 		{
 			x: -3.0d
 			y: -0.5d
-			description: ["{chapter.22.quest.3.description.1}"]
+			description: ["{chapter.8.quest.3.description.1}"]
 			dependencies: ["4E3BAD0EE3974503"]
 			id: "4E0F952F75FBC1C9"
 			tasks: [
@@ -110,8 +110,8 @@
 		{
 			x: -3.5d
 			y: -2.0d
-			subtitle: "{chapter.22.quest.4.subtitle}"
-			description: ["{chapter.22.quest.4.description.1}"]
+			subtitle: "{chapter.8.quest.4.subtitle}"
+			description: ["{chapter.8.quest.4.description.1}"]
 			dependencies: ["4E0F952F75FBC1C9"]
 			optional: true
 			id: "6C934DA835ECBAB6"
@@ -137,8 +137,8 @@
 		{
 			x: -2.5d
 			y: -2.0d
-			subtitle: "{chapter.22.quest.5.subtitle}"
-			description: ["{chapter.22.quest.5.description.1}"]
+			subtitle: "{chapter.8.quest.5.subtitle}"
+			description: ["{chapter.8.quest.5.description.1}"]
 			dependencies: ["4E0F952F75FBC1C9"]
 			optional: true
 			id: "6ECF405B1017AE53"
@@ -162,10 +162,10 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.6.title}"
+			title: "{chapter.8.quest.6.title}"
 			x: -1.0d
 			y: -0.5d
-			description: ["{chapter.22.quest.6.description.1}"]
+			description: ["{chapter.8.quest.6.description.1}"]
 			dependencies: ["4E0F952F75FBC1C9"]
 			id: "66FB4821105A417E"
 			tasks: [
@@ -218,10 +218,10 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.7.title}"
+			title: "{chapter.8.quest.7.title}"
 			x: 1.0d
 			y: -0.5d
-			description: ["{chapter.22.quest.7.description.1}"]
+			description: ["{chapter.8.quest.7.description.1}"]
 			dependencies: ["66FB4821105A417E"]
 			id: "4D580C89653F69AA"
 			tasks: [{
@@ -281,7 +281,7 @@
 			x: -3.0d
 			y: 1.0d
 			shape: "square"
-			description: ["{chapter.22.quest.8.description.1}"]
+			description: ["{chapter.8.quest.8.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["3E9618EEC90169C3"]
 			hide: true
@@ -327,7 +327,7 @@
 			x: -3.0d
 			y: 2.0d
 			shape: "square"
-			description: ["{chapter.22.quest.9.description.1}"]
+			description: ["{chapter.8.quest.9.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["3E9618EEC90169C3"]
 			hide: true
@@ -373,7 +373,7 @@
 			x: -3.0d
 			y: 4.0d
 			shape: "square"
-			description: ["{chapter.22.quest.10.description.1}"]
+			description: ["{chapter.8.quest.10.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["3E9618EEC90169C3"]
 			hide: true
@@ -419,7 +419,7 @@
 			x: -3.0d
 			y: 5.0d
 			shape: "square"
-			description: ["{chapter.22.quest.11.description.1}"]
+			description: ["{chapter.8.quest.11.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["3E9618EEC90169C3"]
 			hide: true
@@ -465,14 +465,14 @@
 			x: 1.0d
 			y: -2.5d
 			shape: "diamond"
-			description: ["{chapter.22.quest.12.description.1}"]
+			description: ["{chapter.8.quest.12.description.1}"]
 			dependencies: ["4D580C89653F69AA"]
 			size: 1.5d
 			id: "317872EB7FB600F4"
 			tasks: [{
 				id: "536A0DA9D3833EB2"
 				type: "checkmark"
-				title: "{chapter.22.quest.12.task.1.title}"
+				title: "{chapter.8.quest.12.task.1.title}"
 			}]
 			rewards: [{
 				id: "541FF53B6B620C4B"
@@ -484,13 +484,13 @@
 			x: 2.0d
 			y: -3.0d
 			shape: "diamond"
-			description: ["{chapter.22.quest.13.description.1}"]
+			description: ["{chapter.8.quest.13.description.1}"]
 			dependencies: ["317872EB7FB600F4"]
 			id: "4D31658BCB3234D5"
 			tasks: [{
 				id: "11B59B175364E355"
 				type: "checkmark"
-				title: "{chapter.22.quest.13.task.1.title}"
+				title: "{chapter.8.quest.13.task.1.title}"
 			}]
 			rewards: [{
 				id: "39851B1532A36866"
@@ -502,13 +502,13 @@
 			x: 1.5d
 			y: -3.5d
 			shape: "diamond"
-			description: ["{chapter.22.quest.14.description.1}"]
+			description: ["{chapter.8.quest.14.description.1}"]
 			dependencies: ["317872EB7FB600F4"]
 			id: "24535A5965EB8324"
 			tasks: [{
 				id: "10B656EADDAAD5BC"
 				type: "checkmark"
-				title: "{chapter.22.quest.14.task.1.title}"
+				title: "{chapter.8.quest.14.task.1.title}"
 			}]
 			rewards: [{
 				id: "64D7777877CA749C"
@@ -517,17 +517,17 @@
 			}]
 		}
 		{
-			title: "{chapter.22.quest.15.title}"
+			title: "{chapter.8.quest.15.title}"
 			x: 1.0d
 			y: -4.0d
 			shape: "diamond"
-			description: ["{chapter.22.quest.15.description.1}"]
+			description: ["{chapter.8.quest.15.description.1}"]
 			dependencies: ["317872EB7FB600F4"]
 			id: "7240E64810E9D832"
 			tasks: [{
 				id: "15D2B52AD79FCF54"
 				type: "checkmark"
-				title: "{chapter.22.quest.15.task.1.title}"
+				title: "{chapter.8.quest.15.task.1.title}"
 			}]
 			rewards: [{
 				id: "5D7262C6E05329A0"
@@ -539,13 +539,13 @@
 			x: 0.5d
 			y: -3.5d
 			shape: "diamond"
-			description: ["{chapter.22.quest.16.description.1}"]
+			description: ["{chapter.8.quest.16.description.1}"]
 			dependencies: ["317872EB7FB600F4"]
 			id: "2948ECD7FB504F05"
 			tasks: [{
 				id: "0322FB95614F8672"
 				type: "checkmark"
-				title: "{chapter.22.quest.16.task.1.title}"
+				title: "{chapter.8.quest.16.task.1.title}"
 			}]
 			rewards: [{
 				id: "4CD8C7A3B34B766F"
@@ -557,13 +557,13 @@
 			x: 0.0d
 			y: -3.0d
 			shape: "diamond"
-			description: ["{chapter.22.quest.17.description.1}"]
+			description: ["{chapter.8.quest.17.description.1}"]
 			dependencies: ["317872EB7FB600F4"]
 			id: "3E12B682BA858D79"
 			tasks: [{
 				id: "3EB37CED2BD3684A"
 				type: "checkmark"
-				title: "{chapter.22.quest.17.task.1.title}"
+				title: "{chapter.8.quest.17.task.1.title}"
 			}]
 			rewards: [{
 				id: "3E6D66FE68D5CA8D"
@@ -572,11 +572,11 @@
 			}]
 		}
 		{
-			title: "{chapter.22.quest.18.title}"
+			title: "{chapter.8.quest.18.title}"
 			x: 3.0d
 			y: -0.5d
-			subtitle: "{chapter.22.quest.18.subtitle}"
-			description: ["{chapter.22.quest.18.description.1}"]
+			subtitle: "{chapter.8.quest.18.subtitle}"
+			description: ["{chapter.8.quest.18.description.1}"]
 			dependencies: ["4D580C89653F69AA"]
 			id: "5D4F82496A6D1228"
 			tasks: [{
@@ -602,8 +602,8 @@
 		{
 			x: -5.0d
 			y: -0.5d
-			subtitle: "{chapter.22.quest.19.subtitle}"
-			description: ["{chapter.22.quest.19.description.1}"]
+			subtitle: "{chapter.8.quest.19.subtitle}"
+			description: ["{chapter.8.quest.19.description.1}"]
 			dependencies: ["63318C8E26E28F58"]
 			id: "4E3BAD0EE3974503"
 			tasks: [{
@@ -627,7 +627,7 @@
 		{
 			x: 3.0d
 			y: -2.0d
-			description: ["{chapter.22.quest.20.description.1}"]
+			description: ["{chapter.8.quest.20.description.1}"]
 			dependencies: ["5D4F82496A6D1228"]
 			optional: true
 			id: "202C1C3E4F32BC62"
@@ -643,10 +643,10 @@
 			}]
 		}
 		{
-			title: "{chapter.22.quest.21.title}"
+			title: "{chapter.8.quest.21.title}"
 			x: 5.0d
 			y: 1.0d
-			description: ["{chapter.22.quest.21.description.1}"]
+			description: ["{chapter.8.quest.21.description.1}"]
 			dependencies: ["5D4F82496A6D1228"]
 			id: "20F30F5FFD3D669D"
 			tasks: [{
@@ -670,12 +670,12 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.22.title}"
+			title: "{chapter.8.quest.22.title}"
 			icon: "tconstruct:seared_melter"
 			x: 7.0d
 			y: 1.0d
 			description: [
-				"{chapter.22.quest.22.description.1}"
+				"{chapter.8.quest.22.description.1}"
 				"{image:atm:textures/basic_melter.png width:200 height:150 align:1}"
 			]
 			dependencies: ["20F30F5FFD3D669D"]
@@ -733,10 +733,10 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.23.title}"
+			title: "{chapter.8.quest.23.title}"
 			x: 6.5d
 			y: -0.5d
-			description: ["{chapter.22.quest.23.description.1}"]
+			description: ["{chapter.8.quest.23.description.1}"]
 			dependencies: ["6DB1A9EDAAE6D12F"]
 			optional: true
 			id: "7A49EC84CABC8B5F"
@@ -761,10 +761,10 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.24.title}"
+			title: "{chapter.8.quest.24.title}"
 			x: 7.5d
 			y: -0.5d
-			description: ["{chapter.22.quest.24.description.1}"]
+			description: ["{chapter.8.quest.24.description.1}"]
 			dependencies: ["6DB1A9EDAAE6D12F"]
 			id: "5D1661EB762777E3"
 			tasks: [{
@@ -787,10 +787,10 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.25.title}"
+			title: "{chapter.8.quest.25.title}"
 			x: 11.0d
 			y: -0.5d
-			description: ["{chapter.22.quest.25.description.1}"]
+			description: ["{chapter.8.quest.25.description.1}"]
 			dependencies: ["61EB8322B3E68C50"]
 			id: "506049B1F127462A"
 			tasks: [
@@ -821,12 +821,12 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.26.title}"
+			title: "{chapter.8.quest.26.title}"
 			x: 11.0d
 			y: -3.0d
 			shape: "square"
 			description: [
-				"{chapter.22.quest.26.description.1}"
+				"{chapter.8.quest.26.description.1}"
 				"{image:atm:textures/basic_smeltery2.png width:200 height:100 align:1}"
 			]
 			dependencies: ["506049B1F127462A"]
@@ -867,8 +867,8 @@
 		{
 			x: 9.0d
 			y: 1.0d
-			subtitle: "{chapter.22.quest.27.subtitle}"
-			description: ["{chapter.22.quest.27.description.1}"]
+			subtitle: "{chapter.8.quest.27.subtitle}"
+			description: ["{chapter.8.quest.27.description.1}"]
 			dependencies: ["6DB1A9EDAAE6D12F"]
 			id: "61EB8322B3E68C50"
 			tasks: [{
@@ -883,11 +883,11 @@
 			}]
 		}
 		{
-			title: "{chapter.22.quest.28.title}"
+			title: "{chapter.8.quest.28.title}"
 			x: 10.5d
 			y: -5.0d
 			shape: "diamond"
-			description: ["{chapter.22.quest.28.description.1}"]
+			description: ["{chapter.8.quest.28.description.1}"]
 			dependencies: ["71409AA6F3C56CCC"]
 			optional: true
 			id: "740EE68B4E779115"
@@ -919,11 +919,11 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.29.title}"
+			title: "{chapter.8.quest.29.title}"
 			x: 11.5d
 			y: -5.0d
 			shape: "diamond"
-			description: ["{chapter.22.quest.29.description.1}"]
+			description: ["{chapter.8.quest.29.description.1}"]
 			dependencies: ["71409AA6F3C56CCC"]
 			id: "2AD7445095E1822A"
 			tasks: [
@@ -953,10 +953,10 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.30.title}"
+			title: "{chapter.8.quest.30.title}"
 			x: 13.0d
 			y: -3.0d
-			description: ["{chapter.22.quest.30.description.1}"]
+			description: ["{chapter.8.quest.30.description.1}"]
 			dependencies: ["71409AA6F3C56CCC"]
 			id: "63A17D740F3718F1"
 			tasks: [{
@@ -983,8 +983,8 @@
 			x: 15.0d
 			y: -3.0d
 			shape: "rsquare"
-			subtitle: "{chapter.22.quest.31.subtitle}"
-			description: ["{chapter.22.quest.31.description.1}"]
+			subtitle: "{chapter.8.quest.31.subtitle}"
+			description: ["{chapter.8.quest.31.description.1}"]
 			dependencies: ["63A17D740F3718F1"]
 			id: "1E35D97AF9B2A0C8"
 			tasks: [{
@@ -1018,12 +1018,12 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.32.title}"
+			title: "{chapter.8.quest.32.title}"
 			x: 11.0d
 			y: -5.5d
 			shape: "diamond"
-			subtitle: "{chapter.22.quest.32.subtitle}"
-			description: ["{chapter.22.quest.32.description.1}"]
+			subtitle: "{chapter.8.quest.32.subtitle}"
+			description: ["{chapter.8.quest.32.description.1}"]
 			dependencies: ["71409AA6F3C56CCC"]
 			id: "79FEF7F610F0DB64"
 			tasks: [{
@@ -1050,14 +1050,14 @@
 			icon: "tconstruct:smeltery_controller"
 			x: 7.0d
 			y: 2.5d
-			description: ["{chapter.22.quest.33.description.1}"]
+			description: ["{chapter.8.quest.33.description.1}"]
 			dependencies: ["6DB1A9EDAAE6D12F"]
 			optional: true
 			id: "01A303E16F56A744"
 			tasks: [{
 				id: "23353CA86237AE30"
 				type: "checkmark"
-				title: "{chapter.22.quest.33.task.1.title}"
+				title: "{chapter.8.quest.33.task.1.title}"
 			}]
 			rewards: [{
 				id: "127FF1A55308259A"
@@ -1070,14 +1070,14 @@
 			x: 6.5d
 			y: 3.5d
 			shape: "diamond"
-			description: ["{chapter.22.quest.34.description.1}"]
+			description: ["{chapter.8.quest.34.description.1}"]
 			dependencies: ["01A303E16F56A744"]
 			optional: true
 			id: "3341EC0F88729061"
 			tasks: [{
 				id: "0738C23F6D0FFADB"
 				type: "checkmark"
-				title: "{chapter.22.quest.34.task.1.title}"
+				title: "{chapter.8.quest.34.task.1.title}"
 			}]
 			rewards: [{
 				id: "1BA529454AD71699"
@@ -1090,14 +1090,14 @@
 			x: 7.5d
 			y: 3.5d
 			shape: "diamond"
-			description: ["{chapter.22.quest.35.description.1}"]
+			description: ["{chapter.8.quest.35.description.1}"]
 			dependencies: ["01A303E16F56A744"]
 			optional: true
 			id: "3D4D2D0B160E22B5"
 			tasks: [{
 				id: "2562C1A8B4DB2EBB"
 				type: "checkmark"
-				title: "{chapter.22.quest.35.task.1.title}"
+				title: "{chapter.8.quest.35.task.1.title}"
 			}]
 		}
 		{
@@ -1105,14 +1105,14 @@
 			x: 7.0d
 			y: 4.0d
 			shape: "diamond"
-			description: ["{chapter.22.quest.36.description.1}"]
+			description: ["{chapter.8.quest.36.description.1}"]
 			dependencies: ["01A303E16F56A744"]
 			optional: true
 			id: "05BC6BF2AAA43091"
 			tasks: [{
 				id: "282F6F2D6CC2E09D"
 				type: "checkmark"
-				title: "{chapter.22.quest.36.task.1.title}"
+				title: "{chapter.8.quest.36.task.1.title}"
 			}]
 			rewards: [{
 				id: "00290449960DE450"
@@ -1121,12 +1121,12 @@
 			}]
 		}
 		{
-			title: "{chapter.22.quest.37.title}"
+			title: "{chapter.8.quest.37.title}"
 			x: 9.0d
 			y: -3.5d
 			shape: "hexagon"
-			subtitle: "{chapter.22.quest.37.subtitle}"
-			description: ["{chapter.22.quest.37.description.1}"]
+			subtitle: "{chapter.8.quest.37.subtitle}"
+			description: ["{chapter.8.quest.37.description.1}"]
 			dependencies: ["71409AA6F3C56CCC"]
 			optional: true
 			id: "00CB0F26B3751D32"
@@ -1145,8 +1145,8 @@
 			x: 9.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "{chapter.22.quest.38.subtitle}"
-			description: ["{chapter.22.quest.38.description.1}"]
+			subtitle: "{chapter.8.quest.38.subtitle}"
+			description: ["{chapter.8.quest.38.description.1}"]
 			dependencies: ["71409AA6F3C56CCC"]
 			optional: true
 			id: "3CEC4B07D209B7AD"
@@ -1162,11 +1162,11 @@
 			}]
 		}
 		{
-			title: "{chapter.22.quest.39.title}"
+			title: "{chapter.8.quest.39.title}"
 			x: 15.0d
 			y: -0.5d
-			subtitle: "{chapter.22.quest.39.subtitle}"
-			description: ["{chapter.22.quest.39.description.1}"]
+			subtitle: "{chapter.8.quest.39.subtitle}"
+			description: ["{chapter.8.quest.39.description.1}"]
 			dependencies: ["1E35D97AF9B2A0C8"]
 			id: "085239E88B85820C"
 			tasks: [{
@@ -1193,8 +1193,8 @@
 		{
 			x: 16.5d
 			y: -0.5d
-			subtitle: "{chapter.22.quest.40.subtitle}"
-			description: ["{chapter.22.quest.40.description.1}"]
+			subtitle: "{chapter.8.quest.40.subtitle}"
+			description: ["{chapter.8.quest.40.description.1}"]
 			dependencies: ["085239E88B85820C"]
 			optional: true
 			id: "7675F195F6D5F8B4"
@@ -1210,11 +1210,11 @@
 			}]
 		}
 		{
-			title: "{chapter.22.quest.41.title}"
+			title: "{chapter.8.quest.41.title}"
 			icon: "tconstruct:scorched_bricks"
 			x: 15.0d
 			y: 2.5d
-			description: ["{chapter.22.quest.41.description.1}"]
+			description: ["{chapter.8.quest.41.description.1}"]
 			dependencies: ["5F6D253B5D900724"]
 			id: "5FAFAEC103BE62DD"
 			tasks: [
@@ -1250,10 +1250,10 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.42.title}"
+			title: "{chapter.8.quest.42.title}"
 			x: 15.0d
 			y: 1.0d
-			description: ["{chapter.22.quest.42.description.1}"]
+			description: ["{chapter.8.quest.42.description.1}"]
 			dependencies: ["085239E88B85820C"]
 			id: "5F6D253B5D900724"
 			tasks: [{
@@ -1278,13 +1278,13 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.43.title}"
+			title: "{chapter.8.quest.43.title}"
 			icon: "tconstruct:foundry_controller"
 			x: 15.0d
 			y: 4.5d
 			shape: "square"
 			description: [
-				"{chapter.22.quest.43.description.1}"
+				"{chapter.8.quest.43.description.1}"
 				"{image:atm:textures/basic_foundry.png width:200 height:150 align:1}"
 			]
 			dependencies: ["5FAFAEC103BE62DD"]
@@ -1340,10 +1340,10 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.44.title}"
+			title: "{chapter.8.quest.44.title}"
 			x: 13.0d
 			y: 4.5d
-			description: ["{chapter.22.quest.44.description.1}"]
+			description: ["{chapter.8.quest.44.description.1}"]
 			dependencies: ["073B3F17C6110A73"]
 			optional: true
 			id: "2FCE10E2126AB563"
@@ -1381,9 +1381,9 @@
 		{
 			x: 15.0d
 			y: 6.5d
-			subtitle: "{chapter.22.quest.45.subtitle}"
+			subtitle: "{chapter.8.quest.45.subtitle}"
 			description: [
-				"{chapter.22.quest.45.description.1}"
+				"{chapter.8.quest.45.description.1}"
 				"{image:atm:textures/basic_alloyer.png width:200 height:125 align:1}"
 			]
 			dependencies: ["073B3F17C6110A73"]
@@ -1417,11 +1417,11 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.46.title}"
+			title: "{chapter.8.quest.46.title}"
 			x: 17.0d
 			y: 4.5d
-			subtitle: "{chapter.22.quest.46.subtitle}"
-			description: ["{chapter.22.quest.46.description.1}"]
+			subtitle: "{chapter.8.quest.46.subtitle}"
+			description: ["{chapter.8.quest.46.description.1}"]
 			dependencies: ["073B3F17C6110A73"]
 			id: "2B7EFB6A2605BEFD"
 			tasks: [{
@@ -1443,10 +1443,10 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.47.title}"
+			title: "{chapter.8.quest.47.title}"
 			x: 17.0d
 			y: 6.5d
-			description: ["{chapter.22.quest.47.description.1}"]
+			description: ["{chapter.8.quest.47.description.1}"]
 			dependencies: ["2B7EFB6A2605BEFD"]
 			optional: true
 			id: "729B02AE3CDD52AD"
@@ -1673,12 +1673,12 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.52.title}"
+			title: "{chapter.8.quest.52.title}"
 			x: 15.0d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "{chapter.22.quest.52.subtitle}"
-			description: ["{chapter.22.quest.52.description.1}"]
+			subtitle: "{chapter.8.quest.52.subtitle}"
+			description: ["{chapter.8.quest.52.description.1}"]
 			dependencies: ["1E35D97AF9B2A0C8"]
 			optional: true
 			id: "4284DC447ED43032"
@@ -1737,11 +1737,11 @@
 			}]
 		}
 		{
-			title: "{chapter.22.quest.53.title}"
+			title: "{chapter.8.quest.53.title}"
 			x: 14.5d
 			y: -5.5d
 			shape: "diamond"
-			subtitle: "{chapter.22.quest.53.subtitle}"
+			subtitle: "{chapter.8.quest.53.subtitle}"
 			dependencies: ["1E35D97AF9B2A0C8"]
 			optional: true
 			id: "7FF7E8F009D21285"
@@ -1800,11 +1800,11 @@
 			}]
 		}
 		{
-			title: "{chapter.22.quest.54.title}"
+			title: "{chapter.8.quest.54.title}"
 			x: 15.0d
 			y: -6.0d
 			shape: "diamond"
-			subtitle: "{chapter.22.quest.54.subtitle}"
+			subtitle: "{chapter.8.quest.54.subtitle}"
 			dependencies: ["1E35D97AF9B2A0C8"]
 			optional: true
 			id: "7C518B3A86E4869F"
@@ -1859,11 +1859,11 @@
 			}]
 		}
 		{
-			title: "{chapter.22.quest.55.title}"
+			title: "{chapter.8.quest.55.title}"
 			x: 14.0d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "{chapter.22.quest.55.subtitle}"
+			subtitle: "{chapter.8.quest.55.subtitle}"
 			dependencies: ["1E35D97AF9B2A0C8"]
 			optional: true
 			id: "35BA7E1421AADE3A"
@@ -1921,7 +1921,7 @@
 			x: 16.0d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "{chapter.22.quest.56.subtitle}"
+			subtitle: "{chapter.8.quest.56.subtitle}"
 			dependencies: ["1E35D97AF9B2A0C8"]
 			optional: true
 			id: "2E73CA4D82AB10E0"
@@ -1987,7 +1987,7 @@
 			x: 15.5d
 			y: -5.5d
 			shape: "diamond"
-			subtitle: "{chapter.22.quest.57.subtitle}"
+			subtitle: "{chapter.8.quest.57.subtitle}"
 			dependencies: ["1E35D97AF9B2A0C8"]
 			optional: true
 			id: "0A2BC58800819C15"
@@ -2059,14 +2059,14 @@
 			x: 1.0d
 			y: 1.0d
 			shape: "diamond"
-			description: ["{chapter.22.quest.58.description.1}"]
+			description: ["{chapter.8.quest.58.description.1}"]
 			dependencies: ["4D580C89653F69AA"]
 			optional: true
 			id: "748F70BEEAAE2AF9"
 			tasks: [{
 				id: "13CA35CA6EC15987"
 				type: "checkmark"
-				title: "{chapter.22.quest.58.task.1.title}"
+				title: "{chapter.8.quest.58.task.1.title}"
 			}]
 			rewards: [{
 				id: "2BABD291D5576987"
@@ -2075,12 +2075,12 @@
 			}]
 		}
 		{
-			title: "{chapter.22.quest.59.title}"
+			title: "{chapter.8.quest.59.title}"
 			x: 18.5d
 			y: 4.5d
-			subtitle: "{chapter.22.quest.59.subtitle}"
+			subtitle: "{chapter.8.quest.59.subtitle}"
 			description: [
-				"{chapter.22.quest.59.description.1}"
+				"{chapter.8.quest.59.description.1}"
 				"{image:atm:textures/soul_lava.png width:200 height:175 align:1}"
 			]
 			dependencies: ["2B7EFB6A2605BEFD"]
@@ -2105,11 +2105,11 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.60.title}"
+			title: "{chapter.8.quest.60.title}"
 			x: 21.0d
 			y: 4.5d
 			shape: "octagon"
-			description: ["{chapter.22.quest.60.description.1}"]
+			description: ["{chapter.8.quest.60.description.1}"]
 			dependencies: ["0858E8E6363138B8"]
 			size: 2.0d
 			id: "09E556E4EDDCDD2E"
@@ -2156,14 +2156,14 @@
 		{
 			x: -3.0d
 			y: 3.0d
-			description: ["{chapter.22.quest.61.description.1}"]
+			description: ["{chapter.8.quest.61.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["681E777B4C8E19CF"]
 			id: "3E9618EEC90169C3"
 			tasks: [{
 				id: "428B3A5FD5E4796F"
 				type: "checkmark"
-				title: "{chapter.22.quest.61.task.1.title}"
+				title: "{chapter.8.quest.61.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -2182,12 +2182,12 @@
 		{
 			x: 13.0d
 			y: 0.5d
-			description: ["{chapter.22.quest.62.description.1}"]
+			description: ["{chapter.8.quest.62.description.1}"]
 			id: "7D87F961B76246CA"
 			tasks: [{
 				id: "58647E9ACAD9FDB9"
 				type: "checkmark"
-				title: "{chapter.22.quest.62.task.1.title}"
+				title: "{chapter.8.quest.62.task.1.title}"
 			}]
 			rewards: [{
 				id: "6FC67A906BE61358"

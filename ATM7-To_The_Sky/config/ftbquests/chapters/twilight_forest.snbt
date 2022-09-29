@@ -1,26 +1,26 @@
 {
 	id: "7732CF7AAA63DB3A"
-	group: ""
-	order_index: 2
+	group: "752CDE464613A1ED"
+	order_index: 0
 	filename: "twilight_forest"
-	title: "{chapter.3.title}"
+	title: "{chapter.22.title}"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.3.quest.1.title}"
+			title: "{chapter.22.quest.1.title}"
 			x: -7.5d
 			y: 0.0d
 			shape: "octagon"
-			subtitle: "{chapter.3.quest.1.subtitle}"
-			description: ["{chapter.3.quest.1.description.1}"]
+			subtitle: "{chapter.22.quest.1.subtitle}"
+			description: ["{chapter.22.quest.1.description.1}"]
 			size: 1.5d
 			id: "4193303999597249"
 			tasks: [{
 				id: "695EA135D2B5FDC8"
 				type: "advancement"
-				title: "{chapter.3.quest.1.task.1.title}"
+				title: "{chapter.22.quest.1.task.1.title}"
 				icon: "twilightforest:twilight_portal_miniature_structure"
 				advancement: "twilightforest:root"
 				criterion: ""
@@ -72,14 +72,14 @@
 		{
 			x: -7.5d
 			y: -1.5d
-			description: ["{chapter.3.quest.2.description.1}"]
+			description: ["{chapter.22.quest.2.description.1}"]
 			dependencies: ["4193303999597249"]
 			hide: true
 			id: "575E405B270BBCBC"
 			tasks: [{
 				id: "49C77D4CDAE03481"
 				type: "advancement"
-				title: "{chapter.3.quest.2.task.1.title}"
+				title: "{chapter.22.quest.2.task.1.title}"
 				icon: "twilightforest:cicada"
 				advancement: "twilightforest:twilight_hunter"
 				criterion: ""
@@ -91,12 +91,12 @@
 			}]
 		}
 		{
-			title: "{chapter.3.quest.3.title}"
+			title: "{chapter.22.quest.3.title}"
 			icon: "twilightforest:castle_brick"
 			x: 9.0d
 			y: 5.5d
 			shape: "rsquare"
-			description: ["{chapter.3.quest.3.description.1}"]
+			description: ["{chapter.22.quest.3.description.1}"]
 			dependencies: ["2951B1D7080C5EF9"]
 			dependency_requirement: "all_started"
 			id: "420158B1736A1354"
@@ -104,7 +104,7 @@
 				{
 					id: "086AAFD8D9F5EDFA"
 					type: "biome"
-					title: "{chapter.3.quest.3.task.1.title}"
+					title: "{chapter.22.quest.3.task.1.title}"
 					icon: "twilightforest:castle_brick"
 					biome: "twilightforest:final_plateau"
 				}
@@ -147,12 +147,12 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.4.title}"
+			title: "{chapter.22.quest.4.title}"
 			icon: "minecraft:bowl"
 			x: 6.5d
 			y: 3.0d
 			shape: "diamond"
-			description: ["{chapter.3.quest.4.description.1}"]
+			description: ["{chapter.22.quest.4.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
@@ -212,11 +212,11 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.5.title}"
+			title: "{chapter.22.quest.5.title}"
 			icon: "twilightforest:raven_feather"
 			x: -6.5d
 			y: -2.5d
-			description: ["{chapter.3.quest.5.description.1}"]
+			description: ["{chapter.22.quest.5.description.1}"]
 			dependencies: ["575E405B270BBCBC"]
 			dependency_requirement: "one_completed"
 			id: "57940981E8DE55D4"
@@ -232,13 +232,13 @@
 			}]
 		}
 		{
-			title: "{chapter.3.quest.6.title}"
+			title: "{chapter.22.quest.6.title}"
 			icon: "twilightforest:time_sapling"
 			x: 6.5d
 			y: 5.5d
 			shape: "gear"
-			subtitle: "{chapter.3.quest.6.subtitle}"
-			description: ["{chapter.3.quest.6.description.1}"]
+			subtitle: "{chapter.22.quest.6.subtitle}"
+			description: ["{chapter.22.quest.6.description.1}"]
 			dependencies: ["420158B1736A1354"]
 			size: 3.0d
 			id: "0ED7B25DC1AA767B"
@@ -278,14 +278,15 @@
 				{
 					id: "307ADDA3F89CF02E"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
 		{
-			title: "{chapter.3.quest.7.title}"
+			title: "{chapter.22.quest.7.title}"
 			x: -6.0d
 			y: 0.0d
-			description: ["{chapter.3.quest.7.description.1}"]
+			description: ["{chapter.22.quest.7.description.1}"]
 			dependencies: ["4193303999597249"]
 			hide: true
 			id: "3531B28F14CF72A2"
@@ -310,10 +311,10 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.8.title}"
+			title: "{chapter.22.quest.8.title}"
 			x: -4.5d
 			y: 1.0d
-			description: ["{chapter.3.quest.8.description.1}"]
+			description: ["{chapter.22.quest.8.description.1}"]
 			dependencies: ["3531B28F14CF72A2"]
 			id: "0107D516E038E0DB"
 			tasks: [{
@@ -336,15 +337,16 @@
 				{
 					id: "5C86EA40DE0D0702"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
 		{
-			title: "{chapter.3.quest.9.title}"
+			title: "{chapter.22.quest.9.title}"
 			icon: "twilightforest:minoshroom_trophy"
 			x: 1.0d
 			y: 1.0d
-			description: ["{chapter.3.quest.9.description.1}"]
+			description: ["{chapter.22.quest.9.description.1}"]
 			dependencies: ["4B95D48D7525FFAD"]
 			id: "04440BB2EFFD6DD9"
 			tasks: [
@@ -368,15 +370,16 @@
 				{
 					id: "2348B79F8ADCFD49"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
 		{
-			title: "{chapter.3.quest.10.title}"
+			title: "{chapter.22.quest.10.title}"
 			x: 2.5d
 			y: -0.5d
-			subtitle: "{chapter.3.quest.10.subtitle}"
-			description: ["{chapter.3.quest.10.description.1}"]
+			subtitle: "{chapter.22.quest.10.subtitle}"
+			description: ["{chapter.22.quest.10.description.1}"]
 			dependencies: ["04440BB2EFFD6DD9"]
 			id: "7026E46FD8B3A81D"
 			tasks: [{
@@ -393,15 +396,16 @@
 				{
 					id: "55F90DB2EEEEE064"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
 		{
-			title: "{chapter.3.quest.11.title}"
+			title: "{chapter.22.quest.11.title}"
 			x: 4.0d
 			y: -2.0d
-			subtitle: "{chapter.3.quest.11.subtitle}"
-			description: ["{chapter.3.quest.11.description.1}"]
+			subtitle: "{chapter.22.quest.11.subtitle}"
+			description: ["{chapter.22.quest.11.description.1}"]
 			dependencies: ["7026E46FD8B3A81D"]
 			id: "3DCF26B53AE1EBF6"
 			tasks: [{
@@ -418,15 +422,16 @@
 				{
 					id: "0432C721D444184B"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
 		{
-			title: "{chapter.3.quest.12.title}"
+			title: "{chapter.22.quest.12.title}"
 			x: 6.5d
 			y: -2.0d
-			subtitle: "{chapter.3.quest.12.subtitle}"
-			description: ["{chapter.3.quest.12.description.1}"]
+			subtitle: "{chapter.22.quest.12.subtitle}"
+			description: ["{chapter.22.quest.12.description.1}"]
 			dependencies: ["3DCF26B53AE1EBF6"]
 			id: "688C911ECFB2F134"
 			tasks: [{
@@ -450,14 +455,15 @@
 				{
 					id: "436197AB331DD880"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
 		{
-			title: "{chapter.3.quest.13.title}"
+			title: "{chapter.22.quest.13.title}"
 			x: 9.0d
 			y: -2.0d
-			description: ["{chapter.3.quest.13.description.1}"]
+			description: ["{chapter.22.quest.13.description.1}"]
 			dependencies: ["688C911ECFB2F134"]
 			id: "31BB7EB95CE73C1A"
 			tasks: [{
@@ -481,14 +487,15 @@
 				{
 					id: "23174C24D051B80E"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
 		{
-			title: "{chapter.3.quest.14.title}"
+			title: "{chapter.22.quest.14.title}"
 			x: 10.5d
 			y: -0.5d
-			description: ["{chapter.3.quest.14.description.1}"]
+			description: ["{chapter.22.quest.14.description.1}"]
 			dependencies: ["31BB7EB95CE73C1A"]
 			id: "6FD41DF7704466A4"
 			tasks: [{
@@ -505,6 +512,7 @@
 				{
 					id: "21B903DE9EB6367F"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
@@ -519,7 +527,7 @@
 			x: 12.0d
 			y: 4.5d
 			shape: "hexagon"
-			description: ["{chapter.3.quest.15.description.1}"]
+			description: ["{chapter.22.quest.15.description.1}"]
 			dependencies: ["20436AFCC7E6855D"]
 			id: "5CBA8C89FE717B9C"
 			tasks: [{
@@ -563,8 +571,8 @@
 			x: 12.0d
 			y: 2.6d
 			shape: "pentagon"
-			subtitle: "{chapter.3.quest.16.subtitle}"
-			description: ["{chapter.3.quest.16.description.1}"]
+			subtitle: "{chapter.22.quest.16.subtitle}"
+			description: ["{chapter.22.quest.16.description.1}"]
 			dependencies: ["58BD1063A19777DC"]
 			id: "20436AFCC7E6855D"
 			tasks: [{
@@ -587,14 +595,15 @@
 				{
 					id: "10163664BE8E155F"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
 		{
-			title: "{chapter.3.quest.17.title}"
+			title: "{chapter.22.quest.17.title}"
 			x: -6.0d
 			y: -1.0d
-			description: ["{chapter.3.quest.17.description.1}"]
+			description: ["{chapter.22.quest.17.description.1}"]
 			dependencies: ["3531B28F14CF72A2"]
 			id: "4D4AB60B3B1CD437"
 			tasks: [
@@ -638,6 +647,7 @@
 				{
 					id: "7AFB735476E84420"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
@@ -645,7 +655,7 @@
 			x: -5.0d
 			y: 2.5d
 			shape: "diamond"
-			description: ["{chapter.3.quest.18.description.1}"]
+			description: ["{chapter.22.quest.18.description.1}"]
 			dependencies: ["0107D516E038E0DB"]
 			id: "212EC1F41227184D"
 			tasks: [{
@@ -678,7 +688,7 @@
 			x: -5.5d
 			y: 2.0d
 			shape: "diamond"
-			description: ["{chapter.3.quest.19.description.1}"]
+			description: ["{chapter.22.quest.19.description.1}"]
 			dependencies: ["0107D516E038E0DB"]
 			id: "6CB1BFBA10DF24E4"
 			tasks: [{
@@ -711,7 +721,7 @@
 			x: -3.5d
 			y: 2.0d
 			shape: "diamond"
-			description: ["{chapter.3.quest.20.description.1}"]
+			description: ["{chapter.22.quest.20.description.1}"]
 			dependencies: ["0107D516E038E0DB"]
 			id: "3908F7C80154D9CA"
 			tasks: [{
@@ -744,7 +754,7 @@
 			x: -4.0d
 			y: 2.5d
 			shape: "diamond"
-			description: ["{chapter.3.quest.21.description.1}"]
+			description: ["{chapter.22.quest.21.description.1}"]
 			dependencies: ["0107D516E038E0DB"]
 			id: "3371570F189DF994"
 			tasks: [{
@@ -774,12 +784,12 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.22.title}"
+			title: "{chapter.22.quest.22.title}"
 			icon: "twilightforest:maze_map"
 			x: -1.5d
 			y: 1.0d
-			subtitle: "{chapter.3.quest.22.subtitle}"
-			description: ["{chapter.3.quest.22.description.1}"]
+			subtitle: "{chapter.22.quest.22.subtitle}"
+			description: ["{chapter.22.quest.22.description.1}"]
 			dependencies: ["0107D516E038E0DB"]
 			id: "4B95D48D7525FFAD"
 			tasks: [
@@ -804,7 +814,7 @@
 		{
 			x: -4.0d
 			y: -1.5d
-			description: ["{chapter.3.quest.23.description.1}"]
+			description: ["{chapter.22.quest.23.description.1}"]
 			dependencies: ["4F66DF6B494BEFF3"]
 			dependency_requirement: "one_completed"
 			optional: true
@@ -821,11 +831,11 @@
 			}]
 		}
 		{
-			title: "{chapter.3.quest.24.title}"
+			title: "{chapter.22.quest.24.title}"
 			x: 8.0d
 			y: 1.5d
 			shape: "diamond"
-			description: ["{chapter.3.quest.24.description.1}"]
+			description: ["{chapter.22.quest.24.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
@@ -908,11 +918,11 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.25.title}"
+			title: "{chapter.22.quest.25.title}"
 			x: 5.0d
 			y: 1.5d
 			shape: "diamond"
-			description: ["{chapter.3.quest.25.description.1}"]
+			description: ["{chapter.22.quest.25.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
@@ -995,10 +1005,10 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.26.title}"
+			title: "{chapter.22.quest.26.title}"
 			x: 1.5d
 			y: -0.5d
-			description: ["{chapter.3.quest.26.description.1}"]
+			description: ["{chapter.22.quest.26.description.1}"]
 			dependencies: ["7026E46FD8B3A81D"]
 			id: "1FF5906DF721D091"
 			tasks: [
@@ -1063,6 +1073,7 @@
 				{
 					id: "3BB1CF44BD9DF7B4"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
@@ -1070,7 +1081,7 @@
 			x: 4.0d
 			y: -3.5d
 			shape: "diamond"
-			description: ["{chapter.3.quest.27.description.1}"]
+			description: ["{chapter.22.quest.27.description.1}"]
 			dependencies: ["3DCF26B53AE1EBF6"]
 			id: "0A207A437AF153AA"
 			tasks: [
@@ -1106,15 +1117,16 @@
 				{
 					id: "269E12B24D6C62AD"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
 		{
-			title: "{chapter.3.quest.28.title}"
+			title: "{chapter.22.quest.28.title}"
 			x: 3.5d
 			y: -3.0d
 			shape: "diamond"
-			description: ["{chapter.3.quest.28.description.1}"]
+			description: ["{chapter.22.quest.28.description.1}"]
 			dependencies: ["3DCF26B53AE1EBF6"]
 			id: "25906B43A198B72F"
 			tasks: [
@@ -1172,14 +1184,15 @@
 				{
 					id: "7F25EEC7FA00F6A8"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
 		{
-			title: "{chapter.3.quest.29.title}"
+			title: "{chapter.22.quest.29.title}"
 			x: -7.5d
 			y: 1.5d
-			description: ["{chapter.3.quest.29.description.1}"]
+			description: ["{chapter.22.quest.29.description.1}"]
 			dependencies: ["4193303999597249"]
 			hide: true
 			optional: true
@@ -1199,7 +1212,7 @@
 			x: 6.5d
 			y: 0.0d
 			shape: "diamond"
-			description: ["{chapter.3.quest.30.description.1}"]
+			description: ["{chapter.22.quest.30.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
@@ -1226,7 +1239,7 @@
 			x: 6.5d
 			y: 1.5d
 			shape: "diamond"
-			description: ["{chapter.3.quest.31.description.1}"]
+			description: ["{chapter.22.quest.31.description.1}"]
 			dependencies: ["6F67079A453DAABE"]
 			hide: true
 			size: 1.5d
@@ -1254,7 +1267,7 @@
 			x: -2.0d
 			y: 0.10000000000000003d
 			shape: "diamond"
-			description: ["{chapter.3.quest.32.description.1}"]
+			description: ["{chapter.22.quest.32.description.1}"]
 			dependencies: ["4B95D48D7525FFAD"]
 			id: "610F9E9D0B5131C7"
 			tasks: [{
@@ -1272,7 +1285,7 @@
 			x: -1.0d
 			y: 0.10000000000000003d
 			shape: "diamond"
-			description: ["{chapter.3.quest.33.description.1}"]
+			description: ["{chapter.22.quest.33.description.1}"]
 			dependencies: ["610F9E9D0B5131C7"]
 			id: "4665E6FD0AAED164"
 			tasks: [{
@@ -1290,7 +1303,7 @@
 			x: -1.5d
 			y: -0.5d
 			shape: "diamond"
-			description: ["{chapter.3.quest.34.description.1}"]
+			description: ["{chapter.22.quest.34.description.1}"]
 			dependencies: ["4665E6FD0AAED164"]
 			size: 1.25d
 			id: "3A3ED88027331A6C"
@@ -1308,6 +1321,7 @@
 				{
 					id: "62FB99FCB11C009F"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
@@ -1315,7 +1329,7 @@
 			x: 6.0d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "{chapter.3.quest.35.subtitle}"
+			subtitle: "{chapter.22.quest.35.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
@@ -1338,10 +1352,10 @@
 			}]
 		}
 		{
-			title: "{chapter.3.quest.36.title}"
+			title: "{chapter.22.quest.36.title}"
 			x: 9.5d
 			y: -3.0d
-			description: ["{chapter.3.quest.36.description.1}"]
+			description: ["{chapter.22.quest.36.description.1}"]
 			dependencies: ["31BB7EB95CE73C1A"]
 			id: "3C8724C3A9459507"
 			tasks: [
@@ -1428,15 +1442,16 @@
 				{
 					id: "0151BD8A11801463"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
 		{
-			title: "{chapter.3.quest.37.title}"
+			title: "{chapter.22.quest.37.title}"
 			x: 8.5d
 			y: -3.0d
-			subtitle: "{chapter.3.quest.37.subtitle}"
-			description: ["{chapter.3.quest.37.description.1}"]
+			subtitle: "{chapter.22.quest.37.subtitle}"
+			description: ["{chapter.22.quest.37.description.1}"]
 			dependencies: ["31BB7EB95CE73C1A"]
 			id: "2A0B3C91D72E8B75"
 			tasks: [
@@ -1494,6 +1509,7 @@
 				{
 					id: "3DE875692CDA73EC"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
@@ -1501,8 +1517,8 @@
 			x: -1.0d
 			y: 2.0d
 			shape: "hexagon"
-			subtitle: "{chapter.3.quest.38.subtitle}"
-			description: ["{chapter.3.quest.38.description.1}"]
+			subtitle: "{chapter.22.quest.38.subtitle}"
+			description: ["{chapter.22.quest.38.description.1}"]
 			dependencies: ["4B95D48D7525FFAD"]
 			id: "51BC981AB4CFAD95"
 			tasks: [{
@@ -1539,7 +1555,7 @@
 		{
 			x: 11.5d
 			y: -0.5d
-			description: ["{chapter.3.quest.39.description.1}"]
+			description: ["{chapter.22.quest.39.description.1}"]
 			dependencies: ["6FD41DF7704466A4"]
 			id: "53A79338994088FD"
 			tasks: [{
@@ -1562,7 +1578,7 @@
 		{
 			x: 10.5d
 			y: -1.5d
-			description: ["{chapter.3.quest.40.description.1}"]
+			description: ["{chapter.22.quest.40.description.1}"]
 			dependencies: ["6FD41DF7704466A4"]
 			id: "7509E4093010EA4C"
 			tasks: [{
@@ -1586,7 +1602,7 @@
 			x: 7.5d
 			y: 1.0d
 			shape: "diamond"
-			description: ["{chapter.3.quest.41.description.1}"]
+			description: ["{chapter.22.quest.41.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
@@ -1612,7 +1628,7 @@
 			x: 5.5d
 			y: 1.0d
 			shape: "diamond"
-			description: ["{chapter.3.quest.42.description.1}"]
+			description: ["{chapter.22.quest.42.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
@@ -1638,7 +1654,7 @@
 			x: 5.5d
 			y: 2.0d
 			shape: "diamond"
-			description: ["{chapter.3.quest.43.description.1}"]
+			description: ["{chapter.22.quest.43.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
@@ -1664,7 +1680,7 @@
 			x: 6.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["{chapter.3.quest.44.description.1}"]
+			description: ["{chapter.22.quest.44.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
@@ -1690,7 +1706,7 @@
 			x: 7.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["{chapter.3.quest.45.description.1}"]
+			description: ["{chapter.22.quest.45.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
@@ -1716,7 +1732,7 @@
 			x: 7.0d
 			y: 2.5d
 			shape: "diamond"
-			description: ["{chapter.3.quest.46.description.1}"]
+			description: ["{chapter.22.quest.46.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
@@ -1742,7 +1758,7 @@
 			x: 7.5d
 			y: 2.0d
 			shape: "diamond"
-			description: ["{chapter.3.quest.47.description.1}"]
+			description: ["{chapter.22.quest.47.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
@@ -1775,7 +1791,7 @@
 			icon: "twilightforest:magic_map_focus"
 			x: -5.0d
 			y: -2.5d
-			description: ["{chapter.3.quest.49.description.1}"]
+			description: ["{chapter.22.quest.49.description.1}"]
 			dependencies: ["57940981E8DE55D4"]
 			id: "4F66DF6B494BEFF3"
 			tasks: [{
@@ -1800,7 +1816,7 @@
 		{
 			x: 2.5d
 			y: -1.5d
-			description: ["{chapter.3.quest.50.description.1}"]
+			description: ["{chapter.22.quest.50.description.1}"]
 			dependencies: ["7026E46FD8B3A81D"]
 			id: "111F2EE85FB0A455"
 			tasks: [
@@ -1843,13 +1859,14 @@
 				{
 					id: "7A5E43387F7110E9"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
 		{
 			x: 1.0d
 			y: 2.0d
-			description: ["{chapter.3.quest.51.description.1}"]
+			description: ["{chapter.22.quest.51.description.1}"]
 			dependencies: ["04440BB2EFFD6DD9"]
 			id: "730AF9210F00018E"
 			tasks: [{
@@ -1870,7 +1887,7 @@
 			}]
 		}
 		{
-			title: "{chapter.3.quest.52.title}"
+			title: "{chapter.22.quest.52.title}"
 			x: 4.5d
 			y: -3.0d
 			shape: "diamond"
@@ -1949,6 +1966,7 @@
 				{
 					id: "13FA9172DE9942D6"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
@@ -1956,7 +1974,7 @@
 			x: 7.0d
 			y: -3.0d
 			shape: "rsquare"
-			description: ["{chapter.3.quest.53.description.1}"]
+			description: ["{chapter.22.quest.53.description.1}"]
 			dependencies: ["688C911ECFB2F134"]
 			id: "01748C2CD9C97523"
 			tasks: [
@@ -1995,7 +2013,7 @@
 			x: 6.0d
 			y: -3.0d
 			shape: "rsquare"
-			description: ["{chapter.3.quest.54.description.1}"]
+			description: ["{chapter.22.quest.54.description.1}"]
 			dependencies: ["688C911ECFB2F134"]
 			id: "7B4A687EB505C2FF"
 			tasks: [
@@ -2026,10 +2044,10 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.55.title}"
+			title: "{chapter.22.quest.55.title}"
 			x: 12.0d
 			y: 1.0d
-			description: ["{chapter.3.quest.55.description.1}"]
+			description: ["{chapter.22.quest.55.description.1}"]
 			dependencies: ["6FD41DF7704466A4"]
 			id: "58BD1063A19777DC"
 			tasks: [
@@ -2059,11 +2077,11 @@
 			]
 		}
 		{
-			title: "{chapter.3.quest.56.title}"
+			title: "{chapter.22.quest.56.title}"
 			x: 10.5d
 			y: 5.5d
 			shape: "heart"
-			description: ["{chapter.3.quest.56.description.1}"]
+			description: ["{chapter.22.quest.56.description.1}"]
 			dependencies: ["5CBA8C89FE717B9C"]
 			id: "2951B1D7080C5EF9"
 			tasks: [{
@@ -2086,6 +2104,7 @@
 				{
 					id: "0A2372BA1C0E172A"
 					type: "random"
+					table_id: 5351477636770726245L
 				}
 			]
 		}
