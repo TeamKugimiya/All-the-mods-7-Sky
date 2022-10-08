@@ -164,12 +164,6 @@
 					Count: 1b
 					tag: {
 						mekData: {
-							owner: [I;
-								-1699457496
-								663964002
-								-2000923315
-								-13829450
-							]
 							FluidTanks: [{
 								Tank: 0b
 								stored: {
@@ -195,27 +189,6 @@
 							ForgeCaps: { }
 							Items: [ ]
 							id: "mekanism:basic_fluid_tank"
-							Security: {
-								owner: [I;
-									-1699457496
-									663964002
-									-2000923315
-									-13829450
-								]
-								name: "Security"
-								securityMode: 0
-								override: 0b
-								publicFreq: 1b
-							}
-							componentSecurity: {
-								owner: [I;
-									-1699457496
-									663964002
-									-2000923315
-									-13829450
-								]
-								securityMode: 0
-							}
 							redstone: 0b
 						}
 						display: {
@@ -339,12 +312,6 @@
 						Count: 1b
 						tag: {
 							mekData: {
-								owner: [I;
-									-1699457496
-									663964002
-									-2000923315
-									-13829450
-								]
 								FluidTanks: [{
 									Tank: 0b
 									stored: {
@@ -366,12 +333,6 @@
 						Count: 1b
 						tag: {
 							mekData: {
-								owner: [I;
-									-1699457496
-									663964002
-									-2000923315
-									-13829450
-								]
 								FluidTanks: [{
 									Tank: 0b
 									stored: {
@@ -886,12 +847,6 @@
 					Count: 1b
 					tag: {
 						mekData: {
-							owner: [I;
-								-1699457496
-								663964002
-								-2000923315
-								-13829450
-							]
 							FluidTanks: [{
 								Tank: 0b
 								stored: {
@@ -917,33 +872,6 @@
 							ForgeCaps: { }
 							Items: [ ]
 							id: "mekanism:basic_fluid_tank"
-							Security: {
-								owner: [I;
-									-1699457496
-									663964002
-									-2000923315
-									-13829450
-								]
-								trusted: [[I;
-									-1699457496
-									663964002
-									-2000923315
-									-13829450
-								]]
-								name: "Security"
-								securityMode: 1
-								override: 0b
-								publicFreq: 1b
-							}
-							componentSecurity: {
-								owner: [I;
-									-1699457496
-									663964002
-									-2000923315
-									-13829450
-								]
-								securityMode: 0
-							}
 							redstone: 0b
 						}
 						display: {

@@ -875,7 +875,7 @@
 		}
 		{
 			x: -5.0d
-			y: 0.5d
+			y: 0.2d
 			shape: "hexagon"
 			subtitle: "{chapter.13.quest.31.subtitle}"
 			dependencies: ["66324D7D0C51AEAC"]
@@ -900,7 +900,7 @@
 		}
 		{
 			x: -2.5d
-			y: -0.5d
+			y: -0.6d
 			subtitle: "{chapter.13.quest.32.subtitle}"
 			description: ["{chapter.13.quest.32.description.1}"]
 			dependencies: ["66324D7D0C51AEAC"]
@@ -925,7 +925,7 @@
 		}
 		{
 			x: -3.5d
-			y: 2.0d
+			y: 1.9d
 			shape: "hexagon"
 			subtitle: "{chapter.13.quest.33.subtitle}"
 			description: ["{chapter.13.quest.33.description.1}"]
@@ -951,7 +951,7 @@
 		}
 		{
 			x: -4.5d
-			y: -0.5d
+			y: -0.6d
 			shape: "hexagon"
 			subtitle: "{chapter.13.quest.34.subtitle}"
 			dependencies: ["66324D7D0C51AEAC"]
@@ -1001,8 +1001,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: 1.5d
+			x: -2.2d
+			y: 1.3d
 			shape: "hexagon"
 			subtitle: "{chapter.13.quest.36.subtitle}"
 			description: ["{chapter.13.quest.36.description.1}"]
@@ -1027,8 +1027,8 @@
 			]
 		}
 		{
-			x: -4.5d
-			y: 1.5d
+			x: -4.8d
+			y: 1.2d
 			shape: "hexagon"
 			subtitle: "{chapter.13.quest.37.subtitle}"
 			dependencies: ["66324D7D0C51AEAC"]
@@ -1053,7 +1053,7 @@
 		}
 		{
 			x: -2.0d
-			y: 0.5d
+			y: 0.2d
 			subtitle: "{chapter.13.quest.38.subtitle}"
 			dependencies: ["66324D7D0C51AEAC"]
 			id: "1DF026030780AE96"
@@ -4579,6 +4579,31 @@
 				type: "item"
 				item: "minecraft:bee_spawn_egg"
 			}]
+		}
+		{
+			x: -4.0d
+			y: 1.9d
+			subtitle: "{chapter.13.quest.135.subtitle}"
+			description: ["{chapter.13.quest.135.description.1}"]
+			dependencies: ["66324D7D0C51AEAC"]
+			id: "61AE0ECD03F2AB88"
+			tasks: [{
+				id: "524FB14DE5E8DB8E"
+				type: "item"
+				item: "productivebees:upgrade_simulator"
+			}]
+			rewards: [
+				{
+					id: "21BDE3CBAF62A2C2"
+					type: "item"
+					item: "productivebees:honey_treat"
+				}
+				{
+					id: "65E721E100F6AF24"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 	]
 }
