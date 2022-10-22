@@ -766,15 +766,15 @@
 			subtitle: "{chapter.3.quest.18.subtitle}"
 			id: "3047DB8DF8454D18"
 			tasks: [{
-				id: "15781E3FD52A7921"
+				id: "7F8538ECD16F1D10"
 				type: "item"
-				item: "allthecompressed:nether_star_block_2x"
+				item: "allthecompressed:nether_star_block_1x"
 				count: 15L
 			}]
 			rewards: [{
 				id: "0AA7C62AB60CECD4"
 				type: "item"
-				item: "allthecompressed:nether_star_block_3x"
+				item: "allthecompressed:nether_star_block_2x"
 			}]
 		}
 	]
