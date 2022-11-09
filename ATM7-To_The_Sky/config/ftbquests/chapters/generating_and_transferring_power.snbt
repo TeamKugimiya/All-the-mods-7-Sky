@@ -3,7 +3,7 @@
 	group: "2B51AC12041E3F89"
 	order_index: 0
 	filename: "generating_and_transferring_power"
-	title: "{chapter.14.title}"
+	title: "{chapter.15.title}"
 	icon: {
 		id: "mekanism:creative_energy_cube"
 		Count: 1b
@@ -36,13 +36,13 @@
 			x: 0.0d
 			y: -2.0d
 			shape: "gear"
-			description: ["{chapter.14.quest.1.description.1}"]
+			description: ["{chapter.15.quest.1.description.1}"]
 			size: 2.0d
 			id: "4AB0DD227471FDBF"
 			tasks: [{
 				id: "4800DD5A7039B8B7"
 				type: "checkmark"
-				title: "{chapter.14.quest.1.task.1.title}"
+				title: "{chapter.15.quest.1.task.1.title}"
 			}]
 			rewards: [{
 				id: "3C8F065AEE4CDB80"
@@ -51,13 +51,13 @@
 			}]
 		}
 		{
-			title: "{chapter.14.quest.2.title}"
+			title: "{chapter.15.quest.2.title}"
 			icon: "biggerreactors:reactor_terminal"
 			x: 5.0d
 			y: 1.0d
 			shape: "hexagon"
-			subtitle: "{chapter.14.quest.2.subtitle}"
-			description: ["{chapter.14.quest.2.description.1}"]
+			subtitle: "{chapter.15.quest.2.subtitle}"
+			description: ["{chapter.15.quest.2.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4AB0DD227471FDBF"]
 			size: 1.5d
@@ -114,8 +114,8 @@
 			x: 0.5d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "{chapter.14.quest.3.subtitle}"
-			description: ["{chapter.14.quest.3.description.1}"]
+			subtitle: "{chapter.15.quest.3.subtitle}"
+			description: ["{chapter.15.quest.3.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4B57DA2DD8F828B6"]
 			id: "48DC9E8E9D21A2FA"
@@ -134,8 +134,8 @@
 			x: 0.0d
 			y: 2.0d
 			shape: "diamond"
-			subtitle: "{chapter.14.quest.4.subtitle}"
-			description: ["{chapter.14.quest.4.description.1}"]
+			subtitle: "{chapter.15.quest.4.subtitle}"
+			description: ["{chapter.15.quest.4.description.1}"]
 			dependencies: ["4B57DA2DD8F828B6"]
 			id: "109B61D7D9A0FE32"
 			tasks: [{
@@ -153,8 +153,8 @@
 			x: -4.5d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "{chapter.14.quest.5.subtitle}"
-			description: ["{chapter.14.quest.5.description.1}"]
+			subtitle: "{chapter.15.quest.5.subtitle}"
+			description: ["{chapter.15.quest.5.description.1}"]
 			dependencies: ["42D173B9FF8D16E4"]
 			id: "11D09E918015355C"
 			tasks: [{
@@ -172,8 +172,8 @@
 			x: -0.5d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "{chapter.14.quest.6.subtitle}"
-			description: ["{chapter.14.quest.6.description.1}"]
+			subtitle: "{chapter.15.quest.6.subtitle}"
+			description: ["{chapter.15.quest.6.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4B57DA2DD8F828B6"]
 			id: "40DEB714CFBCD5A0"
@@ -192,7 +192,7 @@
 			x: -5.5d
 			y: 2.5d
 			shape: "diamond"
-			description: ["{chapter.14.quest.7.description.1}"]
+			description: ["{chapter.15.quest.7.description.1}"]
 			dependencies: ["42D173B9FF8D16E4"]
 			id: "0BB367839D28607D"
 			tasks: [{
@@ -210,8 +210,8 @@
 			x: -5.0d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "{chapter.14.quest.8.subtitle}"
-			description: ["{chapter.14.quest.8.description.1}"]
+			subtitle: "{chapter.15.quest.8.subtitle}"
+			description: ["{chapter.15.quest.8.description.1}"]
 			dependencies: ["42D173B9FF8D16E4"]
 			id: "1BEF6980660ACBF7"
 			tasks: [{
@@ -229,15 +229,15 @@
 			x: -5.0d
 			y: 1.0d
 			shape: "hexagon"
-			subtitle: "{chapter.14.quest.9.subtitle}"
-			description: ["{chapter.14.quest.9.description.1}"]
+			subtitle: "{chapter.15.quest.9.subtitle}"
+			description: ["{chapter.15.quest.9.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4AB0DD227471FDBF"]
 			id: "42D173B9FF8D16E4"
 			tasks: [{
 				id: "55F3497E936C4885"
 				type: "checkmark"
-				title: "{chapter.14.quest.9.task.1.title}"
+				title: "{chapter.15.quest.9.task.1.title}"
 			}]
 			rewards: [{
 				id: "0CE525ECCA99C748"
@@ -249,14 +249,14 @@
 			x: 0.0d
 			y: 1.0d
 			shape: "hexagon"
-			description: ["{chapter.14.quest.10.description.1}"]
+			description: ["{chapter.15.quest.10.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4AB0DD227471FDBF"]
 			id: "4B57DA2DD8F828B6"
 			tasks: [{
 				id: "58BC69C8062179B9"
 				type: "checkmark"
-				title: "{chapter.14.quest.10.task.1.title}"
+				title: "{chapter.15.quest.10.task.1.title}"
 			}]
 			rewards: [{
 				id: "7180E226607FBE39"
@@ -265,11 +265,11 @@
 			}]
 		}
 		{
-			title: "{chapter.14.quest.11.title}"
+			title: "{chapter.15.quest.11.title}"
 			x: 3.0d
 			y: 2.5d
 			shape: "diamond"
-			description: ["{chapter.14.quest.11.description.1}"]
+			description: ["{chapter.15.quest.11.description.1}"]
 			dependencies: ["1F81EA5E45424308"]
 			id: "4EEAB467C722ECE7"
 			tasks: [
@@ -298,11 +298,11 @@
 			]
 		}
 		{
-			title: "{chapter.14.quest.12.title}"
+			title: "{chapter.15.quest.12.title}"
 			x: 2.5d
 			y: 2.0d
 			shape: "diamond"
-			subtitle: "{chapter.14.quest.12.subtitle}"
+			subtitle: "{chapter.15.quest.12.subtitle}"
 			dependencies: ["1F81EA5E45424308"]
 			id: "5C47935A3B2877FF"
 			tasks: [{
@@ -326,7 +326,7 @@
 			tasks: [{
 				id: "6D3C243268479EE9"
 				type: "checkmark"
-				title: "{chapter.14.quest.13.task.1.title}"
+				title: "{chapter.15.quest.13.task.1.title}"
 			}]
 			rewards: [{
 				id: "5C863FCC138617D2"
@@ -335,12 +335,12 @@
 			}]
 		}
 		{
-			title: "{chapter.14.quest.14.title}"
+			title: "{chapter.15.quest.14.title}"
 			x: 2.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "{chapter.14.quest.14.subtitle}"
-			description: ["{chapter.14.quest.14.description.1}"]
+			subtitle: "{chapter.15.quest.14.subtitle}"
+			description: ["{chapter.15.quest.14.description.1}"]
 			dependencies: ["1F81EA5E45424308"]
 			id: "7FE969CB4B419FC6"
 			tasks: [{
@@ -355,11 +355,11 @@
 			}]
 		}
 		{
-			title: "{chapter.14.quest.15.title}"
+			title: "{chapter.15.quest.15.title}"
 			x: 2.0d
 			y: 2.5d
 			shape: "diamond"
-			description: ["{chapter.14.quest.15.description.1}"]
+			description: ["{chapter.15.quest.15.description.1}"]
 			dependencies: ["1F81EA5E45424308"]
 			id: "3F8F17B6A1DD9612"
 			tasks: [
@@ -402,8 +402,8 @@
 			x: 0.0d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "{chapter.14.quest.16.subtitle}"
-			description: ["{chapter.14.quest.16.description.1}"]
+			subtitle: "{chapter.15.quest.16.subtitle}"
+			description: ["{chapter.15.quest.16.description.1}"]
 			dependencies: ["48DC9E8E9D21A2FA"]
 			id: "2837827CCD8DE8DE"
 			tasks: [{
@@ -421,14 +421,14 @@
 			x: -2.5d
 			y: 1.0d
 			shape: "hexagon"
-			description: ["{chapter.14.quest.17.description.1}"]
+			description: ["{chapter.15.quest.17.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4AB0DD227471FDBF"]
 			id: "76EA017B12E8F01B"
 			tasks: [{
 				id: "3121BA0C9976AFCD"
 				type: "checkmark"
-				title: "{chapter.14.quest.17.task.1.title}"
+				title: "{chapter.15.quest.17.task.1.title}"
 			}]
 			rewards: [{
 				id: "477F18566EC6FB2A"
@@ -440,8 +440,8 @@
 			x: -2.0d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "{chapter.14.quest.18.subtitle}"
-			description: ["{chapter.14.quest.18.description.1}"]
+			subtitle: "{chapter.15.quest.18.subtitle}"
+			description: ["{chapter.15.quest.18.description.1}"]
 			dependencies: ["76EA017B12E8F01B"]
 			id: "477B411F84342EEA"
 			tasks: [{
@@ -459,8 +459,8 @@
 			x: -2.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "{chapter.14.quest.19.subtitle}"
-			description: ["{chapter.14.quest.19.description.1}"]
+			subtitle: "{chapter.15.quest.19.subtitle}"
+			description: ["{chapter.15.quest.19.description.1}"]
 			dependencies: ["76EA017B12E8F01B"]
 			id: "05B6DB75AEC01187"
 			tasks: [{
@@ -478,8 +478,8 @@
 			x: -3.0d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "{chapter.14.quest.20.subtitle}"
-			description: ["{chapter.14.quest.20.description.1}"]
+			subtitle: "{chapter.15.quest.20.subtitle}"
+			description: ["{chapter.15.quest.20.description.1}"]
 			dependencies: ["76EA017B12E8F01B"]
 			id: "0F8A6478AFB21C48"
 			tasks: [{
@@ -508,8 +508,8 @@
 			x: -2.5d
 			y: 2.0d
 			shape: "diamond"
-			subtitle: "{chapter.14.quest.21.subtitle}"
-			description: ["{chapter.14.quest.21.description.1}"]
+			subtitle: "{chapter.15.quest.21.subtitle}"
+			description: ["{chapter.15.quest.21.description.1}"]
 			dependencies: ["76EA017B12E8F01B"]
 			id: "72EA25D05C46D39A"
 			tasks: [{

@@ -3,24 +3,36 @@
 	group: "2B51AC12041E3F89"
 	order_index: 4
 	filename: "thermal_expansion"
-	title: "{chapter.18.title}"
+	title: "{chapter.19.title}"
 	icon: "thermal:machine_frame"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 2.0d
+		y: 1.0d
+		width: 100.0d
+		height: 100.0d
+		rotation: 0.0d
+		image: "atm:textures/clouds.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			icon: "thermal:upgrade_augment_3"
 			x: -4.5d
 			y: 0.0d
 			shape: "square"
-			subtitle: "{chapter.18.quest.1.subtitle}"
-			description: ["{chapter.18.quest.1.description.1}"]
+			subtitle: "{chapter.19.quest.1.subtitle}"
+			description: ["{chapter.19.quest.1.description.1}"]
 			size: 1.5d
 			id: "2C50B0E024C3D92E"
 			tasks: [{
 				id: "6E9F3C8EAA84CE3E"
 				type: "checkmark"
-				title: "{chapter.18.quest.1.task.1.title}"
+				title: "{chapter.19.quest.1.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -42,11 +54,11 @@
 			]
 		}
 		{
-			title: "{chapter.18.quest.2.title}"
+			title: "{chapter.19.quest.2.title}"
 			x: 1.5d
 			y: 0.0d
-			subtitle: "{chapter.18.quest.2.subtitle}"
-			description: ["{chapter.18.quest.2.description.1}"]
+			subtitle: "{chapter.19.quest.2.subtitle}"
+			description: ["{chapter.19.quest.2.description.1}"]
 			dependencies: ["5F385CBA98795C62"]
 			id: "22BC123D486CC3E3"
 			tasks: [{
@@ -72,8 +84,8 @@
 		{
 			x: 3.5d
 			y: 0.0d
-			subtitle: "{chapter.18.quest.3.subtitle}"
-			description: ["{chapter.18.quest.3.description.1}"]
+			subtitle: "{chapter.19.quest.3.subtitle}"
+			description: ["{chapter.19.quest.3.description.1}"]
 			dependencies: ["22BC123D486CC3E3"]
 			id: "55C8DD9A754545BD"
 			tasks: [{
@@ -85,8 +97,8 @@
 		{
 			x: 5.5d
 			y: 0.0d
-			subtitle: "{chapter.18.quest.4.subtitle}"
-			description: ["{chapter.18.quest.4.description.1}"]
+			subtitle: "{chapter.19.quest.4.subtitle}"
+			description: ["{chapter.19.quest.4.description.1}"]
 			dependencies: ["55C8DD9A754545BD"]
 			id: "452F51995AD0461C"
 			tasks: [{
@@ -113,8 +125,8 @@
 			x: -0.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.5.subtitle}"
-			description: ["{chapter.18.quest.5.description.1}"]
+			subtitle: "{chapter.19.quest.5.subtitle}"
+			description: ["{chapter.19.quest.5.description.1}"]
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "5F385CBA98795C62"
 			tasks: [{
@@ -139,7 +151,7 @@
 			x: 7.5d
 			y: -1.0d
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.6.subtitle}"
+			subtitle: "{chapter.19.quest.6.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "3DA93308D19BA85F"
@@ -166,8 +178,8 @@
 			x: 7.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.7.subtitle}"
-			description: ["{chapter.18.quest.7.description.1}"]
+			subtitle: "{chapter.19.quest.7.subtitle}"
+			description: ["{chapter.19.quest.7.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "7FE2EED58AB791E8"
@@ -195,7 +207,7 @@
 			x: 8.5d
 			y: -1.0d
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.8.subtitle}"
+			subtitle: "{chapter.19.quest.8.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "2F71FCE4E576C977"
@@ -221,7 +233,7 @@
 			x: 8.5d
 			y: 1.0d
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.9.subtitle}"
+			subtitle: "{chapter.19.quest.9.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "72C1C2CE02DCBDFF"
@@ -249,7 +261,7 @@
 			x: 7.5d
 			y: 1.0d
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.10.subtitle}"
+			subtitle: "{chapter.19.quest.10.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "2EAE9EDE6EFA59F0"
@@ -275,7 +287,7 @@
 			x: 8.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.11.subtitle}"
+			subtitle: "{chapter.19.quest.11.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "40ADAB71DB70EF32"
@@ -302,8 +314,8 @@
 			x: 1.0d
 			y: 2.0d
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.12.subtitle}"
-			description: ["{chapter.18.quest.12.description.1}"]
+			subtitle: "{chapter.19.quest.12.subtitle}"
+			description: ["{chapter.19.quest.12.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "76084BE1BBCF941F"
@@ -330,8 +342,8 @@
 			x: 2.0d
 			y: 2.0d
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.13.subtitle}"
-			description: ["{chapter.18.quest.13.description.1}"]
+			subtitle: "{chapter.19.quest.13.subtitle}"
+			description: ["{chapter.19.quest.13.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "246CD1925FD6761C"
@@ -358,8 +370,8 @@
 			x: 3.0d
 			y: 2.0d
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.14.subtitle}"
-			description: ["{chapter.18.quest.14.description.1}"]
+			subtitle: "{chapter.19.quest.14.subtitle}"
+			description: ["{chapter.19.quest.14.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "034FC4BCCCD7D154"
@@ -386,7 +398,7 @@
 			x: -5.0d
 			y: 2.5d
 			shape: "diamond"
-			description: ["{chapter.18.quest.15.description.1}"]
+			description: ["{chapter.19.quest.15.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "213FFA67A680E534"
@@ -405,8 +417,8 @@
 			x: -4.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.16.subtitle}"
-			description: ["{chapter.18.quest.16.description.1}"]
+			subtitle: "{chapter.19.quest.16.subtitle}"
+			description: ["{chapter.19.quest.16.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "5FDEAA78891874FD"
@@ -425,8 +437,8 @@
 			x: -4.5d
 			y: 2.0d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.17.subtitle}"
-			description: ["{chapter.18.quest.17.description.1}"]
+			subtitle: "{chapter.19.quest.17.subtitle}"
+			description: ["{chapter.19.quest.17.description.1}"]
 			hide_dependency_lines: false
 			dependencies: ["2C50B0E024C3D92E"]
 			optional: true
@@ -446,7 +458,7 @@
 			x: -2.0d
 			y: -2.0d
 			shape: "diamond"
-			description: ["{chapter.18.quest.18.description.1}"]
+			description: ["{chapter.19.quest.18.description.1}"]
 			dependencies: ["5F385CBA98795C62"]
 			id: "0897F7A3203E45AF"
 			tasks: [{
@@ -472,7 +484,7 @@
 			x: -1.0d
 			y: -2.0d
 			shape: "diamond"
-			description: ["{chapter.18.quest.19.description.1}"]
+			description: ["{chapter.19.quest.19.description.1}"]
 			dependencies: ["5F385CBA98795C62"]
 			id: "648B483B128A32F5"
 			tasks: [{
@@ -524,7 +536,7 @@
 			x: -4.0d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.21.subtitle}"
+			subtitle: "{chapter.19.quest.21.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "1B04B7EA5220D275"
@@ -543,7 +555,7 @@
 			x: -4.5d
 			y: -3.0d
 			shape: "diamond"
-			description: ["{chapter.18.quest.22.description.1}"]
+			description: ["{chapter.19.quest.22.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "66858700C3DDCB9E"
@@ -562,7 +574,7 @@
 			x: -4.5d
 			y: -2.0d
 			shape: "diamond"
-			description: ["{chapter.18.quest.23.description.1}"]
+			description: ["{chapter.19.quest.23.description.1}"]
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "74F524F4F0231A78"
 			tasks: [{
@@ -577,7 +589,7 @@
 			}]
 		}
 		{
-			title: "{chapter.18.quest.24.title}"
+			title: "{chapter.19.quest.24.title}"
 			x: -1.25d
 			y: 1.9499999999999997d
 			shape: "gear"
@@ -617,7 +629,7 @@
 			]
 		}
 		{
-			title: "{chapter.18.quest.25.title}"
+			title: "{chapter.19.quest.25.title}"
 			x: 5.25d
 			y: 1.9499999999999997d
 			shape: "gear"
@@ -660,7 +672,7 @@
 			x: 1.0d
 			y: 5.0d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.26.subtitle}"
+			subtitle: "{chapter.19.quest.26.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "483C1F4D099369A2"
@@ -674,7 +686,7 @@
 			x: 1.5d
 			y: 3.1999999999999993d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.27.subtitle}"
+			subtitle: "{chapter.19.quest.27.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "0837E35C9C6881B4"
@@ -700,7 +712,7 @@
 			x: 2.5d
 			y: 3.1999999999999993d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.28.subtitle}"
+			subtitle: "{chapter.19.quest.28.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "3320ADFD7DC4CA00"
@@ -726,7 +738,7 @@
 			x: 3.5d
 			y: 3.1999999999999993d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.29.subtitle}"
+			subtitle: "{chapter.19.quest.29.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "79366EC1EE27ED4B"
@@ -752,7 +764,7 @@
 			x: 2.0d
 			y: 5.0d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.30.subtitle}"
+			subtitle: "{chapter.19.quest.30.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "6DF4B859ACBCD408"
@@ -779,8 +791,8 @@
 			x: 0.5d
 			y: 3.1999999999999993d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.32.subtitle}"
-			description: ["{chapter.18.quest.32.description.1}"]
+			subtitle: "{chapter.19.quest.32.subtitle}"
+			description: ["{chapter.19.quest.32.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "74DD4F8A13EAD3ED"
@@ -806,7 +818,7 @@
 			x: 1.0d
 			y: 3.6999999999999993d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.33.subtitle}"
+			subtitle: "{chapter.19.quest.33.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "61E2FC5D363A5CA4"
@@ -832,7 +844,7 @@
 			x: 2.0d
 			y: 3.6999999999999993d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.34.subtitle}"
+			subtitle: "{chapter.19.quest.34.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "58C6BAC128155B4E"
@@ -859,7 +871,7 @@
 			x: 3.0d
 			y: 3.6999999999999993d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.35.subtitle}"
+			subtitle: "{chapter.19.quest.35.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "7D49A41E4D63A596"
@@ -886,7 +898,7 @@
 			x: 2.5d
 			y: 5.5d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.36.subtitle}"
+			subtitle: "{chapter.19.quest.36.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "234CD79746FCAA18"
@@ -900,7 +912,7 @@
 			x: 8.0d
 			y: 2.0d
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.37.subtitle}"
+			subtitle: "{chapter.19.quest.37.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "7C83735C2D746162"
@@ -927,7 +939,7 @@
 			x: 8.0d
 			y: -2.0d
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.38.subtitle}"
+			subtitle: "{chapter.19.quest.38.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "467CDD14AE21A850"
@@ -954,7 +966,7 @@
 			x: 3.0d
 			y: 5.0d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.39.subtitle}"
+			subtitle: "{chapter.19.quest.39.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "00C24A7DFEAEE956"
@@ -968,7 +980,7 @@
 			x: -5.0d
 			y: -2.5d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.40.subtitle}"
+			subtitle: "{chapter.19.quest.40.subtitle}"
 			dependencies: ["66858700C3DDCB9E"]
 			id: "22A1C68078EFB38B"
 			tasks: [{
@@ -986,7 +998,7 @@
 			x: -4.0d
 			y: -2.5d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.41.subtitle}"
+			subtitle: "{chapter.19.quest.41.subtitle}"
 			dependencies: ["66858700C3DDCB9E"]
 			id: "1714E1048F01E1AA"
 			tasks: [{
@@ -1004,8 +1016,8 @@
 			x: 0.0d
 			y: -2.0d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.42.subtitle}"
-			description: ["{chapter.18.quest.42.description.1}"]
+			subtitle: "{chapter.19.quest.42.subtitle}"
+			description: ["{chapter.19.quest.42.description.1}"]
 			dependencies: ["5F385CBA98795C62"]
 			id: "3475E12711B6BB98"
 			tasks: [{
@@ -1031,7 +1043,7 @@
 			x: 0.5d
 			y: -2.5d
 			shape: "diamond"
-			description: ["{chapter.18.quest.43.description.1}"]
+			description: ["{chapter.19.quest.43.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["5F385CBA98795C62"]
 			id: "5963FBEB78A79668"
@@ -1058,7 +1070,7 @@
 			x: 1.0d
 			y: -2.0d
 			shape: "diamond"
-			description: ["{chapter.18.quest.44.description.1}"]
+			description: ["{chapter.19.quest.44.description.1}"]
 			dependencies: ["5F385CBA98795C62"]
 			id: "469443A3BA0C3BEE"
 			tasks: [{
@@ -1084,7 +1096,7 @@
 			x: 0.0d
 			y: -3.0d
 			shape: "diamond"
-			description: ["{chapter.18.quest.45.description.1}"]
+			description: ["{chapter.19.quest.45.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["5F385CBA98795C62"]
 			id: "627D6FDC3D8C42F6"
@@ -1111,7 +1123,7 @@
 			x: -2.0d
 			y: -3.0d
 			shape: "diamond"
-			description: ["{chapter.18.quest.46.description.1}"]
+			description: ["{chapter.19.quest.46.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["5F385CBA98795C62"]
 			id: "5ECC93FB8F676E3F"
@@ -1138,7 +1150,7 @@
 			x: -1.0d
 			y: -3.0d
 			shape: "diamond"
-			description: ["{chapter.18.quest.47.description.1}"]
+			description: ["{chapter.19.quest.47.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["5F385CBA98795C62"]
 			id: "469663FE3DA932EF"
@@ -1165,7 +1177,7 @@
 			x: -0.5d
 			y: -2.5d
 			shape: "diamond"
-			description: ["{chapter.18.quest.48.description.1}"]
+			description: ["{chapter.19.quest.48.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["5F385CBA98795C62"]
 			id: "1BCE8D02CDD13838"
@@ -1192,7 +1204,7 @@
 			x: 1.0d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "{chapter.18.quest.49.subtitle}"
+			subtitle: "{chapter.19.quest.49.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["5F385CBA98795C62"]
 			id: "7AAEFA2A349D3F82"
@@ -1219,8 +1231,8 @@
 			x: 3.5d
 			y: -2.5d
 			shape: "octagon"
-			subtitle: "{chapter.18.quest.50.subtitle}"
-			description: ["{chapter.18.quest.50.description.1}"]
+			subtitle: "{chapter.19.quest.50.subtitle}"
+			description: ["{chapter.19.quest.50.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "5257468DC6C11851"
@@ -1252,7 +1264,7 @@
 			x: 4.5d
 			y: -2.5d
 			shape: "octagon"
-			subtitle: "{chapter.18.quest.51.subtitle}"
+			subtitle: "{chapter.19.quest.51.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "6BF6B00BC21CA547"

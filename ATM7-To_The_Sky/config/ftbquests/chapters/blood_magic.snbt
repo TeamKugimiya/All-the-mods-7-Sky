@@ -1,0 +1,1508 @@
+{
+	id: "004F28C5C85F467B"
+	group: "02FE661031A105D8"
+	order_index: 2
+	filename: "blood_magic"
+	title: "{chapter.22.title}"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -20.5d
+		y: -2.0d
+		width: 100.0d
+		height: 100.0d
+		rotation: 0.0d
+		image: "atm:textures/clouds.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "{chapter.22.quest.1.title}"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			}
+			x: -30.5d
+			y: -1.0d
+			shape: "gear"
+			description: ["{chapter.22.quest.1.description.1}"]
+			size: 1.5d
+			id: "3A9B90A453C933C4"
+			tasks: [{
+				id: "27529E8EA019A89A"
+				type: "checkmark"
+				title: "{chapter.22.quest.1.task.1.title}"
+			}]
+			rewards: [
+				{
+					id: "3D1B65B9B393B3F4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5A846312CB17F978"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.2.title}"
+			icon: "bloodmagic:altar"
+			x: -28.5d
+			y: -1.0d
+			shape: "diamond"
+			description: ["{chapter.22.quest.2.description.1}"]
+			dependencies: ["3A9B90A453C933C4"]
+			size: 1.25d
+			id: "3DA7D0BA045CE7AB"
+			tasks: [
+				{
+					id: "49E5D4B7057851E7"
+					type: "item"
+					item: {
+						id: "bloodmagic:sacrificialdagger"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "41D32B8152806B22"
+					type: "item"
+					item: "bloodmagic:altar"
+				}
+			]
+			rewards: [
+				{
+					id: "4137E9D70B32E4FA"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+				}
+				{
+					id: "2DE0010C8535C460"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.3.title}"
+			x: -26.0d
+			y: -1.0d
+			description: ["{chapter.22.quest.3.description.1}"]
+			dependencies: ["3DA7D0BA045CE7AB"]
+			id: "6AAB831CB3FB536A"
+			tasks: [{
+				id: "7CBFE84B4FE3DC01"
+				type: "item"
+				item: "bloodmagic:blankslate"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "0F7ECFD0C45EA36C"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "01162A1F9A3B0A4D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.4.title}"
+			icon: "bloodmagic:altar"
+			x: -24.0d
+			y: -1.0d
+			shape: "pentagon"
+			description: [
+				"{chapter.22.quest.4.description.1}"
+				"{image:atm:textures/quests/bloodmagic/bloodmagic_tier2.png width:150 height:140 align:1}"
+			]
+			dependencies: ["6AAB831CB3FB536A"]
+			size: 1.25d
+			id: "4B51189C36B8D291"
+			tasks: [{
+				id: "4CDFCAAED8ABB615"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "1C97CAB711AE1357"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "4C507A1D9293C777"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -22.0d
+			y: -1.0d
+			description: ["{chapter.22.quest.5.description.1}"]
+			dependencies: ["4B51189C36B8D291"]
+			id: "2C3CA7B9D1A7DC47"
+			tasks: [{
+				id: "4CEA3279AF0BEE01"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+			}]
+			rewards: [
+				{
+					id: "1493A082BCF763E1"
+					type: "item"
+					item: "bloodmagic:reinforcedslate"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "448B572D6386F058"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.6.title}"
+			x: -28.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "{chapter.22.quest.6.subtitle}"
+			description: ["{chapter.22.quest.6.description.1}"]
+			dependencies: ["3DA7D0BA045CE7AB"]
+			id: "5BF29A151A04FEF0"
+			tasks: [{
+				id: "65E0BEE90716B68C"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+		}
+		{
+			title: "{chapter.22.quest.7.title}"
+			icon: "bloodmagic:masterritualstone"
+			x: -18.0d
+			y: 0.5d
+			description: ["{chapter.22.quest.7.description.1}"]
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "4578C0EE82F66BD9"
+			tasks: [
+				{
+					id: "6995C629EAA148F5"
+					type: "item"
+					item: "bloodmagic:masterritualstone"
+				}
+				{
+					id: "32F2BC0D3AA69E25"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "34E76CD69EB10059"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "706F037413BB3D25"
+					type: "xp"
+					xp: 1000
+				}
+			]
+		}
+		{
+			x: -22.5d
+			y: -2.0d
+			shape: "diamond"
+			description: ["{chapter.22.quest.8.description.1}"]
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "08F28A9E4DEA7CD0"
+			tasks: [{
+				id: "6C6CDA42FB379A80"
+				type: "item"
+				item: "bloodmagic:sacrificerune"
+			}]
+			rewards: [{
+				id: "23EBA079A86E799A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -24.0d
+			y: -2.5d
+			shape: "rsquare"
+			subtitle: "{chapter.22.quest.9.subtitle}"
+			description: ["{chapter.22.quest.9.description.1}"]
+			dependencies: ["4B51189C36B8D291"]
+			id: "5361F72BAB72D318"
+			tasks: [{
+				id: "5D7178C2EF652773"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+			rewards: [
+				{
+					id: "050236926D942519"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "217032A5D292D4A1"
+					type: "item"
+					item: "minecraft:egg"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.10.title}"
+			x: -26.0d
+			y: 1.0d
+			shape: "hexagon"
+			description: ["{chapter.22.quest.10.description.1}"]
+			dependencies: [
+				"6AAB831CB3FB536A"
+				"506D48AD9FB2E89D"
+			]
+			size: 1.5d
+			id: "7BA086472D87D705"
+			tasks: [{
+				id: "59D4952D3D164F6D"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+			rewards: [
+				{
+					id: "5D18F40ED6F399D6"
+					type: "item"
+					item: "bloodmagic:soulsnare"
+					count: 3
+				}
+				{
+					id: "19ABF9AB512D180E"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "65BAEBCF71A95208"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.11.title}"
+			x: -26.0d
+			y: 3.5d
+			shape: "octagon"
+			description: ["{chapter.22.quest.11.description.1}"]
+			dependencies: ["11D37E7391B49A88"]
+			id: "7C8D74692C963000"
+			tasks: [{
+				id: "72A92CB3A5DA9044"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "40B798A36DCBFBCB"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "40D83B6E12A16952"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.12.title}"
+			x: -26.0d
+			y: 2.5d
+			shape: "diamond"
+			description: ["{chapter.22.quest.12.description.1}"]
+			dependencies: ["7BA086472D87D705"]
+			id: "11D37E7391B49A88"
+			tasks: [{
+				id: "1E4979886B89B2AD"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2586A2DC190EE8B7"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 1.0d
+						}
+					}
+				}
+				{
+					id: "3C98676E7D871A75"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -25.0d
+			y: 3.5d
+			shape: "diamond"
+			description: ["{chapter.22.quest.13.description.1}"]
+			dependencies: ["11D37E7391B49A88"]
+			id: "487275B970530E3F"
+			tasks: [{
+				id: "55AF014185F20835"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemlesser"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "093D0A54AA9785C1"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
+					}
+				}
+				{
+					id: "6C398EB3B8CC167B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -26.0d
+			y: 4.5d
+			shape: "diamond"
+			description: ["{chapter.22.quest.14.description.1}"]
+			dependencies: ["487275B970530E3F"]
+			id: "626C07DB8B8C5A04"
+			tasks: [{
+				id: "04BCD1D949FCB24D"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemcommon"
+					Count: 1b
+					tag: {
+						souls: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "0B2775EDC84F8DBC"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: -27.0d
+			y: 3.5d
+			shape: "diamond"
+			description: ["{chapter.22.quest.15.description.1}"]
+			dependencies: ["626C07DB8B8C5A04"]
+			id: "20458B8987CD6CB9"
+			tasks: [{
+				id: "25B30F1BCCEE920A"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemgreater"
+					Count: 1b
+					tag: {
+						souls: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "706507A5BDE8CAF5"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -18.0d
+			y: -1.0d
+			description: ["{chapter.22.quest.16.description.1}"]
+			dependencies: ["5886C648D14180E1"]
+			id: "375FF0D8ACD2E17F"
+			tasks: [{
+				id: "2BEC3F34860494B0"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+			}]
+			rewards: [
+				{
+					id: "017A36C03D074D2B"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+					random_bonus: 2
+				}
+				{
+					id: "467291771E176EC8"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -17.5d
+			y: -2.0d
+			shape: "diamond"
+			description: ["{chapter.22.quest.17.description.1}"]
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "0B2B8247DA280E90"
+			tasks: [{
+				id: "41758E5DA17E2FDF"
+				type: "item"
+				item: "bloodmagic:altarcapacityrune"
+			}]
+			rewards: [
+				{
+					id: "7CF045B2A95086EB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62390E5A53188912"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -18.5d
+			y: -2.0d
+			shape: "diamond"
+			description: ["{chapter.22.quest.18.description.1}"]
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "47B985B56C582D6A"
+			tasks: [{
+				id: "00D5D96DA535CFE7"
+				type: "item"
+				item: "bloodmagic:dislocationrune"
+			}]
+			rewards: [
+				{
+					id: "31EA9D6A3290C38D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6A809308395ADC22"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -2.5d
+			description: ["{chapter.22.quest.19.description.1}"]
+			dependencies: ["431C44439CA54077"]
+			id: "7CA3AE708F46CEBF"
+			tasks: [{
+				id: "57F75D0B2554BA61"
+				type: "item"
+				item: "bloodmagic:demonslate"
+			}]
+			rewards: [
+				{
+					id: "606FCBD36A2918D1"
+					type: "item"
+					item: "bloodmagic:demonslate"
+					random_bonus: 2
+				}
+				{
+					id: "0FE381A79B163DDA"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -4.5d
+			shape: "diamond"
+			description: ["{chapter.22.quest.20.description.1}"]
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "6C0D4CBC089988ED"
+			tasks: [{
+				id: "0B14A7CBC056CC9F"
+				type: "item"
+				item: "bloodmagic:bettercapacityrune"
+			}]
+			rewards: [
+				{
+					id: "1B3AA2121F9BABB8"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+					random_bonus: 2
+				}
+				{
+					id: "2A8726C8BB765154"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -4.0d
+			shape: "diamond"
+			description: ["{chapter.22.quest.21.description.1}"]
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "6C57FF70679AF123"
+			tasks: [{
+				id: "73F90730D99D6384"
+				type: "item"
+				item: "bloodmagic:chargingrune"
+			}]
+			rewards: [
+				{
+					id: "5E055E1CF9CEA375"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+					random_bonus: 2
+				}
+				{
+					id: "5E890AEA3E9B9188"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -1.0d
+			description: ["{chapter.22.quest.22.description.1}"]
+			dependencies: ["2214B7DCE4075A02"]
+			optional: true
+			id: "396AA75774059D0B"
+			tasks: [{
+				id: "600A5AEE6C546B4C"
+				type: "item"
+				item: "bloodmagic:etherealslate"
+			}]
+			rewards: [{
+				id: "493159D4211DD8E5"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -13.5d
+			y: -4.5d
+			shape: "diamond"
+			description: ["{chapter.22.quest.23.description.1}"]
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "0EE2D22A577D10B0"
+			tasks: [{
+				id: "7EB95246A2F0981D"
+				type: "item"
+				item: "bloodmagic:accelerationrune"
+			}]
+			rewards: [
+				{
+					id: "011EDAF134E648E1"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+					random_bonus: 2
+				}
+				{
+					id: "0FDD0D502E4E581C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: 2.0d
+			description: ["{chapter.22.quest.24.description.1}"]
+			dependencies: ["0E8418B42A744030"]
+			id: "50A28E1946047A6E"
+			tasks: [{
+				id: "2D780C226FCF4A03"
+				type: "item"
+				item: "bloodmagic:weak_tau"
+			}]
+			rewards: [
+				{
+					id: "0F83AC33131BD953"
+					type: "item"
+					item: "bloodmagic:weak_tau"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "4899CDA6BDDEB8C3"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: 2.0d
+			description: ["{chapter.22.quest.25.description.1}"]
+			dependencies: ["50A28E1946047A6E"]
+			id: "5E2D15E4A410B5DA"
+			tasks: [{
+				id: "102AEEB23B1AA7EF"
+				type: "item"
+				item: "bloodmagic:strong_tau"
+			}]
+			rewards: [
+				{
+					id: "7CB7C8464D30CE9C"
+					type: "item"
+					item: "bloodmagic:strong_tau"
+				}
+				{
+					id: "5511EA668DC7B429"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: 0.5d
+			description: ["{chapter.22.quest.26.description.1}"]
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "308581359FEF32E9"
+			tasks: [{
+				id: "1589663D302CE21E"
+				type: "item"
+				item: "bloodmagic:alchemicalreactionchamber"
+			}]
+			rewards: [
+				{
+					id: "2E509236F2A904AE"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+					random_bonus: 2
+				}
+				{
+					id: "7798ABBC4BAB13CC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "{chapter.22.quest.27.subtitle}"
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "0E51D6BB2BC756B6"
+			tasks: [{
+				id: "7BB6F203FCA31A25"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+			rewards: [{
+				id: "7848C02921758A7E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -15.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "{chapter.22.quest.28.subtitle}"
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "048BD38532A1DDCF"
+			tasks: [{
+				id: "2F13F6D6E170BBEC"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+			rewards: [{
+				id: "08B35AB2E64B3B71"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -14.0d
+			y: 0.5d
+			description: ["{chapter.22.quest.29.description.1}"]
+			dependencies: [
+				"5E2D15E4A410B5DA"
+				"308581359FEF32E9"
+			]
+			id: "25343A0C4C22AA60"
+			tasks: [
+				{
+					id: "3A104E7D6C6AA524"
+					type: "item"
+					item: "bloodmagic:weakbloodshard"
+				}
+				{
+					id: "04EAE604D8B668B3"
+					type: "item"
+					item: "bloodmagic:largebloodstonebrick"
+				}
+			]
+			rewards: [{
+				id: "3A386B0E3C9940DE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{chapter.22.quest.30.title}"
+			x: -12.5d
+			y: -2.5d
+			shape: "hexagon"
+			description: ["{chapter.22.quest.30.description.1}"]
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "263925A79EBB270F"
+			tasks: [
+				{
+					id: "46C11FFD8A06B63E"
+					type: "item"
+					item: {
+						id: "bloodmagic:duskscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "088CD8231DD1A37A"
+					type: "item"
+					item: "bloodmagic:ritualdivinerdusk"
+				}
+			]
+			rewards: [
+				{
+					id: "71A79FCBB36C348C"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "6647598F7C4C2325"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.31.title}"
+			x: -27.299999999999997d
+			y: 0.0d
+			description: ["{chapter.22.quest.31.description.1}"]
+			dependencies: ["3DA7D0BA045CE7AB"]
+			id: "506D48AD9FB2E89D"
+			tasks: [
+				{
+					id: "3D1BAA6CA8B979A9"
+					type: "item"
+					item: "bloodmagic:soulsnare"
+					count: 3L
+				}
+				{
+					id: "42D29681DC076E3C"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "20442FD9EB780A4C"
+					type: "item"
+					item: "bloodmagic:soulsnare"
+					count: 3
+					random_bonus: 3
+				}
+				{
+					id: "07EB91CE33392DD5"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -26.0d
+			y: -2.9499999999999997d
+			shape: "hexagon"
+			description: ["{chapter.22.quest.32.description.1}"]
+			dependencies: ["6AAB831CB3FB536A"]
+			size: 1.5d
+			id: "7CC2D826CA6BBDDB"
+			tasks: [{
+				id: "33ECB0563BA9E2CB"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+			rewards: [
+				{
+					id: "57407D2C81F959E1"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					random_bonus: 2
+				}
+				{
+					id: "080A6AA97A0A41E9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.33.title}"
+			x: -24.0d
+			y: 0.5d
+			shape: "square"
+			description: ["{chapter.22.quest.33.description.1}"]
+			dependencies: ["4B51189C36B8D291"]
+			id: "49F57CE3B472FF6D"
+			tasks: [{
+				id: "3EF20FD3AC7ED48B"
+				type: "item"
+				item: "bloodmagic:speedrune"
+			}]
+			rewards: [
+				{
+					id: "422BF2738AC9D3D3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62F0A6019DB177BB"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 2
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -21.5d
+			y: -2.0d
+			shape: "diamond"
+			description: ["{chapter.22.quest.34.description.1}"]
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "6CE4ED7A2642674F"
+			tasks: [{
+				id: "6692D1D1E4E4F758"
+				type: "item"
+				item: "bloodmagic:selfsacrificerune"
+			}]
+			rewards: [{
+				id: "5898710F2074585F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{chapter.22.quest.35.title}"
+			icon: "bloodmagic:altar"
+			x: -20.0d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "{chapter.22.quest.35.subtitle}"
+			description: [
+				"{chapter.22.quest.35.description.1}"
+				"{image:atm:textures/quests/bloodmagic/bloodmagic_tier3.png width:200 height:150 align:1}"
+			]
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			size: 1.25d
+			id: "5886C648D14180E1"
+			tasks: [{
+				id: "45FE50B70B45B915"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 28L
+			}]
+			rewards: [
+				{
+					id: "68593AC343A3B626"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 3
+					random_bonus: 3
+				}
+				{
+					id: "7698DE23F4AEC268"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.36.title}"
+			icon: "bloodmagic:altar"
+			x: -14.0d
+			y: -1.0d
+			shape: "octagon"
+			description: ["{chapter.22.quest.36.description.1}"]
+			dependencies: [
+				"375FF0D8ACD2E17F"
+				"25343A0C4C22AA60"
+			]
+			size: 1.25d
+			id: "431C44439CA54077"
+			tasks: [{
+				id: "03DBCA5695879C49"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 48L
+			}]
+			rewards: [{
+				id: "05079D8B752B62E7"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 4
+				random_bonus: 8
+			}]
+		}
+		{
+			x: -22.0d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "{chapter.22.quest.37.subtitle}"
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "08143AD0D63FFD1F"
+			tasks: [{
+				id: "46DC0EE4792CCA0D"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+		}
+		{
+			x: -26.0d
+			y: -4.5d
+			subtitle: "{chapter.22.quest.38.subtitle}"
+			description: ["{chapter.22.quest.38.description.1}"]
+			dependencies: ["7CC2D826CA6BBDDB"]
+			id: "1F3B9803AFAEED5F"
+			tasks: [{
+				id: "6168644A110A263A"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "661488E84B1A6A57"
+					type: "item"
+					item: {
+						id: "bloodmagic:arcaneashes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4BD9ABC2D427A1FB"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -26.0d
+			y: -6.5d
+			shape: "diamond"
+			description: ["{chapter.22.quest.39.description.1}"]
+			dependencies: ["1F3B9803AFAEED5F"]
+			id: "281AAC27DEBEE84D"
+			tasks: [{
+				id: "19EF9DDE6B18A8B5"
+				type: "item"
+				item: "bloodmagic:divinationsigil"
+			}]
+			rewards: [
+				{
+					id: "5D23AE912DA218A9"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					random_bonus: 1
+				}
+				{
+					id: "7F59BF8F2886B028"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -25.5d
+			y: -6.0d
+			shape: "diamond"
+			description: ["{chapter.22.quest.40.description.1}"]
+			dependencies: ["1F3B9803AFAEED5F"]
+			id: "7EED2502F1F38147"
+			tasks: [{
+				id: "7825C546B68A7F85"
+				type: "item"
+				item: "bloodmagic:watersigil"
+			}]
+			rewards: [{
+				id: "1B7AF47021D62F36"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -26.5d
+			y: -6.0d
+			shape: "diamond"
+			description: ["{chapter.22.quest.41.description.1}"]
+			dependencies: ["1F3B9803AFAEED5F"]
+			id: "3AADA53EC01FB0ED"
+			tasks: [{
+				id: "4EFA9FB003D8D147"
+				type: "item"
+				item: "bloodmagic:lavasigil"
+			}]
+			rewards: [{
+				id: "438796468164D727"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -18.0d
+			y: 2.0d
+			description: ["{chapter.22.quest.42.description.1}"]
+			dependencies: ["4578C0EE82F66BD9"]
+			id: "0E8418B42A744030"
+			tasks: [
+				{
+					id: "6B1FDBAA650C202A"
+					type: "item"
+					item: "bloodmagic:ritualdiviner"
+				}
+				{
+					id: "7D265539B810DCE3"
+					type: "item"
+					item: "bloodmagic:activationcrystalweak"
+				}
+			]
+			rewards: [
+				{
+					id: "7392A41AF4EE71FF"
+					type: "item"
+					item: "bloodmagic:simplekey"
+				}
+				{
+					id: "76C8BCBEA45D07D2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.43.title}"
+			icon: "bloodmagic:altar"
+			x: -11.0d
+			y: -1.0d
+			shape: "gear"
+			description: ["{chapter.22.quest.43.description.1}"]
+			dependencies: [
+				"431C44439CA54077"
+				"42CDD69527871332"
+			]
+			size: 1.5d
+			id: "2214B7DCE4075A02"
+			tasks: [{
+				id: "3830486EDCC81431"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 64L
+			}]
+			rewards: [{
+				id: "37A59465BECB5B7A"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "{chapter.22.quest.44.title}"
+			x: -18.0d
+			y: 3.5d
+			description: ["{chapter.22.quest.44.description.1}"]
+			dependencies: ["0E8418B42A744030"]
+			optional: true
+			id: "6DD7D0A248FEAC00"
+			tasks: [{
+				id: "049052953E05D38F"
+				type: "item"
+				item: "bloodmagic:simplekey"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "7A53C4B113A1FC46"
+					type: "item"
+					item: "bloodmagic:simplekey"
+				}
+				{
+					id: "78BC6412E5FF7EF2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.45.title}"
+			x: -11.0d
+			y: -4.0d
+			shape: "diamond"
+			description: ["{chapter.22.quest.45.description.1}"]
+			dependencies: ["42CDD69527871332"]
+			id: "2CA28551F2A5B761"
+			tasks: [
+				{
+					id: "4BD6380E3CB0AFA1"
+					type: "item"
+					item: "bloodmagic:sacrificerune2"
+				}
+				{
+					id: "4A26B1A6BDC9BEF2"
+					type: "item"
+					item: "bloodmagic:selfsacrificerune2"
+				}
+				{
+					id: "374B021596B02DB5"
+					type: "item"
+					item: "bloodmagic:altarcapacityrune2"
+				}
+				{
+					id: "642940CFA557BEF9"
+					type: "item"
+					item: "bloodmagic:bettercapacityrune2"
+				}
+				{
+					id: "5F5E0CDAB56FBAA8"
+					type: "item"
+					item: "bloodmagic:orbcapacityrune2"
+				}
+			]
+			rewards: [
+				{
+					id: "5EA823F1EBE465C6"
+					type: "item"
+					item: "bloodmagic:hellforgedparts"
+					count: 2
+					random_bonus: 4
+				}
+				{
+					id: "63047FEB0BE55B5A"
+					type: "xp"
+					xp: 1000
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -5.0d
+			shape: "diamond"
+			description: ["{chapter.22.quest.46.description.1}"]
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "5E2CB036B00758AE"
+			tasks: [
+				{
+					id: "5A91384EF5463B4D"
+					type: "item"
+					item: "bloodmagic:telepositionsigil"
+				}
+				{
+					id: "097D8139589AF377"
+					type: "item"
+					item: {
+						id: "bloodmagic:sigilofsuppression"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4D08283B9E421D67"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+					random_bonus: 2
+				}
+				{
+					id: "12698FAA72C0BF02"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.47.title}"
+			x: -11.0d
+			y: -2.5d
+			description: ["{chapter.22.quest.47.description.1}"]
+			dependencies: ["263925A79EBB270F"]
+			id: "42CDD69527871332"
+			tasks: [{
+				id: "7877DD9632B05697"
+				type: "item"
+				item: "bloodmagic:rawdemonite"
+			}]
+			rewards: [
+				{
+					id: "14946BF7D2325894"
+					type: "item"
+					item: "bloodmagic:dungeon_ore"
+				}
+				{
+					id: "5A9B7EEF24D6703A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.48.title}"
+			x: -22.0d
+			y: 0.5d
+			shape: "rsquare"
+			description: ["{chapter.22.quest.48.description.1}"]
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "4C6B73322F56BE73"
+			tasks: [
+				{
+					id: "28490D6EB0A13853"
+					type: "item"
+					item: "bloodmagic:airsigil"
+				}
+				{
+					id: "2B9AC526E9F67CF2"
+					type: "item"
+					item: "bloodmagic:voidsigil"
+				}
+				{
+					id: "2F92C698040BD24D"
+					type: "item"
+					item: "bloodmagic:seersigil"
+				}
+				{
+					id: "3668C878D168A77C"
+					type: "item"
+					item: {
+						id: "bloodmagic:miningsigil"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "189850D288276407"
+					type: "item"
+					item: {
+						id: "bloodmagic:growthsigil"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: -20.0d
+			y: 0.5d
+			description: ["{chapter.22.quest.49.description.1}"]
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "1780A9FDD6983435"
+			tasks: [
+				{
+					id: "4966B4779B0CE8EF"
+					type: "item"
+					item: {
+						id: "bloodmagic:bloodlightsigil"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "263ACE485001170B"
+					type: "item"
+					item: "bloodmagic:sigilofholding"
+				}
+				{
+					id: "0432C6E53E4A5553"
+					type: "item"
+					item: {
+						id: "bloodmagic:sigilofmagnetism"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5309B724BBDF14AE"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 2
+					random_bonus: 4
+				}
+				{
+					id: "3CD9508C03CFE55C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{chapter.22.quest.50.title}"
+			x: -18.0d
+			y: -4.5d
+			shape: "hexagon"
+			description: ["{chapter.22.quest.50.description.1}"]
+			dependencies: ["0E51D6BB2BC756B6"]
+			size: 1.25d
+			id: "41030E1E341C3A4E"
+			tasks: [
+				{
+					id: "26FD5D4411242B25"
+					type: "item"
+					item: {
+						id: "bloodmagic:livinghelmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "37A82F03CFF9D25A"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							livingStats: {
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "671E6A4CA8F8F77B"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingleggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E9B38CD413946E0"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingboots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "512B9C9240BD8628"
+					type: "item"
+					item: "bloodmagic:reagentbinding"
+					count: 2
+					random_bonus: 4
+				}
+				{
+					id: "6D8D96707F3F4A83"
+					type: "xp"
+					xp: 1000
+				}
+			]
+		}
+	]
+}

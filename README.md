@@ -17,4 +17,4 @@
 
 ## 目前已正在翻譯的模組包
 
-- ATM7 - To The Sky | ATM7 - 翱翔天際 (v1.1.2)
+- ATM7 - To The Sky | ATM7 - 翱翔天際 (v1.1.4)
