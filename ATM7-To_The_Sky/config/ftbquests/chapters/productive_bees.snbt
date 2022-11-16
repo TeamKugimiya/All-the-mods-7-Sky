@@ -936,8 +936,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: 1.9d
+			x: -3.0d
+			y: 2.0d
 			shape: "hexagon"
 			subtitle: "{chapter.13.quest.33.subtitle}"
 			description: ["{chapter.13.quest.33.description.1}"]
