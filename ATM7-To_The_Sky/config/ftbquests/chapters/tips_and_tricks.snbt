@@ -429,5 +429,43 @@
 				}
 			]
 		}
+		{
+			x: -3.0d
+			y: 2.5d
+			subtitle: "{chapter.4.quest.13.subtitle}"
+			description: ["{chapter.4.quest.13.description.1}"]
+			id: "62D9648D1BA54CCA"
+			tasks: [{
+				id: "50DAB04F94CB67F2"
+				type: "item"
+				item: "structures_compass:structures_compass"
+			}]
+			rewards: [{
+				id: "1E6189AFA40F8F35"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			subtitle: "{chapter.4.quest.14.subtitle}"
+			description: ["{chapter.4.quest.14.description.1}"]
+			id: "3E235A6A006694A1"
+			tasks: [{
+				id: "0044BD58084BFB4E"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "18A39F21FDC40EC6"
+				type: "xp"
+				xp: 10
+			}]
+		}
 	]
 }

@@ -78,7 +78,7 @@
 			x: -3.0d
 			y: -0.5d
 			description: ["{chapter.8.quest.3.description.1}"]
-			dependencies: ["4E3BAD0EE3974503"]
+			dependencies: ["63318C8E26E28F58"]
 			id: "4E0F952F75FBC1C9"
 			tasks: [
 				{
@@ -120,7 +120,7 @@
 			]
 		}
 		{
-			x: -3.5d
+			x: -3.0d
 			y: -2.0d
 			subtitle: "{chapter.8.quest.4.subtitle}"
 			description: ["{chapter.8.quest.4.description.1}"]
@@ -147,7 +147,7 @@
 			]
 		}
 		{
-			x: -2.5d
+			x: -2.0d
 			y: -2.0d
 			subtitle: "{chapter.8.quest.5.subtitle}"
 			description: ["{chapter.8.quest.5.description.1}"]
@@ -612,16 +612,17 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: -0.5d
+			title: "{chapter.8.quest.19.title}"
+			icon: "tconstruct:materials_and_you"
+			x: -4.0d
+			y: -2.0d
 			subtitle: "{chapter.8.quest.19.subtitle}"
 			description: ["{chapter.8.quest.19.description.1}"]
-			dependencies: ["63318C8E26E28F58"]
+			dependencies: ["4E0F952F75FBC1C9"]
 			id: "4E3BAD0EE3974503"
 			tasks: [{
-				id: "3470A9B8D6C75484"
-				type: "item"
-				item: "tconstruct:materials_and_you"
+				id: "5927B6C69CF7127C"
+				type: "checkmark"
 			}]
 			rewards: [
 				{
@@ -1174,41 +1175,11 @@
 			}]
 		}
 		{
-			title: "{chapter.8.quest.39.title}"
-			x: 15.0d
-			y: -0.5d
+			x: 16.5d
+			y: 0.5d
 			subtitle: "{chapter.8.quest.39.subtitle}"
 			description: ["{chapter.8.quest.39.description.1}"]
-			dependencies: ["1E35D97AF9B2A0C8"]
-			id: "085239E88B85820C"
-			tasks: [{
-				id: "7E9F548868BEB2FA"
-				type: "item"
-				item: "tconstruct:nether_grout"
-				count: 32L
-			}]
-			rewards: [
-				{
-					id: "26561404443098F2"
-					type: "item"
-					item: "tconstruct:nether_grout"
-					count: 6
-					random_bonus: 6
-				}
-				{
-					id: "6C21856552B78399"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: 16.5d
-			y: -0.5d
-			subtitle: "{chapter.8.quest.40.subtitle}"
-			description: ["{chapter.8.quest.40.description.1}"]
-			dependencies: ["085239E88B85820C"]
-			optional: true
+			dependencies: ["5FAFAEC103BE62DD"]
 			id: "7675F195F6D5F8B4"
 			tasks: [{
 				id: "42232A516F1FD4F6"
@@ -1222,12 +1193,12 @@
 			}]
 		}
 		{
-			title: "{chapter.8.quest.41.title}"
+			title: "{chapter.8.quest.40.title}"
 			icon: "tconstruct:scorched_bricks"
 			x: 15.0d
-			y: 2.5d
-			description: ["{chapter.8.quest.41.description.1}"]
-			dependencies: ["5F6D253B5D900724"]
+			y: 0.5d
+			description: ["{chapter.8.quest.40.description.1}"]
+			dependencies: ["1E35D97AF9B2A0C8"]
 			id: "5FAFAEC103BE62DD"
 			tasks: [
 				{
@@ -1262,41 +1233,13 @@
 			]
 		}
 		{
-			title: "{chapter.8.quest.42.title}"
-			x: 15.0d
-			y: 1.0d
-			description: ["{chapter.8.quest.42.description.1}"]
-			dependencies: ["085239E88B85820C"]
-			id: "5F6D253B5D900724"
-			tasks: [{
-				id: "319C6349A20B7C7A"
-				type: "item"
-				item: "tconstruct:scorched_brick"
-				count: 16L
-			}]
-			rewards: [
-				{
-					id: "56A8465D58C6D65F"
-					type: "item"
-					item: "tconstruct:scorched_brick"
-					count: 8
-					random_bonus: 8
-				}
-				{
-					id: "67758A26C5EF748E"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			title: "{chapter.8.quest.43.title}"
+			title: "{chapter.8.quest.41.title}"
 			icon: "tconstruct:foundry_controller"
 			x: 15.0d
 			y: 4.5d
 			shape: "square"
 			description: [
-				"{chapter.8.quest.43.description.1}"
+				"{chapter.8.quest.41.description.1}"
 				"{image:atm:textures/basic_foundry.png width:200 height:150 align:1}"
 			]
 			dependencies: ["5FAFAEC103BE62DD"]
@@ -1352,10 +1295,10 @@
 			]
 		}
 		{
-			title: "{chapter.8.quest.44.title}"
+			title: "{chapter.8.quest.42.title}"
 			x: 13.0d
 			y: 4.5d
-			description: ["{chapter.8.quest.44.description.1}"]
+			description: ["{chapter.8.quest.42.description.1}"]
 			dependencies: ["073B3F17C6110A73"]
 			optional: true
 			id: "2FCE10E2126AB563"
@@ -1393,9 +1336,9 @@
 		{
 			x: 15.0d
 			y: 6.5d
-			subtitle: "{chapter.8.quest.45.subtitle}"
+			subtitle: "{chapter.8.quest.43.subtitle}"
 			description: [
-				"{chapter.8.quest.45.description.1}"
+				"{chapter.8.quest.43.description.1}"
 				"{image:atm:textures/basic_alloyer.png width:200 height:125 align:1}"
 			]
 			dependencies: ["073B3F17C6110A73"]
@@ -1429,11 +1372,11 @@
 			]
 		}
 		{
-			title: "{chapter.8.quest.46.title}"
+			title: "{chapter.8.quest.44.title}"
 			x: 17.0d
 			y: 4.5d
-			subtitle: "{chapter.8.quest.46.subtitle}"
-			description: ["{chapter.8.quest.46.description.1}"]
+			subtitle: "{chapter.8.quest.44.subtitle}"
+			description: ["{chapter.8.quest.44.description.1}"]
 			dependencies: ["073B3F17C6110A73"]
 			id: "2B7EFB6A2605BEFD"
 			tasks: [{
@@ -1455,10 +1398,10 @@
 			]
 		}
 		{
-			title: "{chapter.8.quest.47.title}"
+			title: "{chapter.8.quest.45.title}"
 			x: 17.0d
 			y: 6.5d
-			description: ["{chapter.8.quest.47.description.1}"]
+			description: ["{chapter.8.quest.45.description.1}"]
 			dependencies: ["2B7EFB6A2605BEFD"]
 			optional: true
 			id: "729B02AE3CDD52AD"
@@ -1685,12 +1628,12 @@
 			]
 		}
 		{
-			title: "{chapter.8.quest.52.title}"
+			title: "{chapter.8.quest.50.title}"
 			x: 15.0d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "{chapter.8.quest.52.subtitle}"
-			description: ["{chapter.8.quest.52.description.1}"]
+			subtitle: "{chapter.8.quest.50.subtitle}"
+			description: ["{chapter.8.quest.50.description.1}"]
 			dependencies: ["1E35D97AF9B2A0C8"]
 			optional: true
 			id: "4284DC447ED43032"
@@ -1749,11 +1692,11 @@
 			}]
 		}
 		{
-			title: "{chapter.8.quest.53.title}"
+			title: "{chapter.8.quest.51.title}"
 			x: 14.5d
 			y: -5.5d
 			shape: "diamond"
-			subtitle: "{chapter.8.quest.53.subtitle}"
+			subtitle: "{chapter.8.quest.51.subtitle}"
 			dependencies: ["1E35D97AF9B2A0C8"]
 			optional: true
 			id: "7FF7E8F009D21285"
@@ -1812,11 +1755,11 @@
 			}]
 		}
 		{
-			title: "{chapter.8.quest.54.title}"
+			title: "{chapter.8.quest.52.title}"
 			x: 15.0d
 			y: -6.0d
 			shape: "diamond"
-			subtitle: "{chapter.8.quest.54.subtitle}"
+			subtitle: "{chapter.8.quest.52.subtitle}"
 			dependencies: ["1E35D97AF9B2A0C8"]
 			optional: true
 			id: "7C518B3A86E4869F"
@@ -1871,11 +1814,11 @@
 			}]
 		}
 		{
-			title: "{chapter.8.quest.55.title}"
+			title: "{chapter.8.quest.53.title}"
 			x: 14.0d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "{chapter.8.quest.55.subtitle}"
+			subtitle: "{chapter.8.quest.53.subtitle}"
 			dependencies: ["1E35D97AF9B2A0C8"]
 			optional: true
 			id: "35BA7E1421AADE3A"
@@ -1933,7 +1876,7 @@
 			x: 16.0d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "{chapter.8.quest.56.subtitle}"
+			subtitle: "{chapter.8.quest.54.subtitle}"
 			dependencies: ["1E35D97AF9B2A0C8"]
 			optional: true
 			id: "2E73CA4D82AB10E0"
@@ -1999,7 +1942,7 @@
 			x: 15.5d
 			y: -5.5d
 			shape: "diamond"
-			subtitle: "{chapter.8.quest.57.subtitle}"
+			subtitle: "{chapter.8.quest.55.subtitle}"
 			dependencies: ["1E35D97AF9B2A0C8"]
 			optional: true
 			id: "0A2BC58800819C15"
@@ -2071,14 +2014,14 @@
 			x: 1.0d
 			y: 1.0d
 			shape: "diamond"
-			description: ["{chapter.8.quest.58.description.1}"]
+			description: ["{chapter.8.quest.56.description.1}"]
 			dependencies: ["4D580C89653F69AA"]
 			optional: true
 			id: "748F70BEEAAE2AF9"
 			tasks: [{
 				id: "13CA35CA6EC15987"
 				type: "checkmark"
-				title: "{chapter.8.quest.58.task.1.title}"
+				title: "{chapter.8.quest.56.task.1.title}"
 			}]
 			rewards: [{
 				id: "2BABD291D5576987"
@@ -2087,12 +2030,12 @@
 			}]
 		}
 		{
-			title: "{chapter.8.quest.59.title}"
+			title: "{chapter.8.quest.57.title}"
 			x: 18.5d
 			y: 4.5d
-			subtitle: "{chapter.8.quest.59.subtitle}"
+			subtitle: "{chapter.8.quest.57.subtitle}"
 			description: [
-				"{chapter.8.quest.59.description.1}"
+				"{chapter.8.quest.57.description.1}"
 				"{image:atm:textures/soul_lava.png width:200 height:175 align:1}"
 			]
 			dependencies: ["2B7EFB6A2605BEFD"]
@@ -2117,11 +2060,11 @@
 			]
 		}
 		{
-			title: "{chapter.8.quest.60.title}"
+			title: "{chapter.8.quest.58.title}"
 			x: 21.0d
 			y: 4.5d
 			shape: "octagon"
-			description: ["{chapter.8.quest.60.description.1}"]
+			description: ["{chapter.8.quest.58.description.1}"]
 			dependencies: ["0858E8E6363138B8"]
 			size: 2.0d
 			id: "09E556E4EDDCDD2E"
@@ -2168,14 +2111,14 @@
 		{
 			x: -3.0d
 			y: 3.0d
-			description: ["{chapter.8.quest.61.description.1}"]
+			description: ["{chapter.8.quest.59.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["681E777B4C8E19CF"]
 			id: "3E9618EEC90169C3"
 			tasks: [{
 				id: "428B3A5FD5E4796F"
 				type: "checkmark"
-				title: "{chapter.8.quest.61.task.1.title}"
+				title: "{chapter.8.quest.59.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -2194,12 +2137,12 @@
 		{
 			x: 13.0d
 			y: 0.5d
-			description: ["{chapter.8.quest.62.description.1}"]
+			description: ["{chapter.8.quest.60.description.1}"]
 			id: "7D87F961B76246CA"
 			tasks: [{
 				id: "58647E9ACAD9FDB9"
 				type: "checkmark"
-				title: "{chapter.8.quest.62.task.1.title}"
+				title: "{chapter.8.quest.60.task.1.title}"
 			}]
 			rewards: [{
 				id: "6FC67A906BE61358"

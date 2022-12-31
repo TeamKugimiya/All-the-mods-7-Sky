@@ -44,18 +44,11 @@
 			description: ["{chapter.10.quest.1.description.1}"]
 			size: 1.5d
 			id: "2893F483C10293E6"
-			tasks: [
-				{
-					id: "43FD619EF9A41E76"
-					type: "item"
-					item: "ae2:certus_quartz_dust"
-				}
-				{
-					id: "7B9519E1AF53A9A3"
-					type: "item"
-					item: "ae2:certus_quartz_crystal"
-				}
-			]
+			tasks: [{
+				id: "43FD619EF9A41E76"
+				type: "item"
+				item: "ae2:certus_quartz_dust"
+			}]
 			rewards: [
 				{
 					id: "705C55E801A67B8C"
@@ -502,18 +495,11 @@
 			]
 			size: 1.5d
 			id: "4E8A05C3BFA80540"
-			tasks: [
-				{
-					id: "74AA3FA06B3574A8"
-					type: "item"
-					item: "ae2:chest"
-				}
-				{
-					id: "58C4DF6CFBDF8577"
-					type: "item"
-					item: "ae2:drive"
-				}
-			]
+			tasks: [{
+				id: "58C4DF6CFBDF8577"
+				type: "item"
+				item: "ae2:drive"
+			}]
 			rewards: [
 				{
 					id: "107B36337206758B"
@@ -830,14 +816,8 @@
 			dependencies: ["2FB231069D2E4E77"]
 			id: "361CCBD353D6FF34"
 			tasks: [{
-				id: "52521FCD58B2FEF0"
-				type: "item"
-				title: "{chapter.10.quest.23.task.1.title}"
-				item: {
-					id: "ae2:item_storage_cell_1k"
-					Count: 1b
-					tag: { }
-				}
+				id: "08C87C31FF51A2AE"
+				type: "checkmark"
 			}]
 			rewards: [
 				{
@@ -849,11 +829,6 @@
 					id: "318D3CF0DD1E3A58"
 					type: "xp"
 					xp: 10
-				}
-				{
-					id: "06150B632CA535D8"
-					type: "item"
-					item: "ae2:item_cell_housing"
 				}
 			]
 		}
