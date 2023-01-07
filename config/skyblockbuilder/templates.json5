@@ -1,0 +1,60 @@
+{
+  // The template which will be used for spawn only
+  // Example: 
+  // {
+  //     "name": "default",
+  //     "desc": "",
+  //     "file": "default.nbt",
+  //     "spawns": "default",
+  //     "direction": "south"
+  // }
+  "spawn": {
+      "name": "重生點大廳",
+      "desc": "",
+      "file": "spawn.nbt",
+      "spawns": "spawn",
+      "direction": "south"
+    },
+  
+  "spawns": {
+    "default": [
+      [ 6, 3, 5 ]
+    ],
+    "spawn": [
+      [ 8, 0, 8 ]
+    ]
+  },
+  
+  // The list of templates being available. The first entry is the default template.
+  "templates": [
+    {
+      "name": "農人樂園",
+      "desc": "",
+      "file": "farmers_paradise.nbt",
+      "spawns": "default",
+      "direction": "south"
+    },     
+	{
+      "name": "採石樂事",
+      "desc": "這裡有預先建置好的鵝卵石製造機！",
+      "file": "cobblers_island.nbt",
+      "spawns": "default",
+      "direction": "south"
+    },    
+	{
+      "name": "只有一棵樹",
+      "desc": "以及一些泥土",
+      "file": "basic_island.nbt",
+      "spawns": "default",
+      "direction": "south"
+    },	
+	{
+      "name": "初心者島嶼",
+      "desc": "這裡有個箱子，裡面有你前期所需要的一切！",
+      "file": "default.nbt",
+      "spawns": "default",
+      "direction": "south"
+    }	
+  ]
+}
+
