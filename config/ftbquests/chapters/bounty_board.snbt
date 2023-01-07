@@ -603,8 +603,8 @@
 						tag: {
 							Damage: 0
 							display: {
-								Lore: ["[{\"text\":\"For those brave enough to slaughter the Mighty and Annoying Trader\",\"italic\":false}]"]
-								Name: "[{\"text\":\"Sword of AlfredGG\",\"italic\":false}]"
+								Lore: ["[{\"text\":\"致那些挺身而出，殺死流浪商人的勇者\",\"italic\":false}]"]
+								Name: "[{\"text\":\"AlfredGG 之劍\",\"italic\":false}]"
 							}
 						}
 					}

@@ -141,7 +141,7 @@
 								}
 							]
 							display: {
-								Name: "\"Master of Creation\""
+								Name: "\"創造大師\""
 							}
 						}
 					}
@@ -187,7 +187,7 @@
 								}
 							]
 							display: {
-								Name: "\"Master of the Sky\""
+								Name: "\"天空大師\""
 							}
 						}
 					}
@@ -219,7 +219,7 @@
 						Count: 1b
 						tag: {
 							display: {
-								Name: "\"Master of Alchemy\""
+								Name: "\"煉金術大師\""
 							}
 							Enchantments: [{
 								lvl: 3
@@ -264,7 +264,7 @@
 								}
 							]
 							display: {
-								Name: "\"Master of Space\""
+								Name: "\"時空大師\""
 							}
 						}
 					}
@@ -315,7 +315,7 @@
 								}
 							]
 							display: {
-								Name: "\"Master of Dimensions\""
+								Name: "\"維度大師\""
 							}
 						}
 					}
@@ -361,7 +361,7 @@
 						Count: 1b
 						tag: {
 							display: {
-								Name: "\"Master of All\""
+								Name: "\"萬物大師\""
 							}
 							Enchantments: [{
 								lvl: 1
@@ -416,7 +416,7 @@
 								}
 							]
 							display: {
-								Name: "\"Master of...Patrick?\""
+								Name: "\"派大星……大師？\""
 							}
 						}
 					}
@@ -443,7 +443,7 @@
 						Count: 1b
 						tag: {
 							display: {
-								Name: "\"Master of Oblivion\""
+								Name: "\"遺落大師\""
 							}
 							Enchantments: [
 								{
@@ -494,7 +494,7 @@
 						tag: {
 							Damage: 0
 							display: {
-								Name: "\"Master of Reality\""
+								Name: "\"現實大師\""
 							}
 							Enchantments: [{
 								lvl: 3
@@ -539,7 +539,7 @@
 								}
 							]
 							display: {
-								Name: "\"Master of Dragons\""
+								Name: "\"巨龍大師\""
 							}
 						}
 					}
@@ -571,7 +571,7 @@
 						tag: {
 							Damage: 0
 							display: {
-								Name: "\"Master of The Undead\""
+								Name: "\"不死大師\""
 							}
 							Enchantments: [{
 								lvl: 3
@@ -688,7 +688,7 @@
 								}
 							]
 							display: {
-								Name: "\"Dwarven Master\""
+								Name: "\"矮人大師\""
 							}
 						}
 					}
@@ -734,7 +734,7 @@
 								}
 							]
 							display: {
-								Name: "\"Master of The Fire\""
+								Name: "\"火焰大師\""
 							}
 						}
 					}
