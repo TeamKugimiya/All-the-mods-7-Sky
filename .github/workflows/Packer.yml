@@ -1,0 +1,53 @@
+name: 模組翻譯打包流程
+
+on:
+  workflow_dispatch:
+    inputs:
+      modpack_version:
+        description: "模組包當前版本（預設為 v1.0）"
+        required: false
+        default: "v1.0"
+      tag:
+        description: "發布版本，例如 v1.0（預設為 alpha）"
+        required: false
+        default: "alpha"
+      per_release:
+        description: "預先發布版"
+        type: boolean
+      no_release:
+        description: "停用發布，將只會生成工作流程成品，並忽略掉發布階段"
+        type: boolean
+
+jobs:
+  Environment-Setup:
+    name: 環境階段
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/modpack-environment.yml@main
+
+  Resourcepack-Maker:
+    name: 資源包階段
+    needs: Environment-Setup
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/modpack-resourcepack.yml@main
+    with:
+      modpack-name: ${{ needs.Environment-Setup.outputs.modpack_name }}
+      resourcepack-generate: ${{ needs.Environment-Setup.outputs.resourcepack_patch_generate }}
+
+  Patch-Maker:
+    name: 補丁階段
+    if: always()
+    needs: [ Environment-Setup, Resourcepack-Maker ]
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/modpack-patch.yml@main
+    with:
+      modpack-name: ${{ needs.Environment-Setup.outputs.modpack_name }}
+      modpack-version: ${{ github.event.inputs.tag }}
+      modpack-resourcepack: ${{ needs.Environment-Setup.outputs.resourcepack_patch_generate }}
+
+  Release-It:
+    name: 發布階段
+    if: always()
+    needs: [ Environment-Setup, Resourcepack-Maker, Patch-Maker ]
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/modpack-release.yml@main
+    with:
+      modpack-name: ${{ needs.Environment-Setup.outputs.modpack_name }}
+      modpack-version: ${{ github.event.inputs.tag }}
+      modpack-per-release: ${{ github.event.inputs.per_release }}
+      modpack-release-ignore: ${{ github.event.inputs.no_release }}
