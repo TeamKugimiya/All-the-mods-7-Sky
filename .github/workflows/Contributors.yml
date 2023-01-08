@@ -7,6 +7,6 @@ on:
   workflow_dispatch: {}
 
 jobs:
-  contrib-readme-job:
+  Contributors:
     name: 貢獻者清單
     uses: TeamKugimiya/reusable-workflows/.github/workflows/Contributors.yml@main
