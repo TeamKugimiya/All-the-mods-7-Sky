@@ -44,6 +44,8 @@
       </ul>
   </details>
 
+<!-- readme: collaborators,contributors -start -->
+<!-- readme: collaborators,contributors -end -->
 
 ## **授權許可**
 
