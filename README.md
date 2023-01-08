@@ -1,20 +1,76 @@
-<!-- markdownlint-configure-file {
-  "MD033": false,
-  "MD041": false
-} -->
+# All the Mods 7 - To the Sky
 
-<div align="center">
+[![Caveopolis][curseforge]][atm7sky]
+[![Version][version_badge]][version_link]
+[![Download][download_total]][version_link]
+[![License][license_badge]][license]
+[![Discord][discord_badge]][discord]
 
-# 模組任務翻譯包
+模組包 All the Mods 7 - To the Sky 任務中文化補丁 & 模組中文化，模組包譯名：All the Mods 7 翱翔天際。
 
-[![Crowdin Badge](https://img.shields.io/badge/%E4%BD%BF%E7%94%A8Crowdin%E7%BF%BB%E8%AD%AF-green?style=for-the-badge&labelColor=lightgrey&logo=crowdin&logoColor=white)](https://crowdin.com/)
-[![zh-TW translation](https://img.shields.io/badge/dynamic/json?color=blue&label=翻譯完成度&style=for-the-badge&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-14784376-534752.json)](https://crowdin.com/project/translatequestpack)
-[![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=for-the-badge)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+## **簡介**
 
-另一個小小專案翻譯模組包
+本中文化補丁涵蓋了模組包大多數內容，如：FTB Quests 任務、KubeJS 自訂物品、自訂思索情景，以及出生點大廳的告示板。<br>
+為獲得最佳的中文化體驗，建議額外安裝以下模組：
 
-</div>
+* [PRP]：使某些模組的 Patchouli 指南手冊翻譯，得以使用資源包覆蓋。<br>若未安裝該模組，遊戲中部份手冊內容將會保持原文。<br>請注意：安裝模組後，剛進入世界時，會導致用戶端短暫凍結，屬於正常現象。
+* [Vault Patcher][vaultpatcher]：使模組部分硬編碼內容，得以使用當地語系化字串翻譯。<br>若未安裝該模組，遊戲中部份文字內容將會保持原文。
 
-## 目前已正在翻譯的模組包
+## **下載**
 
-- ATM7 - To The Sky | ATM7 - 翱翔天際 (v1.1.9)
+請前往 [發布頁面][version_link] 下載最新版本的中文化補丁。
+
+
+## **銘謝**
+* [NightSora] - 感謝他製作的 [Blood Magic 3][bloodmagic3] 模組翻譯
+* [steak0902] - 感謝他製作的 [Immersive Engineering][immersiveengineering] 模組翻譯
+* [默默無名邊緣人][alan40201] - 感謝他製作的 [MythicBotany][mythicbotany] 模組翻譯
+* [Grant88][Grant]
+  <details>
+    <summary>展開列表</summary>
+      <ul>
+        <li><a href="https://grant88.pixnet.net/blog/post/44752177">Cooking for Blockheads</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/45187324">Macaw's Bridges</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/45185876">Macaw's Doors</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/45185932">Macaw's Fences and Walls</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/44816824">Macaw's Furniture</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/44817796">Macaw's Roofs</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/45161058">Macaw's Trapdoors</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/45185898">Macaw's Windows</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/40862752">MrCrayfish's Furniture Mod</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/44935344">Productive Bees</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/41564042">Tinkers' Construct</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/40612096">The Twilight Forest</a></li>
+      </ul>
+  </details>
+
+
+## **授權許可**
+
+本著作係採用 [創用 CC 姓名標示-非商業性-禁止改作 4.0 國際 授權條款][license]（[正體中文]）授權。
+
+<!-- Badges -->
+[curseforge]: https://img.shields.io/badge/CurseForge-All%20the%20Mods%207%20--%20To%20the%20Sky-red
+[version_badge]: https://img.shields.io/github/v/release/TeamKugimiya/All-the-mods-7-Sky?include_prereleases
+[version_link]: https://github.com/TeamKugimiya/All-the-mods-7-Sky/releases/latest
+[download_total]: https://img.shields.io/github/downloads/TeamKugimiya/All-the-mods-7-Sky/total
+[license_badge]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-orange
+[discord_badge]: https://img.shields.io/discord/947630690315411476?logo=discord
+
+<!-- Links -->
+[atm7sky]: https://www.curseforge.com/minecraft/modpacks/all-the-mods-7-to-the-sky
+[discord]: https://discord.gg/7BbPMtygHU
+[prp]: https://www.curseforge.com/minecraft/mc-mods/prp
+[vaultpatcher]: https://modrinth.com/mod/vault-patcher
+[bloodmagic3]: https://forum.gamer.com.tw/C.php?bsn=18673&snA=197467
+[immersiveengineering]: https://forum.gamer.com.tw/C.php?bsn=18673&snA=196127
+[mythicbotany]: https://github.com/xMikux/ModsTranslationPack/pull/63
+[正體中文]: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh_TW
+[license]: LICENSE
+
+<!-- Credit -->
+[NightSora]: https://home.gamer.com.tw/homeindex.php?owner=n0935850816
+[steak0902]: https://home.gamer.com.tw/homeindex.php?owner=minecraft15
+[alan40201]: https://home.gamer.com.tw/profile/index.php?&owner=alan40201
+[rhuba8324]: https://github.com/rhuba8324
+[Grant]: https://grant88.pixnet.net/blog
