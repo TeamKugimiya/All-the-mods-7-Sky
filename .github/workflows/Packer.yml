@@ -30,6 +30,7 @@ jobs:
     with:
       modpack-name: ${{ needs.Environment-Setup.outputs.modpack_name }}
       resourcepack-generate: ${{ needs.Environment-Setup.outputs.resourcepack_patch_generate }}
+      force_include_files: "LICENSE"
 
   Patch-Maker:
     name: 補丁階段
