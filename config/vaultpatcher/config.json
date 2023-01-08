@@ -1,0 +1,151 @@
+[
+  {
+    "key": "Allthemodium",
+    "value": "modstranslation.allthemodium.item.guide.name"
+  },
+  {
+    "key": "This Book wil give you information about the Allthemodium Mod, and the ATM Mod Packs",
+    "value": "modstranslation.allthemodium.item.guide.description"
+  },
+  {
+    "target_class": {
+      "name": "com.buuz135.functionalstorage.item.LinkingToolItem",
+      "mapping": "SRG",
+      "stack_depth": -1
+    },
+    "key": "Swapped action to add",
+    "value": "modstranslation.functionalstorage.item.linking_tool.actionbar.01"
+  },
+  {
+    "target_class": {
+      "name": "com.buuz135.functionalstorage.item.LinkingToolItem",
+      "mapping": "SRG",
+      "stack_depth": -1
+    },
+    "key": "Swapped action to remove",
+    "value": "modstranslation.functionalstorage.item.linking_tool.actionbar.02"
+  },
+  {
+    "target_class": {
+      "name": "com.buuz135.functionalstorage.item.LinkingToolItem",
+      "mapping": "SRG",
+      "stack_depth": -1
+    },
+    "key": "Swapped mode to single",
+    "value": "modstranslation.functionalstorage.item.linking_tool.actionbar.03"
+  },
+  {
+    "target_class": {
+      "name": "com.buuz135.functionalstorage.item.LinkingToolItem",
+      "mapping": "SRG",
+      "stack_depth": -1
+    },
+    "key": "Swapped mode to multiple",
+    "value": "modstranslation.functionalstorage.item.linking_tool.actionbar.04"
+  },
+  {
+    "target_class": {
+      "name": "com.buuz135.functionalstorage.client.gui.DrawerInfoGuiAddon",
+      "mapping": "SRG",
+      "stack_depth": -1
+    },
+    "key": "Empty",
+    "value": "modstranslation.functionalstorage.gui.empty"
+  },
+  {
+    "target_class": {
+      "name": "#FluidDrawerInfoGuiAddon",
+      "mapping": "SRG",
+      "stack_depth": -1
+    },
+    "key": "Empty",
+    "value": "modstranslation.functionalstorage.gui.empty"
+  },
+  {
+    "target_class": {
+      "name": "#UpgradeItem",
+      "mapping": "SRG",
+      "stack_depth": -1
+    },
+    "key": "Up",
+    "value": "modstranslation.functionalstorage.item.pusher_upgrade.up"
+  },
+  {
+    "target_class": {
+      "name": "#UpgradeItem",
+      "mapping": "SRG",
+      "stack_depth": -1
+    },
+    "key": "Down",
+    "value": "modstranslation.functionalstorage.item.pusher_upgrade.down"
+  },
+  {
+    "target_class": {
+      "name": "#UpgradeItem",
+      "mapping": "SRG",
+      "stack_depth": -1
+    },
+    "key": "North",
+    "value": "modstranslation.functionalstorage.item.pusher_upgrade.north"
+  },
+  {
+    "target_class": {
+      "name": "#UpgradeItem",
+      "mapping": "SRG",
+      "stack_depth": -1
+    },
+    "key": "South",
+    "value": "modstranslation.functionalstorage.item.pusher_upgrade.south"
+  },
+  {
+    "target_class": {
+      "name": "#UpgradeItem",
+      "mapping": "SRG",
+      "stack_depth": -1
+    },
+    "key": "West",
+    "value": "modstranslation.functionalstorage.item.pusher_upgrade.west"
+  },
+  {
+    "target_class": {
+      "name": "#UpgradeItem",
+      "mapping": "SRG",
+      "stack_depth": -1
+    },
+    "key": "East",
+    "value": "modstranslation.functionalstorage.item.pusher_upgrade.east"
+  },
+  {
+    "key": "LaserIO 101",
+    "value": "modstranslation.laserio.item.guide.name"
+  },
+  {
+    "key": "Can't have DireWire without Wires!",
+    "value": "modstranslation.laserio.item.guide.description"
+  },
+  {
+    "key": "Holds 32000Mb (32 Buckets)",
+    "value": "modstranslation.mob_grinding_utils.item.tank.tooltip"
+  },
+  {
+    "key": "Holds 1024000Mb (1024 Buckets)",
+    "value": "modstranslation.mob_grinding_utils.item.jumbo_tank.tooltip"
+  },
+  {
+    "target_class": {
+      "name": "net.gigabit101.shrink.items.ItemModBottle",
+      "mapping": "SRG",
+      "stack_depth": -1
+    },
+    "key": "Right-click on a shrunken entity with a glass bottle to capture",
+    "value": "modstranslation.shrink.glass_bottle.tooltip"
+  },
+  {
+    "key": "Squirtgun Manual",
+    "value": "modstranslation.squirtgun.item.guide.name"
+  },
+  {
+    "key": "You are here",
+    "value": "modstranslation.squirtgun.item.guide.description"
+  }
+]
