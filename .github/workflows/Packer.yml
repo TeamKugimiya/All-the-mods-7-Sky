@@ -15,7 +15,7 @@ on:
         description: "預先發布版"
         type: boolean
       no_release:
-        description: "停用發布，將只會生成工作流程成品，並忽略掉發布階段"
+        description: "停用發布，將只會產生工作流程成品，並忽略掉發布階段"
         type: boolean
 
 jobs:
@@ -31,6 +31,7 @@ jobs:
       modpack-name: ${{ needs.Environment-Setup.outputs.modpack_name }}
       resourcepack-generate: ${{ needs.Environment-Setup.outputs.resourcepack_patch_generate }}
       force_include_files: "LICENSE"
+      version: ${{ github.event.inputs.tag }}
 
   Patch-Maker:
     name: 補丁階段
