@@ -316,8 +316,8 @@ key_key.cofh.mode_change_increment:key.keyboard.v
 key_key.cofh.mode_change_decrement:key.keyboard.b
 key_keybind.sophisticatedstorage.sort:key.mouse.middle
 key_keybind.reliquary.fortune_coin:key.keyboard.unknown
-key_key.squirtgun.gun_display_ammo_status:key.keyboard.y
-key_squirtgun.text.open_gui:key.mouse.left:SHIFT
+key_key.squirtgun.gun_display_ammo_status:key.keyboard.unknown
+key_squirtgun.text.open_gui:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.jet_boots.module.builder_mode:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.jet_boots.module.flight_stabilizers:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.jet_boots.module.smart_hover:key.keyboard.unknown
