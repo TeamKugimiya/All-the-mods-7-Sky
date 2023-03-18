@@ -20,7 +20,7 @@
 
 * [Lightspeed]: 透過快取計算結果與資料，以及改善資料結構，<br>大幅加快模組包的遊戲啟動速度。<br>與下方兩款模組（LazyDFU、Smooth Boot）搭配使用，以獲得最佳的體驗。
 
-* [LazyDFU]: 安裝後，可以大幅加快遊戲啟動速度。
+* [LazyDFU][lazydfu]: 安裝後，可以大幅加快遊戲啟動速度。
 
 * [Smooth Boot (Reloaded)][smoothboostreloaded]: 改善啟動遊戲時的執行緒分配，減少 CPU 的使用率，能略為改善遊戲啟動的速度。
 
