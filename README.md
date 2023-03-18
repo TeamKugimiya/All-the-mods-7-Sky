@@ -14,7 +14,19 @@
 為獲得最佳的中文化體驗，建議額外安裝以下模組：
 
 * [PRP]：使某些模組的 Patchouli 指南手冊翻譯，得以使用資源包覆蓋。<br>若未安裝該模組，遊戲中部份手冊內容將會保持原文。<br>請注意：安裝模組後，剛進入世界時，會導致用戶端短暫凍結，屬於正常現象。
-* [Vault Patcher][vaultpatcher]：使模組部分硬編碼內容，得以使用當地語系化字串翻譯。<br>若未安裝該模組，遊戲中部份文字內容將會保持原文。
+* ~~[Vault Patcher][vaultpatcher]：使模組部分硬編碼內容，得以使用當地語系化字串翻譯。<br>若未安裝該模組，遊戲中部份文字內容將會保持原文。~~<br>**請暫時不要安裝，或安裝 v1.2.5 版本。**
+
+* [FerriteCore]: 減少 Minecraft 遊戲的記憶體使用量。<br>根據實測，安裝後所需記憶體會從 7G 以上降低至 5G。
+
+* [Lightspeed]: 透過快取計算結果與資料，以及改善資料結構，<br>大幅加快模組包的遊戲啟動速度。<br>與下方兩款模組（LazyDFU、Smooth Boot）搭配使用，以獲得最佳的體驗。
+
+* [LazyDFU]: 安裝後，可以大幅加快遊戲啟動速度。
+
+* [Smooth Boot (Reloaded)][smoothboostreloaded]: 改善啟動遊戲時的執行緒分配，減少 CPU 的使用率，能略為改善遊戲啟動的速度。
+
+* [Starlight]: 重寫 Minecraft 照明引擎，大幅提高區塊產生的速度。
+
+* [Fastload]: 藉由減少進入世界時，載入的區塊數（21x21 -> 5x5），加快進入世界的速度。
 
 ## **下載**
 
@@ -96,6 +108,12 @@
 [discord]: https://discord.gg/7BbPMtygHU
 [prp]: https://www.curseforge.com/minecraft/mc-mods/prp
 [vaultpatcher]: https://modrinth.com/mod/vault-patcher
+[ferritecore]: https://modrinth.com/mod/ferrite-core
+[lightspeed]: https://modrinth.com/mod/lightspeed
+[lazydfu]: https://modrinth.com/mod/lazydfu
+[smoothboostreloaded]: https://modrinth.com/mod/smooth-boot-reloaded
+[starlight]: https://modrinth.com/mod/starlight-forge
+[fastload]: https://modrinth.com/mod/fastload
 [bloodmagic3]: https://forum.gamer.com.tw/C.php?bsn=18673&snA=197467
 [immersiveengineering]: https://forum.gamer.com.tw/C.php?bsn=18673&snA=196127
 [mythicbotany]: https://github.com/xMikux/ModsTranslationPack/pull/63
